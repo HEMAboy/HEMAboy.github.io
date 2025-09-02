@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light">
+  <title>CV · Neo Tech Theme</title>
+  <meta name="description" content="学术简历" />
+  <link rel="preload" href="assets/style.css" as="style">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<div class="bg fx-grid"></div>
+<div class="bg fx-gradient"></div>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="返回首页">
+      <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.9L18.18 22 12 18.77 5.82 22 7 14.17l-5-4.9 6.91-1.01L12 2z" fill="currentColor" opacity=".9"/></svg>
+      <span>NEO•LAB</span>
+    </a>
+    <nav id="nav" class="nav" aria-label="主导航">
+      <a href="research.html">研究</a>
+      <a href="projects.html">项目</a>
+      <a href="publications.html">论文</a>
+      <a href="blog.html">博客</a>
+      <a href="cv.html">CV</a>
+      <a href="contact.html">联系</a>
+    </nav>
+    <div class="actions">
+      <button class="ghost" id="themeToggle" aria-label="切换主题">◐</button>
+      <button class="ghost menu-toggle" aria-label="切换导航" onclick="toggleMenu()">☰</button>
+    </div>
+  </div>
+</header>
+<main class="container">
+<h1 class='page-title'>CV</h1>
+<div class='prose'>
+
+    <p>请将 <code>cv.pdf</code> 放在网站根目录，这里提供直达按钮：</p>
+    <p><a class="btn btn-primary" href="cv.pdf" target="_blank" rel="noopener">查看 / 下载 PDF</a></p>
+    
+</div>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> 你的名字 · 构建于 GitHub Pages · <a href="LICENSE.txt">MIT 许可</a></p>
+  </div>
+</footer>
+<script src="assets/script.js"></script>
+</body>
+</html>

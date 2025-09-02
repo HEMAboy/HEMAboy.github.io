@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light">
+  <title>我的个人网站 · Neo Tech Theme</title>
+  <meta name="description" content="极简科技风个人主页模板" />
+  <link rel="preload" href="assets/style.css" as="style">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<div class="bg fx-grid"></div>
+<div class="bg fx-gradient"></div>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="返回首页">
+      <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.9L18.18 22 12 18.77 5.82 22 7 14.17l-5-4.9 6.91-1.01L12 2z" fill="currentColor" opacity=".9"/></svg>
+      <span>NEO•LAB</span>
+    </a>
+    <nav id="nav" class="nav" aria-label="主导航">
+      <a href="research.html">研究</a>
+      <a href="projects.html">项目</a>
+      <a href="publications.html">论文</a>
+      <a href="blog.html">博客</a>
+      <a href="cv.html">CV</a>
+      <a href="contact.html">联系</a>
+    </nav>
+    <div class="actions">
+      <button class="ghost" id="themeToggle" aria-label="切换主题">◐</button>
+      <button class="ghost menu-toggle" aria-label="切换导航" onclick="toggleMenu()">☰</button>
+    </div>
+  </div>
+</header>
+<main class="container">
+
+<section class="hero">
+  <div class="hero-text">
+    <p class="kicker">Hello, World.</p>
+    <h1>我是 <span class="glow">你的名字</span></h1>
+    <p class="lede">聚焦 <strong>量子光学</strong> / <strong>AI 生物信息学</strong> / <strong>医疗传感</strong> 的研究者与工程实践者。</p>
+    <div class="cta-group">
+      <a class="btn btn-primary" href="projects.html">查看项目</a>
+      <a class="btn btn-outline" href="publications.html">论文列表</a>
+    </div>
+    <ul class="meta">
+      <li>基于静态站点 · 极速加载</li>
+      <li>响应式布局 · 深浅色主题</li>
+      <li>无外部依赖 · 纯 CSS / JS</li>
+    </ul>
+  </div>
+  <div class="hero-orb" aria-hidden="true">
+    <div class="orb"></div>
+    <div class="ring r1"></div>
+    <div class="ring r2"></div>
+    <div class="ring r3"></div>
+  </div>
+</section>
+
+<section class="grid three">
+  <article class="card">
+    <h2>最新动态</h2>
+    <ul class="timeline">
+      <li><time>2025-09-02</time> 网站上线 · Neo Tech Theme 🎉</li>
+      <li><time>2025-08</time> 论文被接收 · 添加链接</li>
+      <li><time>2025-07</time> 项目里程碑 · v1.0</li>
+    </ul>
+  </article>
+  <article class="card">
+    <h2>研究方向</h2>
+    <ul class="bullets">
+      <li>非厄米系统 · EP 精密测量</li>
+      <li>VOC 呼气早筛 · 多模态融合</li>
+      <li>蛋白活性预测 · 深度学习</li>
+    </ul>
+  </article>
+  <article class="card">
+    <h2>快速入口</h2>
+    <div class="quick">
+      <a class="chip" href="cv.html">CV / 简历</a>
+      <a class="chip" href="contact.html">联系合作</a>
+      <a class="chip" href="blog.html">技术博客</a>
+    </div>
+  </article>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> 你的名字 · 构建于 GitHub Pages · <a href="LICENSE.txt">MIT 许可</a></p>
+  </div>
+</footer>
+<script src="assets/script.js"></script>
+</body>
+</html>
