@@ -3,93 +3,174 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="color-scheme" content="dark light">
-  <title>我的个人网站 · Neo Tech Theme</title>
-  <meta name="description" content="极简科技风个人主页模板" />
-  <link rel="preload" href="assets/style.css" as="style">
+  <title>Decarbon Lab · Scrollytelling Template</title>
+  <meta name="description" content="原创前端模板：全屏段落、滚动叙事、进度导航、项目卡片、地图占位与法律链接。" />
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-<div class="bg fx-grid"></div>
-<div class="bg fx-gradient"></div>
-<header class="site-header">
-  <div class="container header-inner">
-    <a class="brand" href="index.html" aria-label="返回首页">
-      <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.9L18.18 22 12 18.77 5.82 22 7 14.17l-5-4.9 6.91-1.01L12 2z" fill="currentColor" opacity=".9"/></svg>
-      <span>NEO•LAB</span>
-    </a>
-    <nav id="nav" class="nav" aria-label="主导航">
-      <a href="research.html">研究</a>
-      <a href="projects.html">项目</a>
-      <a href="publications.html">论文</a>
-      <a href="blog.html">博客</a>
-      <a href="cv.html">CV</a>
-      <a href="contact.html">联系</a>
+  <!-- 左侧滚动进度条 / Section 导航 -->
+  <aside class="progress" aria-label="页面滚动进度">
+    <div class="bar"><span id="progressBar"></span></div>
+    <nav class="dots" aria-label="章节导航">
+      <a href="#panel-hero" class="dot active" aria-label="回到顶部"></a>
+      <a href="#panel-intro" class="dot" aria-label="简介"></a>
+      <a href="#panel-process" class="dot" aria-label="流程"></a>
+      <a href="#panel-projects" class="dot" aria-label="项目"></a>
+      <a href="#panel-map" class="dot" aria-label="地图"></a>
+      <a href="#panel-faq" class="dot" aria-label="FAQ"></a>
     </nav>
-    <div class="actions">
-      <button class="ghost" id="themeToggle" aria-label="切换主题">◐</button>
-      <button class="ghost menu-toggle" aria-label="切换导航" onclick="toggleMenu()">☰</button>
-    </div>
-  </div>
-</header>
-<main class="container">
+  </aside>
 
-<section class="hero">
-  <div class="hero-text">
-    <p class="kicker">Hello, World.</p>
-    <h1>我是 <span class="glow">你的名字</span></h1>
-    <p class="lede">聚焦 <strong>量子光学</strong> / <strong>AI 生物信息学</strong> / <strong>医疗传感</strong> 的研究者与工程实践者。</p>
-    <div class="cta-group">
-      <a class="btn btn-primary" href="projects.html">查看项目</a>
-      <a class="btn btn-outline" href="publications.html">论文列表</a>
+  <!-- 顶部品牌与主导航（右上角） -->
+  <header class="site-header">
+    <div class="brand">
+      <span class="glyph" aria-hidden="true">◯</span>
+      <a href="#panel-hero" class="brand-title">Decarbon Lab</a>
     </div>
-    <ul class="meta">
-      <li>基于静态站点 · 极速加载</li>
-      <li>响应式布局 · 深浅色主题</li>
-      <li>无外部依赖 · 纯 CSS / JS</li>
-    </ul>
-  </div>
-  <div class="hero-orb" aria-hidden="true">
-    <div class="orb"></div>
-    <div class="ring r1"></div>
-    <div class="ring r2"></div>
-    <div class="ring r3"></div>
-  </div>
-</section>
+    <nav class="topnav" aria-label="主导航">
+      <a href="#panel-intro">关于</a>
+      <a href="#panel-projects">项目</a>
+      <a href="#panel-faq">FAQ</a>
+      <a href="#panel-legal">法律</a>
+      <button id="themeToggle" class="ghost" aria-label="切换主题">◐</button>
+    </nav>
+  </header>
 
-<section class="grid three">
-  <article class="card">
-    <h2>最新动态</h2>
-    <ul class="timeline">
-      <li><time>2025-09-02</time> 网站上线 · Neo Tech Theme 🎉</li>
-      <li><time>2025-08</time> 论文被接收 · 添加链接</li>
-      <li><time>2025-07</time> 项目里程碑 · v1.0</li>
-    </ul>
-  </article>
-  <article class="card">
-    <h2>研究方向</h2>
-    <ul class="bullets">
-      <li>非厄米系统 · EP 精密测量</li>
-      <li>VOC 呼气早筛 · 多模态融合</li>
-      <li>蛋白活性预测 · 深度学习</li>
-    </ul>
-  </article>
-  <article class="card">
-    <h2>快速入口</h2>
-    <div class="quick">
-      <a class="chip" href="cv.html">CV / 简历</a>
-      <a class="chip" href="contact.html">联系合作</a>
-      <a class="chip" href="blog.html">技术博客</a>
+  <!-- 全屏 Hero -->
+  <section id="panel-hero" class="panel panel-hero observe">
+    <div class="hero-media" aria-hidden="true">
+      <!-- 可替换为你的 mp4/webm 视频。默认使用渐变动画圆形。 -->
+      <div class="hero-orb"></div>
     </div>
-  </article>
-</section>
+    <div class="hero-copy container">
+      <p class="eyebrow">Scrollytelling Template</p>
+      <h1>面向减碳叙事的<br><span class="accent">全屏交互框架</span></h1>
+      <p class="lede">纯 HTML/CSS/JS · 无依赖 · 支持滚动章节、粘性面板与项目卡片。保留法律链接位，方便合规上线。</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#panel-intro">开始了解</a>
+        <a class="btn btn-outline" href="#panel-projects">查看项目</a>
+      </div>
+    </div>
+  </section>
 
-</main>
-<footer class="site-footer">
-  <div class="container">
-    <p>© <span id="year"></span> 你的名字 · 构建于 GitHub Pages · <a href="LICENSE.txt">MIT 许可</a></p>
-  </div>
-</footer>
-<script src="assets/script.js"></script>
+  <!-- 章节：简介（大字号排版） -->
+  <section id="panel-intro" class="panel observe">
+    <div class="container narrow">
+      <h2>我们的使命</h2>
+      <p class="big">
+        这是一个<strong>原创</strong>的前端模板，复刻的是<strong>结构与交互模式</strong>，而非任何第三方网站的视觉素材或代码。
+        你可以将其用于学术传播、项目展示或企业专题页：全屏章节、滚动叙事、粘性内容与时间线一应俱全。
+      </p>
+      <ul class="bullets">
+        <li>滚动进度条与章节圆点导航</li>
+        <li>粘性（sticky）“流程”面板，随滚动切换要点</li>
+        <li>项目卡片栅格，可扩充到多行</li>
+        <li>可替换的视频/渐变背景，工业科技风配色</li>
+        <li>轻量、可无障碍（键盘导航/对比度/ARIA）</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 章节：流程（粘性面板 + 逐条要点） -->
+  <section id="panel-process" class="panel observe">
+    <div class="container">
+      <div class="sticky">
+        <h2>从排放到封存：三步法</h2>
+        <p class="muted">向下滚动以浏览要点</p>
+      </div>
+      <div class="steps">
+        <article class="step observe" data-step="1">
+          <h3>01 · 源头识别</h3>
+          <p>识别关键排放环节与数据口径，建立统一的基线与度量体系。</p>
+        </article>
+        <article class="step observe" data-step="2">
+          <h3>02 · 捕集与处理</h3>
+          <p>部署可扩展的捕集/净化流程，兼顾能效与稳定性。</p>
+        </article>
+        <article class="step observe" data-step="3">
+          <h3>03 · 运输与封存</h3>
+          <p>通过管输/航运将 CO₂ 安全送达封存或利用端，形成闭环。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 章节：项目卡片 -->
+  <section id="panel-projects" class="panel observe">
+    <div class="container">
+      <h2>项目精选</h2>
+      <div class="cards">
+        <article class="card hover">
+          <h3>北海示范项目</h3>
+          <p>全流程示范：从捕集到海底封存，提供端到端的运营经验。</p>
+          <p><a class="link" href="#" target="_blank" rel="noopener">查看详情</a></p>
+        </article>
+        <article class="card hover">
+          <h3>工厂改造计划</h3>
+          <p>在存量设备上实施可插拔方案，降低停机成本，与能效改造协同。</p>
+          <p><a class="link" href="#" target="_blank" rel="noopener">技术白皮书</a></p>
+        </article>
+        <article class="card hover">
+          <h3>CCUS 开放数据</h3>
+          <p>发布标准化的工况/能耗/成本数据集，助力科研复现与决策评估。</p>
+          <p><a class="link" href="#" target="_blank" rel="noopener">数据平台</a></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 章节：地图占位（可替换为真实地图/插画） -->
+  <section id="panel-map" class="panel observe">
+    <div class="container">
+      <h2>项目分布（示意）</h2>
+      <div class="map">
+        <svg viewBox="0 0 800 360" role="img" aria-label="世界地图示意">
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#0EA5EA"/>
+              <stop offset="100%" stop-color="#70F0C3"/>
+            </linearGradient>
+          </defs>
+          <rect width="800" height="360" fill="url(#g1)" opacity="0.08"/>
+          <g stroke="#8AB4FF" stroke-opacity=".35" fill="none">
+            <path d="M40,120 C180,60 300,70 430,110 S720,210 760,150" />
+            <circle cx="160" cy="140" r="4" />
+            <circle cx="420" cy="120" r="4" />
+            <circle cx="680" cy="180" r="4" />
+          </g>
+        </svg>
+      </div>
+      <p class="muted">标记为示意点。实际项目请替换为你的地理数据或插图。</p>
+    </div>
+  </section>
+
+  <!-- 章节：FAQ -->
+  <section id="panel-faq" class="panel observe">
+    <div class="container narrow">
+      <h2>常见问题（FAQ）</h2>
+      <details>
+        <summary>可以直接商用吗？</summary>
+        <p>可以。模板使用 MIT 许可。请替换占位文本/图形，加入你的版权与隐私政策。</p>
+      </details>
+      <details>
+        <summary>如何替换为视频背景？</summary>
+        <p>把 <code>.hero-media</code> 内的占位元素换成 <code>&lt;video autoplay muted loop playsinline src="your.mp4"&gt;</code> 即可。</p>
+      </details>
+      <details>
+        <summary>如何在“流程”里做粘性切换？</summary>
+        <p>本模板用 <code>IntersectionObserver</code> 给每个 <code>.step</code> 添加 <code>.visible</code>，你也可以扩展为图文联动、数字计数等。</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- 页脚（含法律链接位） -->
+  <footer id="panel-legal" class="site-footer">
+    <div class="container foot-inner">
+      <p>© <span id="year"></span> Decarbon Lab · 原创前端模板 · <a href="#" aria-label="法律声明">法律声明</a> · <a href="#" aria-label="隐私政策">隐私政策</a></p>
+      <a class="backtop" href="#panel-hero" aria-label="返回顶部">↑</a>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
 </body>
 </html>
