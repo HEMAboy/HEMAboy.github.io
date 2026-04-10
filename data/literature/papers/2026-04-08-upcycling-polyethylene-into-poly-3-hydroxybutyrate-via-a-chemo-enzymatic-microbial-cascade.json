@@ -1,0 +1,166 @@
+{
+  "slug": "2026-04-08-upcycling-polyethylene-into-poly-3-hydroxybutyrate-via-a-chemo-enzymatic-microbial-cascade",
+  "canonicalId": "doi:10.1101/2024.09.26.615289",
+  "title": "Upcycling Polyethylene into Poly(3-hydroxybutyrate) via a Chemo-Enzymatic-Microbial Cascade",
+  "authors": [
+    "Kong, D.",
+    "Xia, W.",
+    "Shi, M.",
+    "Fu, Q.",
+    "Zheng, G.",
+    "Wang, L.",
+    "Wu, J."
+  ],
+  "source": "bioRxiv",
+  "journal": "bioRxiv",
+  "publishedAt": "2026-04-08",
+  "doi": "10.1101/2024.09.26.615289",
+  "pmid": "unknown",
+  "pmcid": "unknown",
+  "isPreprint": true,
+  "isHighImpact": false,
+  "sourceStatus": "verified",
+  "tags": [
+    "生物信息学",
+    "组学",
+    "算法"
+  ],
+  "abstract": "Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties. However, their chemical stability and escalating production have resulted in severe waste accumulation and environmental pollution. Conventional disposal methods are plagued by resource inefficiency and secondary pollution. While emerging strategies offer promise, physicochemical methods demand harsh operating conditions, and biological routes remain inefficient. This research presents an integrated \"chemical pretreatment-biodegradation-upcycling\" system that combines the efficiency of chemical catalysis with the sustainability of biological conversion. Ester bonds were introduced into PE via Baeyer-Villiger oxidation, followed by enzymatic hydrolysis using the cutinase from Thermobifida fusca WSH03-11 (TfCut). Specifically, machine learning-aided optimization of reaction conditions and computational redesign of TfCut enhanced degradation efficiency, yielding a maximum weight loss of approximately 71.19%. The degradation intermediates were bio-converted into poly(3-hydroxybutyrate) (PHB) by the wild-type strain LETBE-HOU, isolated in this study, achieving a concentration of 16.75 mg/L. Multi-omics analysis of LETBE-HOU further revealed the PHB biosynthesis pathway and fatty acid degradation regulation. This work breaks the long-standing reliance on physiochemically-derived degradation intermediates for microbial conversion of PE, establishing a fully circular system that opens new avenues for future research.",
+  "articleType": "preprint",
+  "studyDesign": "clinical trial",
+  "studyType": "clinical trial",
+  "diseaseOrTopic": "生物信息学",
+  "speciesOrSystem": "unknown",
+  "biologicalSystem": "unknown",
+  "sampleSize": "unknown",
+  "cohortInfo": "摘要或全文节选中未明确给出 cohort 描述",
+  "methods": "machine learning model development",
+  "methodsDetailed": "machine learning model development。当前只检出摘要级方法信号，尚缺完整实验步骤。",
+  "datasets": [],
+  "mainQuestion": "Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties.",
+  "keyFindings": [
+    "Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties.",
+    "However, their chemical stability and escalating production have resulted in severe waste accumulation and environmental pollution.",
+    "Conventional disposal methods are plagued by resource inefficiency and secondary pollution."
+  ],
+  "mainFindings": [
+    "Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties.",
+    "However, their chemical stability and escalating production have resulted in severe waste accumulation and environmental pollution.",
+    "Conventional disposal methods are plagued by resource inefficiency and secondary pollution."
+  ],
+  "effectDirection": "increase / positive association",
+  "novelty": "创新点需要结合全文进一步核实",
+  "noveltyClaim": "Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties.",
+  "limitations": [
+    "当前证据等级为 fulltext，仍需人工核查原文统计设定和实验边界。",
+    "未在可获取证据中稳定识别样本量。",
+    "该研究为预印本，尚未经过正式同行评审。"
+  ],
+  "limitationsStructured": [
+    "当前证据等级为 fulltext，仍需人工核查原文统计设定和实验边界。",
+    "未在可获取证据中稳定识别样本量。",
+    "该研究为预印本，尚未经过正式同行评审。"
+  ],
+  "relevanceReason": "命中检索主题 生物信息学, 组学, 算法，与研究方向高度相关。",
+  "whyItMatters": "该文与当前主题 生物信息学, 组学, 算法 直接相关，且关注点是 Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties.。",
+  "whyReadNow": "已获取全文级证据，适合快速完成方法学和结论初筛；当前归类为 clinical trial。",
+  "relatedWorks": [
+    "2026-04-09-quaternion-spectral-fingerprinting-of-dna-gpu-accelerated-multi-channel-fourier-analysis-for-alignment-free-genomics",
+    "2026-04-08-a-developmental-single-cell-atlas-of-the-drosophila-visual-system-glia-reveals-cell-type-diversification-and-subcellular-mrna-compartmentalization",
+    "2026-04-08-a-shape-analysis-algorithm-quantifies-spatial-morphology-and-context-of-2d-to-3d-cell-culture-for-correlating-novel-phenotypes-with-treatment-resistance",
+    "2026-04-08-a-network-approach-with-motion-sequencing-reveals-hidden-patterns-of-repetitive-behavior-in-a-pre-clinical-model-of-epilepsy",
+    "2026-04-08-context-dependent-reconfiguration-and-spatial-reorganisation-of-the-mir-199a-5p-xiap-axis-in-high-grade-serous-ovarian-cancer"
+  ],
+  "codeUrl": "",
+  "dataUrl": "",
+  "confidence": "high",
+  "evidenceScope": "fulltext",
+  "evidenceLevel": "fulltext",
+  "fulltextAvailable": true,
+  "qualityScore": 0.887,
+  "publishedLinkage": {
+    "memberSlugs": [
+      "2026-04-08-upcycling-polyethylene-into-poly-3-hydroxybutyrate-via-a-chemo-enzymatic-microbial-cascade"
+    ],
+    "memberSources": [
+      "bioRxiv"
+    ]
+  },
+  "noveltyScore": 0.55,
+  "rigorScore": 0.74,
+  "relevanceScore": 0.66,
+  "actionabilityScore": 0.5,
+  "overallScore": 0.63,
+  "explanation": "系统将这篇文献归为 clinical trial。当前证据表明，它围绕“Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties.”展开，主要观察包括 Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties.。由于证据等级为 fulltext，仍应结合原文复核方法细节。",
+  "sourceLinks": [],
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2024.09.26.615289",
+      "sourceUrl": "",
+      "excerpt": "Upcycling Polyethylene into Poly(3-hydroxybutyrate) via a Chemo-Enzymatic-Microbial Cascade",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2024.09.26.615289",
+      "sourceUrl": "",
+      "excerpt": "Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties. However, their chemical stability and escalating production have resulted in severe waste accumulation and environmental pollution. Conventional disposal methods are plagued by resource inefficiency and secondary pollution. While emerging strategies offer promise, physicochemical methods demand harsh operating conditions, and biological rou",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2024.09.26.615289",
+      "sourceUrl": "",
+      "excerpt": "Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties. However, their chemical stability and escalating production have resulted in severe waste accumulation and environmental pollution. Conventional disposal methods are plagued by resource inefficiency and secondary pollution. While emerging strategies offer promise, physicochemical methods demand harsh operating conditions, and biological rou",
+      "method": "abstract-fallback",
+      "fetchedAt": "2026-04-10T08:54:21",
+      "confidence": 0.9
+    }
+  ],
+  "changeAlerts": [
+    {
+      "alertType": "preprint-version-update",
+      "severity": "medium",
+      "summary": "预印本已不是首版，当前记录版本为 3。",
+      "details": "若该论文已多次修订，建议对照版本差异确认结果与表述是否发生变化。",
+      "detectedAt": "2026-04-10T09:07:31",
+      "sourceLabels": [
+        "bioRxiv"
+      ]
+    }
+  ],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties. However, their chemical stability and escalating production have resulted in severe waste accumulation and environmental pollution. Conventional disposal methods are plagued by resource inefficiency and secondary pollution. While emerging strategies offer promis",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties. However, their chemical stability and escalating production have resulted in severe waste accumulation and environmental pollution. Conventional disposal methods are plagued by resource inefficiency and secondary pollution. While emerging strategies offer promis",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties. However, their chemical stability and escalating production have resulted in severe waste accumulation and environmental pollution. Conventional disposal methods are plagued by resource inefficiency and secondary pollution. While emerging strategies offer promis",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    }
+  ]
+}

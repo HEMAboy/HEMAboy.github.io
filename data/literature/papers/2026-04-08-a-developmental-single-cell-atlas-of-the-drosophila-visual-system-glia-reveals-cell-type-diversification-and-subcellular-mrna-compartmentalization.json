@@ -1,0 +1,164 @@
+{
+  "slug": "2026-04-08-a-developmental-single-cell-atlas-of-the-drosophila-visual-system-glia-reveals-cell-type-diversification-and-subcellular-mrna-compartmentalization",
+  "canonicalId": "doi:10.1101/2023.08.06.552169",
+  "title": "A Developmental Single-Cell Atlas of the Drosophila Visual System Glia Reveals Cell Type Diversification and Subcellular mRNA Compartmentalization",
+  "authors": [
+    "A. G. Ferreira, A.",
+    "Cordoba, S.",
+    "Rajesh, R.",
+    "Choi, B. J.",
+    "Desplan, C."
+  ],
+  "source": "bioRxiv",
+  "journal": "bioRxiv",
+  "publishedAt": "2026-04-08",
+  "doi": "10.1101/2023.08.06.552169",
+  "pmid": "unknown",
+  "pmcid": "unknown",
+  "isPreprint": true,
+  "isHighImpact": false,
+  "sourceStatus": "verified",
+  "tags": [
+    "生物信息学",
+    "组学",
+    "算法"
+  ],
+  "abstract": "Glial cells are essential for proper nervous system development and function. To understand glial development and function, we comprehensively annotated the glial cells from two large single-cell mRNA-sequencing (scRNA-seq) atlases of the developing Drosophila visual system. This allowed us to identify all glial cell types from larval to adult stages and follow their developmental trajectories to understand how the diversity of glial types is generated during development. We show that whereas most glial types, such as chiasm glia, gradually change their transcriptome as they mature during development, neuropil glia that transcriptionally appears as a single cell class in larvae, splits into ensheathing (EG) and astrocyte-like (ALG) glia types during pupal stages. We have experimentally validated these developmental trajectories and identified the genetic markers expressed through the differentiation between EG and ALG classes. Unexpectedly, our analysis of scRNA-seq datasets allowed us to discover that the transcriptome of glial cell bodies can be distinguished from that of their processes. We have identified that processes are enriched for distinct mRNAs that were validated in vivo. This work provides the most detailed transcriptomic analysis of optic lobe glia during development and helps explain the expansion of glial diversity observed in the adult visual system. We also present an innovative computational approach to identify mRNA species that are differentially localized to cell bodies or cellular processes.",
+  "articleType": "preprint",
+  "studyDesign": "atlas / reference mapping study",
+  "studyType": "atlas / reference mapping study",
+  "diseaseOrTopic": "生物信息学",
+  "speciesOrSystem": "Drosophila model",
+  "biologicalSystem": "Drosophila model",
+  "sampleSize": "unknown",
+  "cohortInfo": "Unexpectedly, our analysis of scRNA-seq datasets allowed us to discover that the transcriptome of glial cell bodies can be distinguished from that of their processes.",
+  "methods": "single-cell sequencing / single-cell analysis；RNA-seq / transcriptomic profiling",
+  "methodsDetailed": "single-cell sequencing / single-cell analysis；RNA-seq / transcriptomic profiling。当前只检出摘要级方法信号，尚缺完整实验步骤。",
+  "datasets": [],
+  "mainQuestion": "Glial cells are essential for proper nervous system development and function.",
+  "keyFindings": [
+    "Glial cells are essential for proper nervous system development and function.",
+    "To understand glial development and function, we comprehensively annotated the glial cells from two large single-cell mRNA-sequencing (scRNA-seq) atlases of the developing Drosophila visual system.",
+    "This allowed us to identify all glial cell types from larval to adult stages and follow their developmental trajectories to understand how the diversity of glial types is generated during development."
+  ],
+  "mainFindings": [
+    "Glial cells are essential for proper nervous system development and function.",
+    "To understand glial development and function, we comprehensively annotated the glial cells from two large single-cell mRNA-sequencing (scRNA-seq) atlases of the developing Drosophila visual system.",
+    "This allowed us to identify all glial cell types from larval to adult stages and follow their developmental trajectories to understand how the diversity of glial types is generated during development."
+  ],
+  "effectDirection": "context-dependent / unclear",
+  "novelty": "论文主要创新在于构建资源、框架或参考图谱",
+  "noveltyClaim": "Glial cells are essential for proper nervous system development and function.",
+  "limitations": [
+    "当前证据等级为 fulltext，仍需人工核查原文统计设定和实验边界。",
+    "未在可获取证据中稳定识别样本量。",
+    "该研究为预印本，尚未经过正式同行评审。"
+  ],
+  "limitationsStructured": [
+    "当前证据等级为 fulltext，仍需人工核查原文统计设定和实验边界。",
+    "未在可获取证据中稳定识别样本量。",
+    "该研究为预印本，尚未经过正式同行评审。"
+  ],
+  "relevanceReason": "命中检索主题 生物信息学, 组学, 算法，与研究方向高度相关。",
+  "whyItMatters": "该文与当前主题 生物信息学, 组学, 算法 直接相关，且关注点是 Glial cells are essential for proper nervous system development and function.。",
+  "whyReadNow": "已获取全文级证据，适合快速完成方法学和结论初筛；当前归类为 atlas / reference mapping study。",
+  "relatedWorks": [
+    "2026-04-09-quaternion-spectral-fingerprinting-of-dna-gpu-accelerated-multi-channel-fourier-analysis-for-alignment-free-genomics",
+    "2026-04-08-a-shape-analysis-algorithm-quantifies-spatial-morphology-and-context-of-2d-to-3d-cell-culture-for-correlating-novel-phenotypes-with-treatment-resistance",
+    "2026-04-08-a-network-approach-with-motion-sequencing-reveals-hidden-patterns-of-repetitive-behavior-in-a-pre-clinical-model-of-epilepsy",
+    "2026-04-08-context-dependent-reconfiguration-and-spatial-reorganisation-of-the-mir-199a-5p-xiap-axis-in-high-grade-serous-ovarian-cancer",
+    "2026-04-08-genetic-demultiplexing-and-transcript-start-site-identification-from-nanopore-sequencing-of-10x-genomics-multiome-libraries"
+  ],
+  "codeUrl": "",
+  "dataUrl": "",
+  "confidence": "high",
+  "evidenceScope": "fulltext",
+  "evidenceLevel": "fulltext",
+  "fulltextAvailable": true,
+  "qualityScore": 0.887,
+  "publishedLinkage": {
+    "memberSlugs": [
+      "2026-04-08-a-developmental-single-cell-atlas-of-the-drosophila-visual-system-glia-reveals-cell-type-diversification-and-subcellular-mrna-compartmentalization"
+    ],
+    "memberSources": [
+      "bioRxiv"
+    ]
+  },
+  "noveltyScore": 0.65,
+  "rigorScore": 0.74,
+  "relevanceScore": 0.74,
+  "actionabilityScore": 0.5,
+  "overallScore": 0.677,
+  "explanation": "系统将这篇文献归为 atlas / reference mapping study。当前证据表明，它围绕“Glial cells are essential for proper nervous system development and function.”展开，主要观察包括 Glial cells are essential for proper nervous system development and function.。由于证据等级为 fulltext，仍应结合原文复核方法细节。",
+  "sourceLinks": [],
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2023.08.06.552169",
+      "sourceUrl": "",
+      "excerpt": "A Developmental Single-Cell Atlas of the Drosophila Visual System Glia Reveals Cell Type Diversification and Subcellular mRNA Compartmentalization",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:30",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2023.08.06.552169",
+      "sourceUrl": "",
+      "excerpt": "Glial cells are essential for proper nervous system development and function. To understand glial development and function, we comprehensively annotated the glial cells from two large single-cell mRNA-sequencing (scRNA-seq) atlases of the developing Drosophila visual system. This allowed us to identify all glial cell types from larval to adult stages and follow their developmental trajectories to understand how the diversity of glial types is generated during development. We show that whereas mo",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:30",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2023.08.06.552169",
+      "sourceUrl": "",
+      "excerpt": "Glial cells are essential for proper nervous system development and function. To understand glial development and function, we comprehensively annotated the glial cells from two large single-cell mRNA-sequencing (scRNA-seq) atlases of the developing Drosophila visual system. This allowed us to identify all glial cell types from larval to adult stages and follow their developmental trajectories to understand how the diversity of glial types is generated during development. We show that whereas mo",
+      "method": "abstract-fallback",
+      "fetchedAt": "2026-04-10T08:54:21",
+      "confidence": 0.9
+    }
+  ],
+  "changeAlerts": [
+    {
+      "alertType": "preprint-version-update",
+      "severity": "medium",
+      "summary": "预印本已不是首版，当前记录版本为 2。",
+      "details": "若该论文已多次修订，建议对照版本差异确认结果与表述是否发生变化。",
+      "detectedAt": "2026-04-10T09:07:30",
+      "sourceLabels": [
+        "bioRxiv"
+      ]
+    }
+  ],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "Glial cells are essential for proper nervous system development and function. To understand glial development and function, we comprehensively annotated the glial cells from two large single-cell mRNA-sequencing (scRNA-seq) atlases of the developing Drosophila visual system. This allowed us to identify all glial cell types from larval to adult stages and follow their developmental trajectories to understand how the d",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "Glial cells are essential for proper nervous system development and function. To understand glial development and function, we comprehensively annotated the glial cells from two large single-cell mRNA-sequencing (scRNA-seq) atlases of the developing Drosophila visual system. This allowed us to identify all glial cell types from larval to adult stages and follow their developmental trajectories to understand how the d",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "Glial cells are essential for proper nervous system development and function. To understand glial development and function, we comprehensively annotated the glial cells from two large single-cell mRNA-sequencing (scRNA-seq) atlases of the developing Drosophila visual system. This allowed us to identify all glial cell types from larval to adult stages and follow their developmental trajectories to understand how the d",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "canonicalId": "doi:10.64898/2025.12.04.692371",
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2025.12.04.692371",
+      "sourceUrl": "",
+      "excerpt": "A network approach with motion sequencing reveals hidden patterns of repetitive behavior in a pre-clinical model of epilepsy",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:30",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2025.12.04.692371",
+      "sourceUrl": "",
+      "excerpt": "Epilepsy is the 4th most prevalent neurological condition with 50 million cases worldwide. Patients with epilepsy bare a disproportionate burden of cognitive decline and psychiatric disorders which remain poorly understood and go underdressed by current anti-epileptic treatments. Furthermore, pre-clinical work on behavioral comorbidities can be hampered by current testing frameworks which rely on well-defined, discreet tests with limited repeatability. Recent work has demonstrated a role for mac",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:30",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2025.12.04.692371",
+      "sourceUrl": "",
+      "excerpt": "Epilepsy is the 4th most prevalent neurological condition with 50 million cases worldwide. Patients with epilepsy bare a disproportionate burden of cognitive decline and psychiatric disorders which remain poorly understood and go underdressed by current anti-epileptic treatments. Furthermore, pre-clinical work on behavioral comorbidities can be hampered by current testing frameworks which rely on well-defined, discreet tests with limited repeatability. Recent work has demonstrated a role for mac",
+      "method": "abstract-fallback",
+      "fetchedAt": "2026-04-10T08:54:21",
+      "confidence": 0.9
+    }
+  ],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "Epilepsy is the 4th most prevalent neurological condition with 50 million cases worldwide. Patients with epilepsy bare a disproportionate burden of cognitive decline and psychiatric disorders which remain poorly understood and go underdressed by current anti-epileptic treatments. Furthermore, pre-clinical work on behavioral comorbidities can be hampered by current testing frameworks which rely on well-defined, discre",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "Epilepsy is the 4th most prevalent neurological condition with 50 million cases worldwide. Patients with epilepsy bare a disproportionate burden of cognitive decline and psychiatric disorders which remain poorly understood and go underdressed by current anti-epileptic treatments. Furthermore, pre-clinical work on behavioral comorbidities can be hampered by current testing frameworks which rely on well-defined, discre",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "Epilepsy is the 4th most prevalent neurological condition with 50 million cases worldwide. Patients with epilepsy bare a disproportionate burden of cognitive decline and psychiatric disorders which remain poorly understood and go underdressed by current anti-epileptic treatments. Furthermore, pre-clinical work on behavioral comorbidities can be hampered by current testing frameworks which rely on well-defined, discre",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    }
+  ]
+}

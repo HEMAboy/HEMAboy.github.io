@@ -1,0 +1,61 @@
+{
+  "canonicalId": "doi:10.1126/sciadv.aec0172",
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "PubMed",
+      "sourceId": "41950319",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41950319/",
+      "excerpt": "Land subsidence on Java Island and its contributions to relative sea level change.",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "PubMed",
+      "sourceId": "41950319",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41950319/",
+      "excerpt": "Rising sea levels and land subsidence combine to determine relative sea level (RSL) rise, which is intensifying coastal hazards. However, many densely populated regions lack the observational infrastructure to identify and quantify land subsidence contribution to RSL, hindering effective planning of responses. Here, we used satellite radar observations to generate a high-resolution assessment of land subsidence across Java Island, Indonesia, and evaluate its contribution to 21st-century RSL chan",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "PubMed",
+      "sourceId": "41950319",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41950319/",
+      "excerpt": "Rising sea levels and land subsidence combine to determine relative sea level (RSL) rise, which is intensifying coastal hazards. However, many densely populated regions lack the observational infrastructure to identify and quantify land subsidence contribution to RSL, hindering effective planning of responses. Here, we used satellite radar observations to generate a high-resolution assessment of land subsidence across Java Island, Indonesia, and evaluate its contribution to 21st-century RSL chan",
+      "method": "abstract-fallback",
+      "fetchedAt": "2026-04-10T09:07:02",
+      "confidence": 0.9
+    }
+  ],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "Rising sea levels and land subsidence combine to determine relative sea level (RSL) rise, which is intensifying coastal hazards. However, many densely populated regions lack the observational infrastructure to identify and quantify land subsidence contribution to RSL, hindering effective planning of responses. Here, we used satellite radar observations to generate a high-resolution assessment of land subsidence acros",
+      "sourceLabel": "PubMed",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41950319/",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "Rising sea levels and land subsidence combine to determine relative sea level (RSL) rise, which is intensifying coastal hazards. However, many densely populated regions lack the observational infrastructure to identify and quantify land subsidence contribution to RSL, hindering effective planning of responses. Here, we used satellite radar observations to generate a high-resolution assessment of land subsidence acros",
+      "sourceLabel": "PubMed",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41950319/",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "Rising sea levels and land subsidence combine to determine relative sea level (RSL) rise, which is intensifying coastal hazards. However, many densely populated regions lack the observational infrastructure to identify and quantify land subsidence contribution to RSL, hindering effective planning of responses. Here, we used satellite radar observations to generate a high-resolution assessment of land subsidence acros",
+      "sourceLabel": "PubMed",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41950319/",
+      "confidence": 0.88
+    }
+  ]
+}

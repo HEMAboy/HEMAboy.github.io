@@ -1,0 +1,375 @@
+{
+  "pageMeta": {
+    "conclusion": "胎压计技术页的关键不是罗列功能，而是把“能否稳定测准、能否经得住使用、能否合法出货”三条线放在一起看。",
+    "evidence": "当前技术页优先采用 NIST 计量政策、欧盟法规入口和公开零售产品特征作为第一批证据。",
+    "risk": "公开页面较难给出完整实验条件与量产良率，因此环境测试和耐久性门槛仍有较强工程推断成分。",
+    "visualizationSuggestion": "把技术路线、精度等级、测试方法和标准认证分四块展示，每块都显示证据强度与发布状态。",
+    "updatedAt": "2026-04-10",
+    "sources": [
+      {
+        "id": "nist-traceability",
+        "sourceType": "official",
+        "sourceTitle": "NIST Policy on Metrological Traceability",
+        "sourceUrl": "https://www.nist.gov/calibrations/traceability",
+        "quotedAt": "2026-04-10",
+        "note": "专业级高精度论证的底层要求。"
+      },
+      {
+        "id": "red",
+        "sourceType": "official",
+        "sourceTitle": "European Commission RED",
+        "sourceUrl": "https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/radio-equipment-directive-red_en",
+        "quotedAt": "2026-04-10",
+        "note": "无线扩展版本的法规分叉。"
+      }
+    ],
+    "confidence": "medium",
+    "publishStatus": "reviewed",
+    "lastReviewedAt": "2026-04-10",
+    "dataMethod": "以计量与法规为硬约束，渠道产品特征为补充。"
+  },
+  "technologyTracks": [
+    {
+      "title": "数字读数、多单位切换与背光",
+      "maturity": "成熟",
+      "differentiator": "这组功能已经是中端零售款的常态化卖点，不再构成真正技术壁垒，但仍决定主流零售体验。",
+      "application": "北美零售数字款、私牌基础数显款。",
+      "applicableRegion": "北美 / 全球电商",
+      "standardConstraint": "功能本身不难，难点在于功能说明、标签一致性和量产稳定性。",
+      "sources": [
+        {
+          "id": "homedepot-digital",
+          "sourceType": "marketplace",
+          "sourceTitle": "Home Depot Husky 5-in-1 Digital Tire Pressure Gauge",
+          "sourceUrl": "https://www.homedepot.com/p/325004507",
+          "quotedAt": "2026-04-10",
+          "note": "公开零售页面已经把多单位、背光和工具属性作为常规卖点。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "基于公开渠道 SKU 特征。"
+    },
+    {
+      "title": "高精度与可追溯校准",
+      "maturity": "成长",
+      "differentiator": "真正能把产品从普通数显款拉到维修店/专业工具段的，不是再加一个功能，而是能证明测量结果可追溯、可复核。",
+      "application": "维修店常规工具、专业门店、车队工具。",
+      "applicableRegion": "北美 / 欧盟 / 专业渠道",
+      "standardConstraint": "必须准备校准链、参考标准和不确定度说明，否则高精度宣传不可持续。",
+      "sources": [
+        {
+          "id": "nist-traceability",
+          "sourceType": "official",
+          "sourceTitle": "NIST Policy on Metrological Traceability",
+          "sourceUrl": "https://www.nist.gov/calibrations/traceability",
+          "quotedAt": "2026-04-10",
+          "note": "traceability 不只是校准动作，还包括不间断比较链与不确定度。"
+        },
+        {
+          "id": "nist-calibrations",
+          "sourceType": "official",
+          "sourceTitle": "NIST Calibrations",
+          "sourceUrl": "https://www.nist.gov/calibrations",
+          "quotedAt": "2026-04-10",
+          "note": "强调 measurement quality and productivity。"
+        }
+      ],
+      "confidence": "high",
+      "publishStatus": "published",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "直接采用官方计量政策。"
+    },
+    {
+      "title": "金属接口件与耐用结构",
+      "maturity": "成长",
+      "differentiator": "专业工具款的单价更容易被气嘴接口耐磨性、结构抗摔性和长周期一致性拉开。",
+      "application": "高频使用场景、维修店、品牌工具渠道。",
+      "applicableRegion": "北美 / 专业工具分销",
+      "standardConstraint": "耐用性卖点最终要落到跌落、寿命和接口匹配测试，不能只停留在材料名称。",
+      "sources": [
+        {
+          "id": "homedepot-digital",
+          "sourceType": "marketplace",
+          "sourceTitle": "Home Depot Husky 5-in-1 Digital Tire Pressure Gauge",
+          "sourceUrl": "https://www.homedepot.com/p/325004507",
+          "quotedAt": "2026-04-10",
+          "note": "工具型数字款说明了专业渠道对结构型卖点有付费能力。"
+        },
+        {
+          "id": "aluminum-live",
+          "sourceType": "commodity-tracker",
+          "sourceTitle": "TradingEconomics Aluminum",
+          "sourceUrl": "https://tradingeconomics.com/commodity/aluminum",
+          "quotedAt": "2026-04-10",
+          "note": "金属件成本需要纳入技术路线取舍。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "公开零售产品特征结合材料行情。"
+    },
+    {
+      "title": "记录 / 蓝牙扩展",
+      "maturity": "前瞻",
+      "differentiator": "一旦加入记录或无线连接，产品就从普通工具跨到更复杂的电子设备，差异化空间更大，但法规和稳定性成本也同步上升。",
+      "application": "高端差异化 SKU、车队管理、B2B 定制型号。",
+      "applicableRegion": "欧盟 / 北美高端定制",
+      "standardConstraint": "无线模块将触发 RED 等额外法规路径，测试和资料复杂度显著提高。",
+      "sources": [
+        {
+          "id": "red",
+          "sourceType": "official",
+          "sourceTitle": "European Commission Radio Equipment Directive",
+          "sourceUrl": "https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/radio-equipment-directive-red_en",
+          "quotedAt": "2026-04-10",
+          "note": "无线版本必须按 RED 评估。"
+        }
+      ],
+      "confidence": "high",
+      "publishStatus": "published",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "官方法规路径。"
+    }
+  ],
+  "accuracyBands": [
+    {
+      "grade": "入门零售级",
+      "tolerance": "±1 psi",
+      "scenario": "家用基础款、电商标品、低价套装。",
+      "risk": "如果说明书和页面宣传写得过满，会把本可接受的入门级误差放大为退货与差评。",
+      "sources": [
+        {
+          "id": "homedepot-pencil",
+          "sourceType": "marketplace",
+          "sourceTitle": "Home Depot Husky Pencil Tire Gauge",
+          "sourceUrl": "https://www.homedepot.com/p/300881555",
+          "quotedAt": "2026-04-10",
+          "note": "基础机械款代表入门零售带。"
+        }
+      ],
+      "confidence": "low",
+      "publishStatus": "needs_review",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "当前按渠道层级而非单一标准定义。"
+    },
+    {
+      "grade": "主流中端级",
+      "tolerance": "±0.5 psi",
+      "scenario": "私牌零售款、维修店常规工具款。",
+      "risk": "若校准流程、批次一致性和功能说明不到位，会直接侵蚀中端溢价。",
+      "sources": [
+        {
+          "id": "nist-calibrations",
+          "sourceType": "official",
+          "sourceTitle": "NIST Calibrations",
+          "sourceUrl": "https://www.nist.gov/calibrations",
+          "quotedAt": "2026-04-10",
+          "note": "用于强调测量质量和校准必要性。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "按渠道层级结合计量要求定义。"
+    },
+    {
+      "grade": "专业工具级",
+      "tolerance": "±0.25 psi",
+      "scenario": "高频维护、车队管理、专业门店。",
+      "risk": "若没有可追溯校准链与不确定度说明，高精度卖点不可持续。",
+      "sources": [
+        {
+          "id": "nist-traceability",
+          "sourceType": "official",
+          "sourceTitle": "NIST Policy on Metrological Traceability",
+          "sourceUrl": "https://www.nist.gov/calibrations/traceability",
+          "quotedAt": "2026-04-10",
+          "note": "高精度必须可追溯。"
+        }
+      ],
+      "confidence": "high",
+      "publishStatus": "published",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "官方计量要求。"
+    }
+  ],
+  "testMethods": [
+    {
+      "name": "压力校准与量程点验证",
+      "purpose": "验证不同量程点位上的读数偏差、重复性和批次一致性。",
+      "keyCheckpoints": ["参考标准可追溯", "多点校准", "批次抽检", "不确定度记录"],
+      "linkedProcess": "直接关联传感器选型、装配质量和出厂复核流程。",
+      "sources": [
+        {
+          "id": "nist-traceability",
+          "sourceType": "official",
+          "sourceTitle": "NIST Policy on Metrological Traceability",
+          "sourceUrl": "https://www.nist.gov/calibrations/traceability",
+          "quotedAt": "2026-04-10",
+          "note": "定义 traceability 与不确定度要求。"
+        }
+      ],
+      "confidence": "high",
+      "publishStatus": "published",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "官方计量政策。"
+    },
+    {
+      "name": "环境稳定性与电池表现",
+      "purpose": "验证低温、高温和环境波动对显示和测量稳定性的影响。",
+      "keyCheckpoints": ["温漂", "显示响应", "电池低温表现", "按键与外壳配合"],
+      "linkedProcess": "关联外壳材料、显示模组、电源设计和密封结构。",
+      "sources": [
+        {
+          "id": "nhtsa-tires",
+          "sourceType": "official",
+          "sourceTitle": "NHTSA Tires",
+          "sourceUrl": "https://www.nhtsa.gov/vehicle-safety/tires",
+          "quotedAt": "2026-04-10",
+          "note": "维护工具需要在真实道路环境中稳定使用。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "工程推断，待后续补入具体测试标准。"
+    },
+    {
+      "name": "跌落、寿命与结构耐久",
+      "purpose": "验证高频使用与运输冲击下的结构可靠性。",
+      "keyCheckpoints": ["跌落循环", "金属接口磨损", "按键寿命", "壳体裂纹风险"],
+      "linkedProcess": "关联注塑件、压铸件、公差控制和总装工艺。",
+      "sources": [
+        {
+          "id": "homedepot-digital",
+          "sourceType": "marketplace",
+          "sourceTitle": "Home Depot Husky 5-in-1 Digital Tire Pressure Gauge",
+          "sourceUrl": "https://www.homedepot.com/p/325004507",
+          "quotedAt": "2026-04-10",
+          "note": "工具属性意味着消费者会预期更高耐用性。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "渠道产品定位反推结构测试需求。"
+    },
+    {
+      "name": "无线功能与法规前置验证",
+      "purpose": "在引入蓝牙/记录功能前，评估无线法规和系统稳定性增量。",
+      "keyCheckpoints": ["是否进入 RED", "资料分流", "无线稳定性", "电源管理"],
+      "linkedProcess": "关联电路设计、固件、标签和出口资料。",
+      "sources": [
+        {
+          "id": "red",
+          "sourceType": "official",
+          "sourceTitle": "European Commission RED",
+          "sourceUrl": "https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/radio-equipment-directive-red_en",
+          "quotedAt": "2026-04-10",
+          "note": "无线功能会改变法规路径。"
+        }
+      ],
+      "confidence": "high",
+      "publishStatus": "published",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "官方法规入口。"
+    }
+  ],
+  "certificationStandards": [
+    {
+      "name": "CE / EMC",
+      "scope": "电子设备进入欧盟市场的基础合规与电磁兼容要求。",
+      "region": "欧盟",
+      "applicableProduct": "非无线数字胎压表、一般电子版本",
+      "implication": "决定你是否可以合法做 CE 标志与进入欧盟客户清单。",
+      "sources": [
+        {
+          "id": "ce-marking",
+          "sourceType": "official",
+          "sourceTitle": "EU CE Marking 官方页面",
+          "sourceUrl": "https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm",
+          "quotedAt": "2026-04-10",
+          "note": "产品立法入口。"
+        },
+        {
+          "id": "emc-directive",
+          "sourceType": "official",
+          "sourceTitle": "European Commission EMC Directive",
+          "sourceUrl": "https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/electromagnetic-compatibility-emc-directive_sl",
+          "quotedAt": "2026-04-10",
+          "note": "EMC 基本要求。"
+        }
+      ],
+      "confidence": "high",
+      "publishStatus": "published",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "欧盟官方法规页面。"
+    },
+    {
+      "name": "RoHS",
+      "scope": "电子电气设备中限制使用某些有害物质。",
+      "region": "欧盟 / 国际买家",
+      "applicableProduct": "数字电子款及其电子部件",
+      "implication": "影响电子件和材料选型，也影响供应商声明文件。",
+      "sources": [
+        {
+          "id": "rohs",
+          "sourceType": "official",
+          "sourceTitle": "European Commission RoHS Directive",
+          "sourceUrl": "https://environment.ec.europa.eu/topics/waste-and-recycling/rohs-directive_en",
+          "quotedAt": "2026-04-10",
+          "note": "材料限制框架。"
+        }
+      ],
+      "confidence": "high",
+      "publishStatus": "published",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "欧盟官方法规页面。"
+    },
+    {
+      "name": "REACH",
+      "scope": "涉及化学物质和物品中相关义务、材料声明与供应链责任。",
+      "region": "欧盟 / 国际买家",
+      "applicableProduct": "塑料件、电子件、包装材料及其声明",
+      "implication": "影响材料追溯与供应链沟通，不只是实验室测试。",
+      "sources": [
+        {
+          "id": "reach",
+          "sourceType": "official",
+          "sourceTitle": "ECHA Understanding REACH",
+          "sourceUrl": "https://echa.europa.eu/regulations/reach/understanding-reach",
+          "quotedAt": "2026-04-10",
+          "note": "材料和物品义务。"
+        }
+      ],
+      "confidence": "high",
+      "publishStatus": "published",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "ECHA 官方法规说明。"
+    },
+    {
+      "name": "RED",
+      "scope": "无线电设备法规路径，适用于带无线发射/接收能力的型号。",
+      "region": "欧盟",
+      "applicableProduct": "带蓝牙或无线记录能力的扩展型号",
+      "implication": "一旦进入 RED，测试、资料和标签路径都与普通数字款不同。",
+      "sources": [
+        {
+          "id": "red",
+          "sourceType": "official",
+          "sourceTitle": "European Commission RED",
+          "sourceUrl": "https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/radio-equipment-directive-red_en",
+          "quotedAt": "2026-04-10",
+          "note": "无线产品法规入口。"
+        }
+      ],
+      "confidence": "high",
+      "publishStatus": "published",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "欧盟官方法规页面。"
+    }
+  ]
+}

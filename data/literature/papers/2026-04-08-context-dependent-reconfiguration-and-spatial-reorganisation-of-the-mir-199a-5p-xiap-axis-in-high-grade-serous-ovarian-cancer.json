@@ -1,0 +1,168 @@
+{
+  "slug": "2026-04-08-context-dependent-reconfiguration-and-spatial-reorganisation-of-the-mir-199a-5p-xiap-axis-in-high-grade-serous-ovarian-cancer",
+  "canonicalId": "doi:10.64898/2026.03.11.711019",
+  "title": "Context-dependent reconfiguration and spatial reorganisation of the miR-199a-5p/XIAP axis in high-grade serous ovarian cancer",
+  "authors": [
+    "Munoz de Galdeano, T.",
+    "Reigada, D.",
+    "Nieto-Diaz, M.",
+    "Palka Kotlowska, M.",
+    "Gonzalez Gea, L.",
+    "Garcia Pena, M.",
+    "Santacruz, B.",
+    "Iglesias, G.",
+    "Martinez Maza, R."
+  ],
+  "source": "bioRxiv",
+  "journal": "bioRxiv",
+  "publishedAt": "2026-04-08",
+  "doi": "10.64898/2026.03.11.711019",
+  "pmid": "unknown",
+  "pmcid": "unknown",
+  "isPreprint": true,
+  "isHighImpact": false,
+  "sourceStatus": "verified",
+  "tags": [
+    "生物信息学",
+    "组学",
+    "算法"
+  ],
+  "abstract": "Background: High-grade serous ovarian cancer (HGSOC) remains a leading cause of gynaecological cancer mortality, largely owing to late diagnosis and the emergence of platinum resistance. A defining feature of resistant disease is impaired apoptotic execution despite persistent survival signalling. XIAP is a key inhibitor of caspase activity, and microRNAs are important modulators of stress-response pathways; however, the functional relationship between individual miRNAs and their targets may vary across cellular states. Methods: We investigated the miR-199a-5p/XIAP axis by integrating (i) cross-species structural and CLIP-informed support for miR-199a-5p binding to the XIAP 3'UTR, (ii) functional perturbation in paired cisplatin-sensitive (A2780) and cisplatin-resistant (A2780cis) ovarian cancer cell models, and (iii) spatial characterisation in human ovarian tissue using multiplex fluorescence in situ hybridisation and immunofluorescence. Quantitative image analysis was used to assess signal distribution and co-localisation at single-cell resolution. Results: miR-199a-5p did not show a uniform repressive relationship with XIAP across cellular contexts. In cisplatin-sensitive cells, miR-199a-5p was consistent with basal XIAP repression and was associated with enhanced apoptotic responses following cisplatin exposure. In resistant cells, this relationship was attenuated, and cisplatin treatment was accompanied by divergence between XIAP levels and apoptotic readouts. Spatial analysis of human FFPE specimens showed tumour-associated reorganisation of this axis. Non-neoplastic ovary displayed compartmental segregation, with XIAP enriched in epithelial structures and miR-199a-5p relatively restricted to stromal regions. In HGSOC, this organisation was altered, with broader miR-199a-5p distribution, greater spatial overlap with XIAP, and a distinct perinuclear, occasionally nuclear-associated, miR-199a-5p pattern not observed in control tissue. Conclusions: These findings indicate that the functional relationship between miR-199a-5p and XIAP is context-dependent and altered in cisplatin-resistant states. The identification of a tumour-associated spatial phenotype in human HGSOC underscores the value of spatially resolved approaches for understanding regulatory heterogeneity and supports their potential utility in biomarker development and in the identification of therapeutic vulnerabilities linked to platinum-resistant disease.",
+  "articleType": "preprint",
+  "studyDesign": "computational modeling study",
+  "studyType": "computational modeling study",
+  "diseaseOrTopic": "生物信息学",
+  "speciesOrSystem": "human cohort / human-derived samples；tumor biology / oncology",
+  "biologicalSystem": "human cohort / human-derived samples；tumor biology / oncology",
+  "sampleSize": "unknown",
+  "cohortInfo": "摘要或全文节选中未明确给出 cohort 描述",
+  "methods": "single-cell sequencing / single-cell analysis；spatial omics / spatial analysis",
+  "methodsDetailed": "single-cell sequencing / single-cell analysis；spatial omics / spatial analysis。当前只检出摘要级方法信号，尚缺完整实验步骤。",
+  "datasets": [],
+  "mainQuestion": "Background: High-grade serous ovarian cancer (HGSOC) remains a leading cause of gynaecological cancer mortality, largely owing to late diagnosis and the emergence of platinum resistance.",
+  "keyFindings": [
+    "Background: High-grade serous ovarian cancer (HGSOC) remains a leading cause of gynaecological cancer mortality, largely owing to late diagnosis and the emergence of platinum resistance.",
+    "A defining feature of resistant disease is impaired apoptotic execution despite persistent survival signalling.",
+    "XIAP is a key inhibitor of caspase activity, and microRNAs are important modulators of stress-response pathways; however, the functional relationship between individual miRNAs and their targets may vary across cellular states."
+  ],
+  "mainFindings": [
+    "Background: High-grade serous ovarian cancer (HGSOC) remains a leading cause of gynaecological cancer mortality, largely owing to late diagnosis and the emergence of platinum resistance.",
+    "A defining feature of resistant disease is impaired apoptotic execution despite persistent survival signalling.",
+    "XIAP is a key inhibitor of caspase activity, and microRNAs are important modulators of stress-response pathways; however, the functional relationship between individual miRNAs and their targets may vary across cellular states."
+  ],
+  "effectDirection": "increase / positive association",
+  "novelty": "创新点需要结合全文进一步核实",
+  "noveltyClaim": "Background: High-grade serous ovarian cancer (HGSOC) remains a leading cause of gynaecological cancer mortality, largely owing to late diagnosis and the emergence of platinum resistance.",
+  "limitations": [
+    "当前证据等级为 fulltext，仍需人工核查原文统计设定和实验边界。",
+    "未在可获取证据中稳定识别样本量。",
+    "该研究为预印本，尚未经过正式同行评审。"
+  ],
+  "limitationsStructured": [
+    "当前证据等级为 fulltext，仍需人工核查原文统计设定和实验边界。",
+    "未在可获取证据中稳定识别样本量。",
+    "该研究为预印本，尚未经过正式同行评审。"
+  ],
+  "relevanceReason": "命中检索主题 生物信息学, 组学, 算法，与研究方向高度相关。",
+  "whyItMatters": "该文与当前主题 生物信息学, 组学, 算法 直接相关，且关注点是 Background: High-grade serous ovarian cancer (HGSOC) remains a leading cause of gynaecological cancer mortality, largely owing to late diagnosis and the emergence of platinum resistance.。",
+  "whyReadNow": "已获取全文级证据，适合快速完成方法学和结论初筛；当前归类为 computational modeling study。",
+  "relatedWorks": [
+    "2026-04-09-quaternion-spectral-fingerprinting-of-dna-gpu-accelerated-multi-channel-fourier-analysis-for-alignment-free-genomics",
+    "2026-04-08-a-developmental-single-cell-atlas-of-the-drosophila-visual-system-glia-reveals-cell-type-diversification-and-subcellular-mrna-compartmentalization",
+    "2026-04-08-a-shape-analysis-algorithm-quantifies-spatial-morphology-and-context-of-2d-to-3d-cell-culture-for-correlating-novel-phenotypes-with-treatment-resistance",
+    "2026-04-08-a-network-approach-with-motion-sequencing-reveals-hidden-patterns-of-repetitive-behavior-in-a-pre-clinical-model-of-epilepsy",
+    "2026-04-08-genetic-demultiplexing-and-transcript-start-site-identification-from-nanopore-sequencing-of-10x-genomics-multiome-libraries"
+  ],
+  "codeUrl": "",
+  "dataUrl": "",
+  "confidence": "high",
+  "evidenceScope": "fulltext",
+  "evidenceLevel": "fulltext",
+  "fulltextAvailable": true,
+  "qualityScore": 0.887,
+  "publishedLinkage": {
+    "memberSlugs": [
+      "2026-04-08-context-dependent-reconfiguration-and-spatial-reorganisation-of-the-mir-199a-5p-xiap-axis-in-high-grade-serous-ovarian-cancer"
+    ],
+    "memberSources": [
+      "bioRxiv"
+    ]
+  },
+  "noveltyScore": 0.55,
+  "rigorScore": 0.74,
+  "relevanceScore": 0.66,
+  "actionabilityScore": 0.5,
+  "overallScore": 0.63,
+  "explanation": "系统将这篇文献归为 computational modeling study。当前证据表明，它围绕“Background: High-grade serous ovarian cancer (HGSOC) remains a leading cause of gynaecological cancer mortality, largely owing to late diagnosis and the emergence of platinum resistance.”展开，主要观察包括 Background: High-grade serous ovarian cancer (HGSOC) remains a leading cause of gynaecological cancer mortality, largely owing to late diagnosis and the emergence of platinum resistance.。由于证据等级为 fulltext，仍应结合原文复核方法细节。",
+  "sourceLinks": [],
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2026.03.11.711019",
+      "sourceUrl": "",
+      "excerpt": "Context-dependent reconfiguration and spatial reorganisation of the miR-199a-5p/XIAP axis in high-grade serous ovarian cancer",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:30",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2026.03.11.711019",
+      "sourceUrl": "",
+      "excerpt": "Background: High-grade serous ovarian cancer (HGSOC) remains a leading cause of gynaecological cancer mortality, largely owing to late diagnosis and the emergence of platinum resistance. A defining feature of resistant disease is impaired apoptotic execution despite persistent survival signalling. XIAP is a key inhibitor of caspase activity, and microRNAs are important modulators of stress-response pathways; however, the functional relationship between individual miRNAs and their targets may var",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:30",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2026.03.11.711019",
+      "sourceUrl": "",
+      "excerpt": "Background: High-grade serous ovarian cancer (HGSOC) remains a leading cause of gynaecological cancer mortality, largely owing to late diagnosis and the emergence of platinum resistance. A defining feature of resistant disease is impaired apoptotic execution despite persistent survival signalling. XIAP is a key inhibitor of caspase activity, and microRNAs are important modulators of stress-response pathways; however, the functional relationship between individual miRNAs and their targets may var",
+      "method": "abstract-fallback",
+      "fetchedAt": "2026-04-10T08:54:21",
+      "confidence": 0.9
+    }
+  ],
+  "changeAlerts": [
+    {
+      "alertType": "preprint-version-update",
+      "severity": "medium",
+      "summary": "预印本已不是首版，当前记录版本为 2。",
+      "details": "若该论文已多次修订，建议对照版本差异确认结果与表述是否发生变化。",
+      "detectedAt": "2026-04-10T09:07:30",
+      "sourceLabels": [
+        "bioRxiv"
+      ]
+    }
+  ],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "Background: High-grade serous ovarian cancer (HGSOC) remains a leading cause of gynaecological cancer mortality, largely owing to late diagnosis and the emergence of platinum resistance. A defining feature of resistant disease is impaired apoptotic execution despite persistent survival signalling. XIAP is a key inhibitor of caspase activity, and microRNAs are important modulators of stress-response pathways; however,",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "Background: High-grade serous ovarian cancer (HGSOC) remains a leading cause of gynaecological cancer mortality, largely owing to late diagnosis and the emergence of platinum resistance. A defining feature of resistant disease is impaired apoptotic execution despite persistent survival signalling. XIAP is a key inhibitor of caspase activity, and microRNAs are important modulators of stress-response pathways; however,",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "Background: High-grade serous ovarian cancer (HGSOC) remains a leading cause of gynaecological cancer mortality, largely owing to late diagnosis and the emergence of platinum resistance. A defining feature of resistant disease is impaired apoptotic execution despite persistent survival signalling. XIAP is a key inhibitor of caspase activity, and microRNAs are important modulators of stress-response pathways; however,",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    }
+  ]
+}

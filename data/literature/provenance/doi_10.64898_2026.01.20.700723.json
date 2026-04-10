@@ -1,0 +1,61 @@
+{
+  "canonicalId": "doi:10.64898/2026.01.20.700723",
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2026.01.20.700723",
+      "sourceUrl": "",
+      "excerpt": "TPCAV: Interpreting deep learning genomics models via concept attribution",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2026.01.20.700723",
+      "sourceUrl": "",
+      "excerpt": "Interpreting genomics deep learning models remains challenging. Existing feature attribution methods are largely restricted to one-hot DNA inputs and therefore cannot assess the influence of more general genomic features such as chromatin states or genomic repeats. Concept attribution methods offer an input-agnostic global interpretation framework, yet they have not been systematically applied to interpret neural network applications in genomics. We present the first application of concept attri",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2026.01.20.700723",
+      "sourceUrl": "",
+      "excerpt": "Interpreting genomics deep learning models remains challenging. Existing feature attribution methods are largely restricted to one-hot DNA inputs and therefore cannot assess the influence of more general genomic features such as chromatin states or genomic repeats. Concept attribution methods offer an input-agnostic global interpretation framework, yet they have not been systematically applied to interpret neural network applications in genomics. We present the first application of concept attri",
+      "method": "abstract-fallback",
+      "fetchedAt": "2026-04-10T08:54:21",
+      "confidence": 0.9
+    }
+  ],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "Interpreting genomics deep learning models remains challenging. Existing feature attribution methods are largely restricted to one-hot DNA inputs and therefore cannot assess the influence of more general genomic features such as chromatin states or genomic repeats. Concept attribution methods offer an input-agnostic global interpretation framework, yet they have not been systematically applied to interpret neural net",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "Interpreting genomics deep learning models remains challenging. Existing feature attribution methods are largely restricted to one-hot DNA inputs and therefore cannot assess the influence of more general genomic features such as chromatin states or genomic repeats. Concept attribution methods offer an input-agnostic global interpretation framework, yet they have not been systematically applied to interpret neural net",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "Interpreting genomics deep learning models remains challenging. Existing feature attribution methods are largely restricted to one-hot DNA inputs and therefore cannot assess the influence of more general genomic features such as chromatin states or genomic repeats. Concept attribution methods offer an input-agnostic global interpretation framework, yet they have not been systematically applied to interpret neural net",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    }
+  ]
+}

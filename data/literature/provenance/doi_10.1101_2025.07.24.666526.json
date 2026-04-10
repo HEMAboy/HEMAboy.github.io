@@ -1,0 +1,61 @@
+{
+  "canonicalId": "doi:10.1101/2025.07.24.666526",
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2025.07.24.666526",
+      "sourceUrl": "",
+      "excerpt": "Phylogenomics of Asgard archaea reveals a unique blend of prokaryotic-like horizontal transfer and eukaryotic-like gene duplication.",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2025.07.24.666526",
+      "sourceUrl": "",
+      "excerpt": "Asgard archaea hold a pivotal position in the tree of life as the closest known relatives to eukaryotes and are therefore crucial for understanding eukaryogenesis. Earlier genomic analyses revealed that Asgard genomes are remarkably larger than those of other archaea and contain a significant number of genes seemingly acquired from bacteria. However, the precise contributions of horizontal gene transfer and gene duplication in shaping Asgard genomes remain largely unknown. Here, we present a com",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2025.07.24.666526",
+      "sourceUrl": "",
+      "excerpt": "Asgard archaea hold a pivotal position in the tree of life as the closest known relatives to eukaryotes and are therefore crucial for understanding eukaryogenesis. Earlier genomic analyses revealed that Asgard genomes are remarkably larger than those of other archaea and contain a significant number of genes seemingly acquired from bacteria. However, the precise contributions of horizontal gene transfer and gene duplication in shaping Asgard genomes remain largely unknown. Here, we present a com",
+      "method": "abstract-fallback",
+      "fetchedAt": "2026-04-10T08:54:21",
+      "confidence": 0.9
+    }
+  ],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "Asgard archaea hold a pivotal position in the tree of life as the closest known relatives to eukaryotes and are therefore crucial for understanding eukaryogenesis. Earlier genomic analyses revealed that Asgard genomes are remarkably larger than those of other archaea and contain a significant number of genes seemingly acquired from bacteria. However, the precise contributions of horizontal gene transfer and gene dupl",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "Asgard archaea hold a pivotal position in the tree of life as the closest known relatives to eukaryotes and are therefore crucial for understanding eukaryogenesis. Earlier genomic analyses revealed that Asgard genomes are remarkably larger than those of other archaea and contain a significant number of genes seemingly acquired from bacteria. However, the precise contributions of horizontal gene transfer and gene dupl",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "Asgard archaea hold a pivotal position in the tree of life as the closest known relatives to eukaryotes and are therefore crucial for understanding eukaryogenesis. Earlier genomic analyses revealed that Asgard genomes are remarkably larger than those of other archaea and contain a significant number of genes seemingly acquired from bacteria. However, the precise contributions of horizontal gene transfer and gene dupl",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "slug": "2026-04-08-a-network-approach-with-motion-sequencing-reveals-hidden-patterns-of-repetitive-behavior-in-a-pre-clinical-model-of-epilepsy",
+  "canonicalId": "doi:10.64898/2025.12.04.692371",
+  "title": "A network approach with motion sequencing reveals hidden patterns of repetitive behavior in a pre-clinical model of epilepsy",
+  "authors": [
+    "Koehler, J. L.",
+    "Harvey, Q. R.",
+    "Hoffman, O. R.",
+    "Espina, J. E. C.",
+    "Jones, C. P. E.",
+    "Weiss, G. L.",
+    "Maguire, J. L.",
+    "Roopra, A. S."
+  ],
+  "source": "bioRxiv",
+  "journal": "bioRxiv",
+  "publishedAt": "2026-04-08",
+  "doi": "10.64898/2025.12.04.692371",
+  "pmid": "unknown",
+  "pmcid": "unknown",
+  "isPreprint": true,
+  "isHighImpact": false,
+  "sourceStatus": "verified",
+  "tags": [
+    "生物信息学",
+    "组学",
+    "算法"
+  ],
+  "abstract": "Epilepsy is the 4th most prevalent neurological condition with 50 million cases worldwide. Patients with epilepsy bare a disproportionate burden of cognitive decline and psychiatric disorders which remain poorly understood and go underdressed by current anti-epileptic treatments. Furthermore, pre-clinical work on behavioral comorbidities can be hampered by current testing frameworks which rely on well-defined, discreet tests with limited repeatability. Recent work has demonstrated a role for machine learning modalities such as Motion Sequencing (MoSeq) in assessing behavioral differences between naive and epileptic. In this study we combined MoSeq with a novel analysis pipeline to uncover repetitive behaviors in chronically epileptic mice. These repetitive behaviors emerge alongside epilepsy specific racing behaviors which persist in epileptic mice as disease progresses. We show that epileptic mice have more fragile and dispersed behavioral networks. Finally, we test this pipeline using the FDA approved anti-seizure medication carbamazepine, showing a rescue of racing syllable and a partial rescue of behavioral network dispersion. Together, these results lay a groundwork for extracting clinically relevant phenotypes from MoSeq data throughout disease progression.",
+  "articleType": "preprint",
+  "studyDesign": "computational modeling study",
+  "studyType": "computational modeling study",
+  "diseaseOrTopic": "生物信息学",
+  "speciesOrSystem": "human cohort / patient samples",
+  "biologicalSystem": "human cohort / patient samples",
+  "sampleSize": "unknown",
+  "cohortInfo": "Patients with epilepsy bare a disproportionate burden of cognitive decline and psychiatric disorders which remain poorly understood and go underdressed by current anti-epileptic treatments.",
+  "methods": "machine learning model development",
+  "methodsDetailed": "machine learning model development。当前只检出摘要级方法信号，尚缺完整实验步骤。",
+  "datasets": [],
+  "mainQuestion": "Epilepsy is the 4th most prevalent neurological condition with 50 million cases worldwide.",
+  "keyFindings": [
+    "Epilepsy is the 4th most prevalent neurological condition with 50 million cases worldwide.",
+    "Patients with epilepsy bare a disproportionate burden of cognitive decline and psychiatric disorders which remain poorly understood and go underdressed by current anti-epileptic treatments.",
+    "Furthermore, pre-clinical work on behavioral comorbidities can be hampered by current testing frameworks which rely on well-defined, discreet tests with limited repeatability."
+  ],
+  "mainFindings": [
+    "Epilepsy is the 4th most prevalent neurological condition with 50 million cases worldwide.",
+    "Patients with epilepsy bare a disproportionate burden of cognitive decline and psychiatric disorders which remain poorly understood and go underdressed by current anti-epileptic treatments.",
+    "Furthermore, pre-clinical work on behavioral comorbidities can be hampered by current testing frameworks which rely on well-defined, discreet tests with limited repeatability."
+  ],
+  "effectDirection": "context-dependent / unclear",
+  "novelty": "论文明确强调方法或发现的创新性",
+  "noveltyClaim": "Epilepsy is the 4th most prevalent neurological condition with 50 million cases worldwide.",
+  "limitations": [
+    "当前证据等级为 fulltext，仍需人工核查原文统计设定和实验边界。",
+    "未在可获取证据中稳定识别样本量。",
+    "该研究为预印本，尚未经过正式同行评审。"
+  ],
+  "limitationsStructured": [
+    "当前证据等级为 fulltext，仍需人工核查原文统计设定和实验边界。",
+    "未在可获取证据中稳定识别样本量。",
+    "该研究为预印本，尚未经过正式同行评审。"
+  ],
+  "relevanceReason": "命中检索主题 生物信息学, 组学, 算法，与研究方向高度相关。",
+  "whyItMatters": "该文与当前主题 生物信息学, 组学, 算法 直接相关，且关注点是 Epilepsy is the 4th most prevalent neurological condition with 50 million cases worldwide.。",
+  "whyReadNow": "已获取全文级证据，适合快速完成方法学和结论初筛；当前归类为 computational modeling study。",
+  "relatedWorks": [
+    "2026-04-09-quaternion-spectral-fingerprinting-of-dna-gpu-accelerated-multi-channel-fourier-analysis-for-alignment-free-genomics",
+    "2026-04-08-a-developmental-single-cell-atlas-of-the-drosophila-visual-system-glia-reveals-cell-type-diversification-and-subcellular-mrna-compartmentalization",
+    "2026-04-08-a-shape-analysis-algorithm-quantifies-spatial-morphology-and-context-of-2d-to-3d-cell-culture-for-correlating-novel-phenotypes-with-treatment-resistance",
+    "2026-04-08-context-dependent-reconfiguration-and-spatial-reorganisation-of-the-mir-199a-5p-xiap-axis-in-high-grade-serous-ovarian-cancer",
+    "2026-04-08-genetic-demultiplexing-and-transcript-start-site-identification-from-nanopore-sequencing-of-10x-genomics-multiome-libraries"
+  ],
+  "codeUrl": "",
+  "dataUrl": "",
+  "confidence": "high",
+  "evidenceScope": "fulltext",
+  "evidenceLevel": "fulltext",
+  "fulltextAvailable": true,
+  "qualityScore": 0.887,
+  "publishedLinkage": {
+    "memberSlugs": [
+      "2026-04-08-a-network-approach-with-motion-sequencing-reveals-hidden-patterns-of-repetitive-behavior-in-a-pre-clinical-model-of-epilepsy"
+    ],
+    "memberSources": [
+      "bioRxiv"
+    ]
+  },
+  "noveltyScore": 0.55,
+  "rigorScore": 0.74,
+  "relevanceScore": 0.66,
+  "actionabilityScore": 0.5,
+  "overallScore": 0.63,
+  "explanation": "系统将这篇文献归为 computational modeling study。当前证据表明，它围绕“Epilepsy is the 4th most prevalent neurological condition with 50 million cases worldwide.”展开，主要观察包括 Epilepsy is the 4th most prevalent neurological condition with 50 million cases worldwide.。由于证据等级为 fulltext，仍应结合原文复核方法细节。",
+  "sourceLinks": [],
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2025.12.04.692371",
+      "sourceUrl": "",
+      "excerpt": "A network approach with motion sequencing reveals hidden patterns of repetitive behavior in a pre-clinical model of epilepsy",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:30",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2025.12.04.692371",
+      "sourceUrl": "",
+      "excerpt": "Epilepsy is the 4th most prevalent neurological condition with 50 million cases worldwide. Patients with epilepsy bare a disproportionate burden of cognitive decline and psychiatric disorders which remain poorly understood and go underdressed by current anti-epileptic treatments. Furthermore, pre-clinical work on behavioral comorbidities can be hampered by current testing frameworks which rely on well-defined, discreet tests with limited repeatability. Recent work has demonstrated a role for mac",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:30",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2025.12.04.692371",
+      "sourceUrl": "",
+      "excerpt": "Epilepsy is the 4th most prevalent neurological condition with 50 million cases worldwide. Patients with epilepsy bare a disproportionate burden of cognitive decline and psychiatric disorders which remain poorly understood and go underdressed by current anti-epileptic treatments. Furthermore, pre-clinical work on behavioral comorbidities can be hampered by current testing frameworks which rely on well-defined, discreet tests with limited repeatability. Recent work has demonstrated a role for mac",
+      "method": "abstract-fallback",
+      "fetchedAt": "2026-04-10T08:54:21",
+      "confidence": 0.9
+    }
+  ],
+  "changeAlerts": [
+    {
+      "alertType": "preprint-version-update",
+      "severity": "medium",
+      "summary": "预印本已不是首版，当前记录版本为 2。",
+      "details": "若该论文已多次修订，建议对照版本差异确认结果与表述是否发生变化。",
+      "detectedAt": "2026-04-10T09:07:30",
+      "sourceLabels": [
+        "bioRxiv"
+      ]
+    }
+  ],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "Epilepsy is the 4th most prevalent neurological condition with 50 million cases worldwide. Patients with epilepsy bare a disproportionate burden of cognitive decline and psychiatric disorders which remain poorly understood and go underdressed by current anti-epileptic treatments. Furthermore, pre-clinical work on behavioral comorbidities can be hampered by current testing frameworks which rely on well-defined, discre",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "Epilepsy is the 4th most prevalent neurological condition with 50 million cases worldwide. Patients with epilepsy bare a disproportionate burden of cognitive decline and psychiatric disorders which remain poorly understood and go underdressed by current anti-epileptic treatments. Furthermore, pre-clinical work on behavioral comorbidities can be hampered by current testing frameworks which rely on well-defined, discre",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "Epilepsy is the 4th most prevalent neurological condition with 50 million cases worldwide. Patients with epilepsy bare a disproportionate burden of cognitive decline and psychiatric disorders which remain poorly understood and go underdressed by current anti-epileptic treatments. Furthermore, pre-clinical work on behavioral comorbidities can be hampered by current testing frameworks which rely on well-defined, discre",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    }
+  ]
+}

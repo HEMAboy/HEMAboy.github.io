@@ -1,0 +1,61 @@
+{
+  "canonicalId": "doi:10.1126/sciadv.ady7556",
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "PubMed",
+      "sourceId": "41950330",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41950330/",
+      "excerpt": "DJ-1 inhibition reshapes tumor microenvironment and potentiates immune checkpoint inhibitors.",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "PubMed",
+      "sourceId": "41950330",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41950330/",
+      "excerpt": "Immune checkpoint inhibitors (ICIs) can essentially treat cancer but only in a small subset of patients. Treatment strategies capable of effectively and robustly sensitizing refractory patients to ICIs represent a highly coveted yet unmet clinical need. In this study, we identified DJ-1 as a negative T cell regulator. DJ-1 knockout boosts antitumor immunity and significantly potentiates PD-1 and TIM-3 blockades in murine cancer models. Single-cell sequencing of tumor-infiltrating CD45+ cells rev",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "PubMed",
+      "sourceId": "41950330",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41950330/",
+      "excerpt": "Immune checkpoint inhibitors (ICIs) can essentially treat cancer but only in a small subset of patients. Treatment strategies capable of effectively and robustly sensitizing refractory patients to ICIs represent a highly coveted yet unmet clinical need. In this study, we identified DJ-1 as a negative T cell regulator. DJ-1 knockout boosts antitumor immunity and significantly potentiates PD-1 and TIM-3 blockades in murine cancer models. Single-cell sequencing of tumor-infiltrating CD45+ cells rev",
+      "method": "abstract-fallback",
+      "fetchedAt": "2026-04-10T09:06:49",
+      "confidence": 0.9
+    }
+  ],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "Immune checkpoint inhibitors (ICIs) can essentially treat cancer but only in a small subset of patients. Treatment strategies capable of effectively and robustly sensitizing refractory patients to ICIs represent a highly coveted yet unmet clinical need. In this study, we identified DJ-1 as a negative T cell regulator. DJ-1 knockout boosts antitumor immunity and significantly potentiates PD-1 and TIM-3 blockades in mu",
+      "sourceLabel": "PubMed",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41950330/",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "Immune checkpoint inhibitors (ICIs) can essentially treat cancer but only in a small subset of patients. Treatment strategies capable of effectively and robustly sensitizing refractory patients to ICIs represent a highly coveted yet unmet clinical need. In this study, we identified DJ-1 as a negative T cell regulator. DJ-1 knockout boosts antitumor immunity and significantly potentiates PD-1 and TIM-3 blockades in mu",
+      "sourceLabel": "PubMed",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41950330/",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "Immune checkpoint inhibitors (ICIs) can essentially treat cancer but only in a small subset of patients. Treatment strategies capable of effectively and robustly sensitizing refractory patients to ICIs represent a highly coveted yet unmet clinical need. In this study, we identified DJ-1 as a negative T cell regulator. DJ-1 knockout boosts antitumor immunity and significantly potentiates PD-1 and TIM-3 blockades in mu",
+      "sourceLabel": "PubMed",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41950330/",
+      "confidence": 0.88
+    }
+  ]
+}

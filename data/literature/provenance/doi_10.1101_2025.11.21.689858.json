@@ -1,0 +1,61 @@
+{
+  "canonicalId": "doi:10.1101/2025.11.21.689858",
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2025.11.21.689858",
+      "sourceUrl": "",
+      "excerpt": "Pangenome Analysis of Proteus mirabilis Reveals Lineage-Specific Antimicrobial Resistance Profiles and Discordant Genotype-Phenotype Correlations",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2025.11.21.689858",
+      "sourceUrl": "",
+      "excerpt": "Urinary tract infections (UTIs) impose a large healthcare burden, with escalating antimicrobial resistance (AMR) and treatment failure. Proteus mirabilis is an under-characterized and challenging UTI pathogen due to intrinsic resistances and biofilm formation. To understand P. mirabilis population genomics, we combined pangenome analysis, in silico AMR predication, and phenotypic antimicrobial susceptibility testing (AST) across 1,027 P. mirabilis genomes derived from human urine specimens. This",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2025.11.21.689858",
+      "sourceUrl": "",
+      "excerpt": "Urinary tract infections (UTIs) impose a large healthcare burden, with escalating antimicrobial resistance (AMR) and treatment failure. Proteus mirabilis is an under-characterized and challenging UTI pathogen due to intrinsic resistances and biofilm formation. To understand P. mirabilis population genomics, we combined pangenome analysis, in silico AMR predication, and phenotypic antimicrobial susceptibility testing (AST) across 1,027 P. mirabilis genomes derived from human urine specimens. This",
+      "method": "abstract-fallback",
+      "fetchedAt": "2026-04-10T08:54:21",
+      "confidence": 0.9
+    }
+  ],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "Urinary tract infections (UTIs) impose a large healthcare burden, with escalating antimicrobial resistance (AMR) and treatment failure. Proteus mirabilis is an under-characterized and challenging UTI pathogen due to intrinsic resistances and biofilm formation. To understand P. mirabilis population genomics, we combined pangenome analysis, in silico AMR predication, and phenotypic antimicrobial susceptibility testing ",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "Urinary tract infections (UTIs) impose a large healthcare burden, with escalating antimicrobial resistance (AMR) and treatment failure. Proteus mirabilis is an under-characterized and challenging UTI pathogen due to intrinsic resistances and biofilm formation. To understand P. mirabilis population genomics, we combined pangenome analysis, in silico AMR predication, and phenotypic antimicrobial susceptibility testing ",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "Urinary tract infections (UTIs) impose a large healthcare burden, with escalating antimicrobial resistance (AMR) and treatment failure. Proteus mirabilis is an under-characterized and challenging UTI pathogen due to intrinsic resistances and biofilm formation. To understand P. mirabilis population genomics, we combined pangenome analysis, in silico AMR predication, and phenotypic antimicrobial susceptibility testing ",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "canonicalId": "doi:10.1101/2025.08.17.670729",
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2025.08.17.670729",
+      "sourceUrl": "",
+      "excerpt": "Real-time feedback control microscopy for automation of optogenetic targeting",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2025.08.17.670729",
+      "sourceUrl": "",
+      "excerpt": "Optogenetics has revolutionized our ability to study cellular signaling by enabling the precise control of cellular functions with light. Most classical implementations rely on fixed or manually updated illumination patterns, limiting their ability to accommodate living systems that move, change shape or rapidly adapt their signaling states. Here, we present an experimental platform for Feedback Adaptive Real-time Optogenetics (FARO) that combines automated image segmentation, tracking, feature ",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2025.08.17.670729",
+      "sourceUrl": "",
+      "excerpt": "Optogenetics has revolutionized our ability to study cellular signaling by enabling the precise control of cellular functions with light. Most classical implementations rely on fixed or manually updated illumination patterns, limiting their ability to accommodate living systems that move, change shape or rapidly adapt their signaling states. Here, we present an experimental platform for Feedback Adaptive Real-time Optogenetics (FARO) that combines automated image segmentation, tracking, feature ",
+      "method": "abstract-fallback",
+      "fetchedAt": "2026-04-10T08:54:21",
+      "confidence": 0.9
+    }
+  ],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "Optogenetics has revolutionized our ability to study cellular signaling by enabling the precise control of cellular functions with light. Most classical implementations rely on fixed or manually updated illumination patterns, limiting their ability to accommodate living systems that move, change shape or rapidly adapt their signaling states. Here, we present an experimental platform for Feedback Adaptive Real-time Op",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "Optogenetics has revolutionized our ability to study cellular signaling by enabling the precise control of cellular functions with light. Most classical implementations rely on fixed or manually updated illumination patterns, limiting their ability to accommodate living systems that move, change shape or rapidly adapt their signaling states. Here, we present an experimental platform for Feedback Adaptive Real-time Op",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "Optogenetics has revolutionized our ability to study cellular signaling by enabling the precise control of cellular functions with light. Most classical implementations rely on fixed or manually updated illumination patterns, limiting their ability to accommodate living systems that move, change shape or rapidly adapt their signaling states. Here, we present an experimental platform for Feedback Adaptive Real-time Op",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    }
+  ]
+}

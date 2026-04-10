@@ -1,0 +1,61 @@
+{
+  "canonicalId": "doi:10.1101/2024.09.26.615289",
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2024.09.26.615289",
+      "sourceUrl": "",
+      "excerpt": "Upcycling Polyethylene into Poly(3-hydroxybutyrate) via a Chemo-Enzymatic-Microbial Cascade",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2024.09.26.615289",
+      "sourceUrl": "",
+      "excerpt": "Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties. However, their chemical stability and escalating production have resulted in severe waste accumulation and environmental pollution. Conventional disposal methods are plagued by resource inefficiency and secondary pollution. While emerging strategies offer promise, physicochemical methods demand harsh operating conditions, and biological rou",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2024.09.26.615289",
+      "sourceUrl": "",
+      "excerpt": "Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties. However, their chemical stability and escalating production have resulted in severe waste accumulation and environmental pollution. Conventional disposal methods are plagued by resource inefficiency and secondary pollution. While emerging strategies offer promise, physicochemical methods demand harsh operating conditions, and biological rou",
+      "method": "abstract-fallback",
+      "fetchedAt": "2026-04-10T08:54:21",
+      "confidence": 0.9
+    }
+  ],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties. However, their chemical stability and escalating production have resulted in severe waste accumulation and environmental pollution. Conventional disposal methods are plagued by resource inefficiency and secondary pollution. While emerging strategies offer promis",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties. However, their chemical stability and escalating production have resulted in severe waste accumulation and environmental pollution. Conventional disposal methods are plagued by resource inefficiency and secondary pollution. While emerging strategies offer promis",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "Polyethylene (PE) plastics are extensively utilized across agricultural, industrial, and medical sectors owing to their favorable physicochemical properties. However, their chemical stability and escalating production have resulted in severe waste accumulation and environmental pollution. Conventional disposal methods are plagued by resource inefficiency and secondary pollution. While emerging strategies offer promis",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    }
+  ]
+}

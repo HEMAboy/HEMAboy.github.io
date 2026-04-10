@@ -1,0 +1,61 @@
+{
+  "canonicalId": "doi:10.64898/2026.03.08.710395",
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2026.03.08.710395",
+      "sourceUrl": "",
+      "excerpt": "Reconstructing biologically coherent cellular profiles from imaging-based spatial transcriptomics",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2026.03.08.710395",
+      "sourceUrl": "",
+      "excerpt": "In imaging-based spatial transcriptomics, transcript-to-cell assignment shapes downstream biological interpretation including cell typing, ligand-receptor inference, and niche characterization. However, two-dimensional segmentation of volumetric tissue often yields mixed cellular profiles, while cells without detected nuclei are missed entirely, distorting the aforementioned downstream analyses. We present TRACER, which refines cellular representations in imaging-based transcriptomics by leverag",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2026.03.08.710395",
+      "sourceUrl": "",
+      "excerpt": "In imaging-based spatial transcriptomics, transcript-to-cell assignment shapes downstream biological interpretation including cell typing, ligand-receptor inference, and niche characterization. However, two-dimensional segmentation of volumetric tissue often yields mixed cellular profiles, while cells without detected nuclei are missed entirely, distorting the aforementioned downstream analyses. We present TRACER, which refines cellular representations in imaging-based transcriptomics by leverag",
+      "method": "abstract-fallback",
+      "fetchedAt": "2026-04-10T08:54:21",
+      "confidence": 0.9
+    }
+  ],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "In imaging-based spatial transcriptomics, transcript-to-cell assignment shapes downstream biological interpretation including cell typing, ligand-receptor inference, and niche characterization. However, two-dimensional segmentation of volumetric tissue often yields mixed cellular profiles, while cells without detected nuclei are missed entirely, distorting the aforementioned downstream analyses. We present TRACER, wh",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "In imaging-based spatial transcriptomics, transcript-to-cell assignment shapes downstream biological interpretation including cell typing, ligand-receptor inference, and niche characterization. However, two-dimensional segmentation of volumetric tissue often yields mixed cellular profiles, while cells without detected nuclei are missed entirely, distorting the aforementioned downstream analyses. We present TRACER, wh",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "In imaging-based spatial transcriptomics, transcript-to-cell assignment shapes downstream biological interpretation including cell typing, ligand-receptor inference, and niche characterization. However, two-dimensional segmentation of volumetric tissue often yields mixed cellular profiles, while cells without detected nuclei are missed entirely, distorting the aforementioned downstream analyses. We present TRACER, wh",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    }
+  ]
+}

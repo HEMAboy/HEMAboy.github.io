@@ -1,0 +1,163 @@
+{
+  "slug": "2026-04-08-how-endosomal-pikfyve-inhibition-prevents-viral-membrane-fusion-and-entry",
+  "canonicalId": "doi:10.1101/2025.11.25.690586",
+  "title": "How endosomal PIKfyve inhibition prevents viral membrane fusion and entry",
+  "authors": [
+    "Chow, N.",
+    "Scanavachi, G.",
+    "Saminathan, A.",
+    "Kirchhausen, T."
+  ],
+  "source": "bioRxiv",
+  "journal": "bioRxiv",
+  "publishedAt": "2026-04-08",
+  "doi": "10.1101/2025.11.25.690586",
+  "pmid": "unknown",
+  "pmcid": "unknown",
+  "isPreprint": true,
+  "isHighImpact": false,
+  "sourceStatus": "verified",
+  "tags": [
+    "生物信息学",
+    "组学",
+    "算法"
+  ],
+  "abstract": "Enveloped viruses enter cells by membrane fusion. The viral membrane fuses with a host membrane, either at the cell surface or within endocytic compartments. For endocytic entry, fusion is typically triggered by low pH and often requires proteolytic priming by compartment-specific host proteases, which together define the site and mechanism of fusion and shape viral tropism. Inhibition of the lipid kinase PIKfyve, which generates PI(5)P and PI(3,5)P2 in late endosomes and lysosomes, swells those compartments and blocks infection by a subset of enveloped viruses, including Ebola virus, Marburg virus, coronaviruses (SARS-CoV-2), and VSV chimeras bearing Ebola, SARS-CoV-2, or Lassa glycoproteins, while showing minor effects on H1N1 influenza and no effect on VSV or VSV-rabies chimeras. In the work reported here, we have determined the basis for this selectivity. We show that swelling of late endosomes/lysosomes, independent of changes in lipid composition or altered virion trafficking, is sufficient to block virus-endosome fusion and genome release, even when endosomal acidity is preserved. Acute PIKfyve inhibition with apilimod or brief hypotonic treatment produced endosomal swelling and impaired infection by interrupting a late endosomal entry step. Imaging by live-cell 3D lattice light-sheet fluorescence microscopy tracked fluorescent virions accumulating and arresting in late endosomes prior to fusion, and single-cell, single-round assays confirmed loss of infectivity. These data support a simple biophysical mechanism: endo-lysosomal swelling, likely increasing endosomal membrane tension, creates an energy barrier to fusion and genome release. Inducing such swelling may offer a general strategy to inhibit viruses that depend on late endosomal entry.",
+  "articleType": "preprint",
+  "studyDesign": "preprint research article",
+  "studyType": "preprint research article",
+  "diseaseOrTopic": "生物信息学",
+  "speciesOrSystem": "unknown",
+  "biologicalSystem": "unknown",
+  "sampleSize": "unknown",
+  "cohortInfo": "摘要或全文节选中未明确给出 cohort 描述",
+  "methods": "single-cell sequencing / single-cell analysis；genomic analysis；imaging-based analysis",
+  "methodsDetailed": "single-cell sequencing / single-cell analysis；genomic analysis；imaging-based analysis。当前只检出摘要级方法信号，尚缺完整实验步骤。",
+  "datasets": [],
+  "mainQuestion": "Enveloped viruses enter cells by membrane fusion.",
+  "keyFindings": [
+    "Enveloped viruses enter cells by membrane fusion.",
+    "The viral membrane fuses with a host membrane, either at the cell surface or within endocytic compartments.",
+    "For endocytic entry, fusion is typically triggered by low pH and often requires proteolytic priming by compartment-specific host proteases, which together define the site and mechanism of fusion and shape viral tropism."
+  ],
+  "mainFindings": [
+    "Enveloped viruses enter cells by membrane fusion.",
+    "The viral membrane fuses with a host membrane, either at the cell surface or within endocytic compartments.",
+    "For endocytic entry, fusion is typically triggered by low pH and often requires proteolytic priming by compartment-specific host proteases, which together define the site and mechanism of fusion and shape viral tropism."
+  ],
+  "effectDirection": "context-dependent / unclear",
+  "novelty": "创新点需要结合全文进一步核实",
+  "noveltyClaim": "Enveloped viruses enter cells by membrane fusion.",
+  "limitations": [
+    "当前证据等级为 fulltext，仍需人工核查原文统计设定和实验边界。",
+    "未在可获取证据中稳定识别样本量。",
+    "该研究为预印本，尚未经过正式同行评审。"
+  ],
+  "limitationsStructured": [
+    "当前证据等级为 fulltext，仍需人工核查原文统计设定和实验边界。",
+    "未在可获取证据中稳定识别样本量。",
+    "该研究为预印本，尚未经过正式同行评审。"
+  ],
+  "relevanceReason": "命中检索主题 生物信息学, 组学, 算法，与研究方向高度相关。",
+  "whyItMatters": "该文与当前主题 生物信息学, 组学, 算法 直接相关，且关注点是 Enveloped viruses enter cells by membrane fusion.。",
+  "whyReadNow": "已获取全文级证据，适合快速完成方法学和结论初筛；当前归类为 preprint research article。",
+  "relatedWorks": [
+    "2026-04-09-quaternion-spectral-fingerprinting-of-dna-gpu-accelerated-multi-channel-fourier-analysis-for-alignment-free-genomics",
+    "2026-04-08-a-developmental-single-cell-atlas-of-the-drosophila-visual-system-glia-reveals-cell-type-diversification-and-subcellular-mrna-compartmentalization",
+    "2026-04-08-a-shape-analysis-algorithm-quantifies-spatial-morphology-and-context-of-2d-to-3d-cell-culture-for-correlating-novel-phenotypes-with-treatment-resistance",
+    "2026-04-08-a-network-approach-with-motion-sequencing-reveals-hidden-patterns-of-repetitive-behavior-in-a-pre-clinical-model-of-epilepsy",
+    "2026-04-08-context-dependent-reconfiguration-and-spatial-reorganisation-of-the-mir-199a-5p-xiap-axis-in-high-grade-serous-ovarian-cancer"
+  ],
+  "codeUrl": "",
+  "dataUrl": "",
+  "confidence": "high",
+  "evidenceScope": "fulltext",
+  "evidenceLevel": "fulltext",
+  "fulltextAvailable": true,
+  "qualityScore": 0.887,
+  "publishedLinkage": {
+    "memberSlugs": [
+      "2026-04-08-how-endosomal-pikfyve-inhibition-prevents-viral-membrane-fusion-and-entry"
+    ],
+    "memberSources": [
+      "bioRxiv"
+    ]
+  },
+  "noveltyScore": 0.55,
+  "rigorScore": 0.74,
+  "relevanceScore": 0.66,
+  "actionabilityScore": 0.5,
+  "overallScore": 0.63,
+  "explanation": "系统将这篇文献归为 preprint research article。当前证据表明，它围绕“Enveloped viruses enter cells by membrane fusion.”展开，主要观察包括 Enveloped viruses enter cells by membrane fusion.。由于证据等级为 fulltext，仍应结合原文复核方法细节。",
+  "sourceLinks": [],
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2025.11.25.690586",
+      "sourceUrl": "",
+      "excerpt": "How endosomal PIKfyve inhibition prevents viral membrane fusion and entry",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:30",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2025.11.25.690586",
+      "sourceUrl": "",
+      "excerpt": "Enveloped viruses enter cells by membrane fusion. The viral membrane fuses with a host membrane, either at the cell surface or within endocytic compartments. For endocytic entry, fusion is typically triggered by low pH and often requires proteolytic priming by compartment-specific host proteases, which together define the site and mechanism of fusion and shape viral tropism. Inhibition of the lipid kinase PIKfyve, which generates PI(5)P and PI(3,5)P2 in late endosomes and lysosomes, swells those",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:30",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2025.11.25.690586",
+      "sourceUrl": "",
+      "excerpt": "Enveloped viruses enter cells by membrane fusion. The viral membrane fuses with a host membrane, either at the cell surface or within endocytic compartments. For endocytic entry, fusion is typically triggered by low pH and often requires proteolytic priming by compartment-specific host proteases, which together define the site and mechanism of fusion and shape viral tropism. Inhibition of the lipid kinase PIKfyve, which generates PI(5)P and PI(3,5)P2 in late endosomes and lysosomes, swells those",
+      "method": "abstract-fallback",
+      "fetchedAt": "2026-04-10T08:54:21",
+      "confidence": 0.9
+    }
+  ],
+  "changeAlerts": [
+    {
+      "alertType": "preprint-version-update",
+      "severity": "medium",
+      "summary": "预印本已不是首版，当前记录版本为 2。",
+      "details": "若该论文已多次修订，建议对照版本差异确认结果与表述是否发生变化。",
+      "detectedAt": "2026-04-10T09:07:30",
+      "sourceLabels": [
+        "bioRxiv"
+      ]
+    }
+  ],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "Enveloped viruses enter cells by membrane fusion. The viral membrane fuses with a host membrane, either at the cell surface or within endocytic compartments. For endocytic entry, fusion is typically triggered by low pH and often requires proteolytic priming by compartment-specific host proteases, which together define the site and mechanism of fusion and shape viral tropism. Inhibition of the lipid kinase PIKfyve, wh",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "Enveloped viruses enter cells by membrane fusion. The viral membrane fuses with a host membrane, either at the cell surface or within endocytic compartments. For endocytic entry, fusion is typically triggered by low pH and often requires proteolytic priming by compartment-specific host proteases, which together define the site and mechanism of fusion and shape viral tropism. Inhibition of the lipid kinase PIKfyve, wh",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "Enveloped viruses enter cells by membrane fusion. The viral membrane fuses with a host membrane, either at the cell surface or within endocytic compartments. For endocytic entry, fusion is typically triggered by low pH and often requires proteolytic priming by compartment-specific host proteases, which together define the site and mechanism of fusion and shape viral tropism. Inhibition of the lipid kinase PIKfyve, wh",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    }
+  ]
+}

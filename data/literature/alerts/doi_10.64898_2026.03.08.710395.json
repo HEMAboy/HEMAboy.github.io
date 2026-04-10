@@ -1,0 +1,15 @@
+{
+  "canonicalId": "doi:10.64898/2026.03.08.710395",
+  "changeAlerts": [
+    {
+      "alertType": "preprint-version-update",
+      "severity": "medium",
+      "summary": "预印本已不是首版，当前记录版本为 2。",
+      "details": "若该论文已多次修订，建议对照版本差异确认结果与表述是否发生变化。",
+      "detectedAt": "2026-04-10T09:07:31",
+      "sourceLabels": [
+        "bioRxiv"
+      ]
+    }
+  ]
+}

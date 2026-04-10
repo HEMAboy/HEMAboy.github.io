@@ -1,0 +1,166 @@
+{
+  "slug": "2026-04-08-universal-cell-embeddings-a-foundation-model-for-cell-biology",
+  "canonicalId": "doi:10.1101/2023.11.28.568918",
+  "title": "Universal Cell Embeddings: A Foundation Model for Cell Biology",
+  "authors": [
+    "Rosen, Y.",
+    "Roohani, Y.",
+    "Agrawal, A.",
+    "Samotorcan, L.",
+    "Tabula Sapiens Consortium,",
+    "Quake, S. R.",
+    "Leskovec, J."
+  ],
+  "source": "bioRxiv",
+  "journal": "bioRxiv",
+  "publishedAt": "2026-04-08",
+  "doi": "10.1101/2023.11.28.568918",
+  "pmid": "unknown",
+  "pmcid": "unknown",
+  "isPreprint": true,
+  "isHighImpact": false,
+  "sourceStatus": "verified",
+  "tags": [
+    "生物信息学",
+    "组学",
+    "算法"
+  ],
+  "abstract": "Developing a universal representation space for cells which encompasses the tremendous molecular diversity of cell types within the human body and more generally, across species, would be transformative for cell biology. Recent work using single-cell transcriptomic approaches to create molecular definitions of cell types in the form of cell atlases has provided the necessary data for such an endeavor. Here, we present the Universal Cell Embedding (UCE) foundation model. UCE was trained on a corpus of cell atlas data from human and other species in a completely self-supervised way without any data annotations. UCE's modeling approach is to create a unified biological latent space that can represent cells across diverse tissues and species. This universal cell embedding captures important biological variation despite the presence of experimental noise across diverse datasets. An important aspect of UCE's universality is that new cells can be mapped to this embedding space with no additional data labeling, model training or fine-tuning. We applied UCE to create the Integrated Mega-scale Atlas, embedding 36 million cells, with more than 1,000 uniquely named cell types, from hundreds of experiments, dozens of tissues and eight species. We uncovered new insights about the organization of cell types and tissues within this universal cell embedding space, and leveraged it to infer function of newly discovered cell types. UCE's embedding space exhibits emergent behavior, uncovering biology that it was never explicitly trained for, such as identifying developmental lineages and embedding data from novel species not included in the training set. Overall, by enabling a universal representation for every cell state and type, UCE provides a valuable tool for analysis, annotation and hypothesis generation over single cell data.",
+  "articleType": "preprint",
+  "studyDesign": "atlas / reference mapping study",
+  "studyType": "atlas / reference mapping study",
+  "diseaseOrTopic": "生物信息学",
+  "speciesOrSystem": "human cohort / human-derived samples",
+  "biologicalSystem": "human cohort / human-derived samples",
+  "sampleSize": "unknown",
+  "cohortInfo": "This universal cell embedding captures important biological variation despite the presence of experimental noise across diverse datasets.",
+  "methods": "single-cell sequencing / single-cell analysis",
+  "methodsDetailed": "single-cell sequencing / single-cell analysis。当前只检出摘要级方法信号，尚缺完整实验步骤。",
+  "datasets": [],
+  "mainQuestion": "Developing a universal representation space for cells which encompasses the tremendous molecular diversity of cell types within the human body and more generally, across species, would be transformative for cell biology.",
+  "keyFindings": [
+    "Developing a universal representation space for cells which encompasses the tremendous molecular diversity of cell types within the human body and more generally, across species, would be transformative for cell biology.",
+    "Recent work using single-cell transcriptomic approaches to create molecular definitions of cell types in the form of cell atlases has provided the necessary data for such an endeavor.",
+    "Here, we present the Universal Cell Embedding (UCE) foundation model."
+  ],
+  "mainFindings": [
+    "Developing a universal representation space for cells which encompasses the tremendous molecular diversity of cell types within the human body and more generally, across species, would be transformative for cell biology.",
+    "Recent work using single-cell transcriptomic approaches to create molecular definitions of cell types in the form of cell atlases has provided the necessary data for such an endeavor.",
+    "Here, we present the Universal Cell Embedding (UCE) foundation model."
+  ],
+  "effectDirection": "context-dependent / unclear",
+  "novelty": "论文明确强调方法或发现的创新性",
+  "noveltyClaim": "Developing a universal representation space for cells which encompasses the tremendous molecular diversity of cell types within the human body and more generally, across species, would be transformative for cell biology.",
+  "limitations": [
+    "当前证据等级为 fulltext，仍需人工核查原文统计设定和实验边界。",
+    "未在可获取证据中稳定识别样本量。",
+    "该研究为预印本，尚未经过正式同行评审。"
+  ],
+  "limitationsStructured": [
+    "当前证据等级为 fulltext，仍需人工核查原文统计设定和实验边界。",
+    "未在可获取证据中稳定识别样本量。",
+    "该研究为预印本，尚未经过正式同行评审。"
+  ],
+  "relevanceReason": "命中检索主题 生物信息学, 组学, 算法，与研究方向高度相关。",
+  "whyItMatters": "该文与当前主题 生物信息学, 组学, 算法 直接相关，且关注点是 Developing a universal representation space for cells which encompasses the tremendous molecular diversity of cell types within the human body and more generally, across species, would be transformative for cell biology.。",
+  "whyReadNow": "已获取全文级证据，适合快速完成方法学和结论初筛；当前归类为 atlas / reference mapping study。",
+  "relatedWorks": [
+    "2026-04-09-quaternion-spectral-fingerprinting-of-dna-gpu-accelerated-multi-channel-fourier-analysis-for-alignment-free-genomics",
+    "2026-04-08-a-developmental-single-cell-atlas-of-the-drosophila-visual-system-glia-reveals-cell-type-diversification-and-subcellular-mrna-compartmentalization",
+    "2026-04-08-a-shape-analysis-algorithm-quantifies-spatial-morphology-and-context-of-2d-to-3d-cell-culture-for-correlating-novel-phenotypes-with-treatment-resistance",
+    "2026-04-08-a-network-approach-with-motion-sequencing-reveals-hidden-patterns-of-repetitive-behavior-in-a-pre-clinical-model-of-epilepsy",
+    "2026-04-08-context-dependent-reconfiguration-and-spatial-reorganisation-of-the-mir-199a-5p-xiap-axis-in-high-grade-serous-ovarian-cancer"
+  ],
+  "codeUrl": "",
+  "dataUrl": "",
+  "confidence": "high",
+  "evidenceScope": "fulltext",
+  "evidenceLevel": "fulltext",
+  "fulltextAvailable": true,
+  "qualityScore": 0.887,
+  "publishedLinkage": {
+    "memberSlugs": [
+      "2026-04-08-universal-cell-embeddings-a-foundation-model-for-cell-biology"
+    ],
+    "memberSources": [
+      "bioRxiv"
+    ]
+  },
+  "noveltyScore": 0.65,
+  "rigorScore": 0.74,
+  "relevanceScore": 0.66,
+  "actionabilityScore": 0.5,
+  "overallScore": 0.652,
+  "explanation": "系统将这篇文献归为 atlas / reference mapping study。当前证据表明，它围绕“Developing a universal representation space for cells which encompasses the tremendous molecular diversity of cell types within the human body and more generally, across species, would be transformative for cell biology.”展开，主要观察包括 Developing a universal representation space for cells which encompasses the tremendous molecular diversity of cell types within the human body and more generally, across species, would be transformative for cell biology.。由于证据等级为 fulltext，仍应结合原文复核方法细节。",
+  "sourceLinks": [],
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2023.11.28.568918",
+      "sourceUrl": "",
+      "excerpt": "Universal Cell Embeddings: A Foundation Model for Cell Biology",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2023.11.28.568918",
+      "sourceUrl": "",
+      "excerpt": "Developing a universal representation space for cells which encompasses the tremendous molecular diversity of cell types within the human body and more generally, across species, would be transformative for cell biology. Recent work using single-cell transcriptomic approaches to create molecular definitions of cell types in the form of cell atlases has provided the necessary data for such an endeavor. Here, we present the Universal Cell Embedding (UCE) foundation model. UCE was trained on a corp",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "bioRxiv",
+      "sourceId": "10.1101/2023.11.28.568918",
+      "sourceUrl": "",
+      "excerpt": "Developing a universal representation space for cells which encompasses the tremendous molecular diversity of cell types within the human body and more generally, across species, would be transformative for cell biology. Recent work using single-cell transcriptomic approaches to create molecular definitions of cell types in the form of cell atlases has provided the necessary data for such an endeavor. Here, we present the Universal Cell Embedding (UCE) foundation model. UCE was trained on a corp",
+      "method": "abstract-fallback",
+      "fetchedAt": "2026-04-10T08:54:21",
+      "confidence": 0.9
+    }
+  ],
+  "changeAlerts": [
+    {
+      "alertType": "preprint-version-update",
+      "severity": "medium",
+      "summary": "预印本已不是首版，当前记录版本为 3。",
+      "details": "若该论文已多次修订，建议对照版本差异确认结果与表述是否发生变化。",
+      "detectedAt": "2026-04-10T09:07:31",
+      "sourceLabels": [
+        "bioRxiv"
+      ]
+    }
+  ],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "Developing a universal representation space for cells which encompasses the tremendous molecular diversity of cell types within the human body and more generally, across species, would be transformative for cell biology. Recent work using single-cell transcriptomic approaches to create molecular definitions of cell types in the form of cell atlases has provided the necessary data for such an endeavor. Here, we presen",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "Developing a universal representation space for cells which encompasses the tremendous molecular diversity of cell types within the human body and more generally, across species, would be transformative for cell biology. Recent work using single-cell transcriptomic approaches to create molecular definitions of cell types in the form of cell atlases has provided the necessary data for such an endeavor. Here, we presen",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "Developing a universal representation space for cells which encompasses the tremendous molecular diversity of cell types within the human body and more generally, across species, would be transformative for cell biology. Recent work using single-cell transcriptomic approaches to create molecular definitions of cell types in the form of cell atlases has provided the necessary data for such an endeavor. Here, we presen",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    }
+  ]
+}

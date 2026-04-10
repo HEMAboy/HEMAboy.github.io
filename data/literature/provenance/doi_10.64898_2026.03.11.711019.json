@@ -1,0 +1,61 @@
+{
+  "canonicalId": "doi:10.64898/2026.03.11.711019",
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2026.03.11.711019",
+      "sourceUrl": "",
+      "excerpt": "Context-dependent reconfiguration and spatial reorganisation of the miR-199a-5p/XIAP axis in high-grade serous ovarian cancer",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:30",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2026.03.11.711019",
+      "sourceUrl": "",
+      "excerpt": "Background: High-grade serous ovarian cancer (HGSOC) remains a leading cause of gynaecological cancer mortality, largely owing to late diagnosis and the emergence of platinum resistance. A defining feature of resistant disease is impaired apoptotic execution despite persistent survival signalling. XIAP is a key inhibitor of caspase activity, and microRNAs are important modulators of stress-response pathways; however, the functional relationship between individual miRNAs and their targets may var",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:30",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2026.03.11.711019",
+      "sourceUrl": "",
+      "excerpt": "Background: High-grade serous ovarian cancer (HGSOC) remains a leading cause of gynaecological cancer mortality, largely owing to late diagnosis and the emergence of platinum resistance. A defining feature of resistant disease is impaired apoptotic execution despite persistent survival signalling. XIAP is a key inhibitor of caspase activity, and microRNAs are important modulators of stress-response pathways; however, the functional relationship between individual miRNAs and their targets may var",
+      "method": "abstract-fallback",
+      "fetchedAt": "2026-04-10T08:54:21",
+      "confidence": 0.9
+    }
+  ],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "Background: High-grade serous ovarian cancer (HGSOC) remains a leading cause of gynaecological cancer mortality, largely owing to late diagnosis and the emergence of platinum resistance. A defining feature of resistant disease is impaired apoptotic execution despite persistent survival signalling. XIAP is a key inhibitor of caspase activity, and microRNAs are important modulators of stress-response pathways; however,",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "Background: High-grade serous ovarian cancer (HGSOC) remains a leading cause of gynaecological cancer mortality, largely owing to late diagnosis and the emergence of platinum resistance. A defining feature of resistant disease is impaired apoptotic execution despite persistent survival signalling. XIAP is a key inhibitor of caspase activity, and microRNAs are important modulators of stress-response pathways; however,",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "Background: High-grade serous ovarian cancer (HGSOC) remains a leading cause of gynaecological cancer mortality, largely owing to late diagnosis and the emergence of platinum resistance. A defining feature of resistant disease is impaired apoptotic execution despite persistent survival signalling. XIAP is a key inhibitor of caspase activity, and microRNAs are important modulators of stress-response pathways; however,",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    }
+  ]
+}

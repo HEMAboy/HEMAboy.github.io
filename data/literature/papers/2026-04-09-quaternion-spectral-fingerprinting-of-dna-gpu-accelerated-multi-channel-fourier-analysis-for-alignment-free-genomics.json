@@ -1,0 +1,154 @@
+{
+  "slug": "2026-04-09-quaternion-spectral-fingerprinting-of-dna-gpu-accelerated-multi-channel-fourier-analysis-for-alignment-free-genomics",
+  "canonicalId": "doi:10.64898/2026.04.03.716441",
+  "title": "Quaternion Spectral Fingerprinting of DNA: GPU-Accelerated Multi-Channel Fourier Analysis for Alignment-Free Genomics",
+  "authors": [
+    "Mohamed Amine Bergach"
+  ],
+  "source": "bioRxiv",
+  "journal": "bioRxiv",
+  "publishedAt": "2026-04-09",
+  "doi": "10.64898/2026.04.03.716441",
+  "pmid": "unknown",
+  "pmcid": "unknown",
+  "isPreprint": true,
+  "isHighImpact": false,
+  "sourceStatus": "verified",
+  "tags": [
+    "生物信息学",
+    "组学",
+    "算法"
+  ],
+  "abstract": "Spectral methods for DNA sequence analysis---treating genomic data as a discrete signal and computing its Fourier transform---were proposed over three decades ago but remained impractical for whole-genome analysis due to computational cost. We present a quaternion Fourier transform framework that encodes DNA as a quaternion-valued signal q[n] ∈ {1, i, j, k} mapping to the four nucleotides {A, T, G, C}, and prove that the full quaternion spectrum is computable from exactly two standard complex FFTs: Q(k) = Z_1(k) + Z_2(N-k) · j, where Z_1 = FFT(u_A + i · u_T) and Z_2 = FFT(u_G + i · u_C). We establish that the resulting spectral fingerprint F(k) = (|Z_1(k)|^2, |Z_2(k)|^2) is invariant under both cyclic shift and reverse complement---the two fundamental symmetries of double-stranded DNA. Building on this theoretical foundation, we develop three computational tools: (i)~a 4×4 Hermitian cross-spectral matrix with inter-channel coherence analysis, (ii)~a genome spectrogram via sliding-window short-time Fourier transform, and (iii)~an alignment-free spectral variant detection algorithm with O(N log N) complexity. Applying Welch9s cross-spectral coherence analysis to E.~coli K-12, we discover that the DNA helical repeat (~11~bp) is invisible to the standard power spectrum but clearly detected through the cross-spectral matrix condition number (κ = 6.5), demonstrating that multi-channel analysis reveals structural periodicities that single-channel methods miss. Phase spectrum analysis recovers the characteristic nucleotide ordering within codons (A → T → G → C), while three distinct frequency regimes of inter-nucleotide coupling emerge: complementary-dominated (long-range), purine/pyrimidine-dominated (structural), and codon-position-dominated (coding). Cross-species validation on 18 genomes spanning all three domains of life---Bacteria~(5), Archaea~(3), and Eukarya~(10)---with GC content from 19.6% (P. falciparum) to 69.5% (T. thermophilus) confirms the universality of these findings. The helical repeat is detected via cross-spectral coherence in 18/18 organisms (100%). All 10 eukaryotes show A-T dominance at the helical repeat---a spectral signature of nucleosome wrapping absent from prokaryotes. Non-complementary pairs (A-C, T-G) dominate the coding frequency in 17/18 organisms. Validation on human chromosome 21 (46.7 Mb, processed in 5.0 s on Apple M1) reveals eukaryote-specific spectral signatures---nucleosome positioning at 10.67 bp, nucleosome spacing at 170.7 bp, and Alu repeat dominance at 341 bp---absent from prokaryotic spectra. A proof-of-concept spectral variant detection experiment achieves 100% read-matching accuracy (100/100 reads) and statistically significant discrimination of SNPs from sequencing errors (t = 14.80, p",
+  "articleType": "preprint",
+  "studyDesign": "preprint research article",
+  "studyType": "preprint research article",
+  "diseaseOrTopic": "生物信息学",
+  "speciesOrSystem": "human cohort / human-derived samples",
+  "biologicalSystem": "human cohort / human-derived samples",
+  "sampleSize": "unknown",
+  "cohortInfo": "摘要或全文节选中未明确给出 cohort 描述",
+  "methods": "genomic analysis；spectral / signal-processing analysis",
+  "methodsDetailed": "genomic analysis；spectral / signal-processing analysis。当前只检出摘要级方法信号，尚缺完整实验步骤。",
+  "datasets": [],
+  "mainQuestion": "Abstract\nSpectral methods for DNA sequence analysis---treating genomic data as a discrete signal and computing its Fourier transform---were proposed over three decades ago but remained impractical for whole-genome analysis due to computatio",
+  "keyFindings": [
+    "Abstract\nSpectral methods for DNA sequence analysis---treating genomic data as a discrete signal and computing its Fourier transform---were proposed over three decades ago but remained impractical for whole-genome analysis due to computational cost.",
+    "We present a quaternion Fourier transform framework that encodes DNA as a quaternion-valued signal q[n] ∈ {1, i, j, k} mapping to the four nucleotides {A, T, G, C}, and prove that the full quaternion spectrum is computable from exactly two standard complex FFTs: Q(k) = Z_1(k) + Z_2(N-k) · j, where Z_1 = FFT(u_A + i · u_T) and Z_2 = FFT(u_G + i · u_C).",
+    "We establish that the resulting spectral fingerprint F(k) = (|Z_1(k)|^2, |Z_2(k)|^2) is invariant under both cyclic shift and reverse complement---the two fundamental symmetries of double-stranded DNA."
+  ],
+  "mainFindings": [
+    "Abstract\nSpectral methods for DNA sequence analysis---treating genomic data as a discrete signal and computing its Fourier transform---were proposed over three decades ago but remained impractical for whole-genome analysis due to computational cost.",
+    "We present a quaternion Fourier transform framework that encodes DNA as a quaternion-valued signal q[n] ∈ {1, i, j, k} mapping to the four nucleotides {A, T, G, C}, and prove that the full quaternion spectrum is computable from exactly two standard complex FFTs: Q(k) = Z_1(k) + Z_2(N-k) · j, where Z_1 = FFT(u_A + i · u_T) and Z_2 = FFT(u_G + i · u_C).",
+    "We establish that the resulting spectral fingerprint F(k) = (|Z_1(k)|^2, |Z_2(k)|^2) is invariant under both cyclic shift and reverse complement---the two fundamental symmetries of double-stranded DNA."
+  ],
+  "effectDirection": "context-dependent / unclear",
+  "novelty": "论文主要创新在于构建资源、框架或参考图谱",
+  "noveltyClaim": "Abstract\nSpectral methods for DNA sequence analysis---treating genomic data as a discrete signal and computing its Fourier transform---were proposed over three decades ago but remained impractical for whole-genome analysis due to computational cost.",
+  "limitations": [
+    "当前证据等级为 fulltext，仍需人工核查原文统计设定和实验边界。",
+    "未在可获取证据中稳定识别样本量。",
+    "该研究为预印本，尚未经过正式同行评审。"
+  ],
+  "limitationsStructured": [
+    "当前证据等级为 fulltext，仍需人工核查原文统计设定和实验边界。",
+    "未在可获取证据中稳定识别样本量。",
+    "该研究为预印本，尚未经过正式同行评审。"
+  ],
+  "relevanceReason": "命中检索主题 生物信息学, 组学, 算法，与研究方向高度相关。",
+  "whyItMatters": "该文与当前主题 生物信息学, 组学, 算法 直接相关，且关注点是 Abstract\nSpectral methods for DNA sequence analysis---treating genomic data as a discrete signal and computing its Fourier transform---were proposed over three decades ago but remained impractical for whole-genome analysis due to computatio。",
+  "whyReadNow": "已获取全文级证据，适合快速完成方法学和结论初筛；当前归类为 preprint research article。",
+  "relatedWorks": [
+    "2026-04-08-a-developmental-single-cell-atlas-of-the-drosophila-visual-system-glia-reveals-cell-type-diversification-and-subcellular-mrna-compartmentalization",
+    "2026-04-08-a-shape-analysis-algorithm-quantifies-spatial-morphology-and-context-of-2d-to-3d-cell-culture-for-correlating-novel-phenotypes-with-treatment-resistance",
+    "2026-04-08-a-network-approach-with-motion-sequencing-reveals-hidden-patterns-of-repetitive-behavior-in-a-pre-clinical-model-of-epilepsy",
+    "2026-04-08-context-dependent-reconfiguration-and-spatial-reorganisation-of-the-mir-199a-5p-xiap-axis-in-high-grade-serous-ovarian-cancer",
+    "2026-04-08-genetic-demultiplexing-and-transcript-start-site-identification-from-nanopore-sequencing-of-10x-genomics-multiome-libraries"
+  ],
+  "codeUrl": "",
+  "dataUrl": "",
+  "confidence": "high",
+  "evidenceScope": "fulltext",
+  "evidenceLevel": "fulltext",
+  "fulltextAvailable": true,
+  "qualityScore": 0.887,
+  "publishedLinkage": {
+    "memberSlugs": [
+      "2026-04-09-quaternion-spectral-fingerprinting-of-dna-gpu-accelerated-multi-channel-fourier-analysis-for-alignment-free-genomics"
+    ],
+    "memberSources": [
+      "bioRxiv"
+    ]
+  },
+  "noveltyScore": 0.55,
+  "rigorScore": 0.74,
+  "relevanceScore": 0.68,
+  "actionabilityScore": 0.5,
+  "overallScore": 0.636,
+  "explanation": "系统将这篇文献归为 preprint research article。当前证据表明，它围绕“Abstract\nSpectral methods for DNA sequence analysis---treating genomic data as a discrete signal and computing its Fourier transform---were proposed over three decades ago but remained impractical for whole-genome analysis due to computatio”展开，主要观察包括 Abstract\nSpectral methods for DNA sequence analysis---treating genomic data as a discrete signal and computing its Fourier transform---were proposed over three decades ago but remained impractical for whole-genome analysis due to computational cost.。由于证据等级为 fulltext，仍应结合原文复核方法细节。",
+  "sourceLinks": [
+    {
+      "label": "bioRxiv",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.03.716441v1"
+    }
+  ],
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2026.04.03.716441",
+      "sourceUrl": "https://www.biorxiv.org/content/10.64898/2026.04.03.716441v1",
+      "excerpt": "Quaternion Spectral Fingerprinting of DNA: GPU-Accelerated Multi-Channel Fourier Analysis for Alignment-Free Genomics",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2026.04.03.716441",
+      "sourceUrl": "https://www.biorxiv.org/content/10.64898/2026.04.03.716441v1",
+      "excerpt": "Spectral methods for DNA sequence analysis---treating genomic data as a discrete signal and computing its Fourier transform---were proposed over three decades ago but remained impractical for whole-genome analysis due to computational cost. We present a quaternion Fourier transform framework that encodes DNA as a quaternion-valued signal q[n] ∈ {1, i, j, k} mapping to the four nucleotides {A, T, G, C}, and prove that the full quaternion spectrum is computable from exactly two standard complex FF",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2026.04.03.716441",
+      "sourceUrl": "https://www.biorxiv.org/content/10.64898/2026.04.03.716441v1",
+      "excerpt": "Spectral methods for DNA sequence analysis---treating genomic data as a discrete signal and computing its Fourier transform---were proposed over three decades ago but remained impractical for whole-genome analysis due to computational cost. We present a quaternion Fourier transform framework that encodes DNA as a quaternion-valued signal q[n] ∈ {1, i, j, k} mapping to the four nucleotides {A, T, G, C}, and prove that the full quaternion spectrum is computable from exactly two standard complex FF",
+      "method": "publisher-html",
+      "fetchedAt": "2026-04-10T09:07:23",
+      "confidence": 0.9
+    }
+  ],
+  "changeAlerts": [],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "Spectral methods for DNA sequence analysis---treating genomic data as a discrete signal and computing its Fourier transform---were proposed over three decades ago but remained impractical for whole-genome analysis due to computational cost. We present a quaternion Fourier transform framework that encodes DNA as a quaternion-valued signal q[n] ∈ {1, i, j, k} mapping to the four nucleotides {A, T, G, C}, and prove that",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "https://www.biorxiv.org/content/10.64898/2026.04.03.716441v1",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "Spectral methods for DNA sequence analysis---treating genomic data as a discrete signal and computing its Fourier transform---were proposed over three decades ago but remained impractical for whole-genome analysis due to computational cost. We present a quaternion Fourier transform framework that encodes DNA as a quaternion-valued signal q[n] ∈ {1, i, j, k} mapping to the four nucleotides {A, T, G, C}, and prove that",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "https://www.biorxiv.org/content/10.64898/2026.04.03.716441v1",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "Spectral methods for DNA sequence analysis---treating genomic data as a discrete signal and computing its Fourier transform---were proposed over three decades ago but remained impractical for whole-genome analysis due to computational cost. We present a quaternion Fourier transform framework that encodes DNA as a quaternion-valued signal q[n] ∈ {1, i, j, k} mapping to the four nucleotides {A, T, G, C}, and prove that",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "https://www.biorxiv.org/content/10.64898/2026.04.03.716441v1",
+      "confidence": 0.88
+    }
+  ]
+}

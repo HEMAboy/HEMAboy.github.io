@@ -1,0 +1,172 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TirePressureDashboard",
+  "type": "object",
+  "required": [
+    "pageMeta",
+    "dashboardMetrics",
+    "dashboardSeriesByRange",
+    "tradeSeriesByRange",
+    "materialTrendsByRange",
+    "operatingSignalsByRange",
+    "moduleMeta"
+  ],
+  "properties": {
+    "pageMeta": {
+      "type": "object",
+      "required": ["conclusion", "evidence", "risk", "visualizationSuggestion", "updatedAt", "sources", "confidence", "publishStatus", "lastReviewedAt", "dataMethod"],
+      "properties": {
+        "conclusion": { "type": "string" },
+        "evidence": { "type": "string" },
+        "risk": { "type": "string" },
+        "visualizationSuggestion": { "type": "string" },
+        "updatedAt": { "type": "string", "format": "date" },
+        "sources": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["id", "sourceType", "sourceTitle", "sourceUrl", "quotedAt", "note"], "properties": { "id": { "type": "string" }, "sourceType": { "enum": ["official", "government-relay", "industry-association", "marketplace", "commodity-tracker", "research"] }, "sourceTitle": { "type": "string" }, "sourceUrl": { "type": "string", "format": "uri" }, "quotedAt": { "type": "string", "format": "date" }, "note": { "type": "string" } }, "additionalProperties": false } },
+        "confidence": { "enum": ["high", "medium", "low"] },
+        "publishStatus": { "enum": ["draft", "reviewed", "published", "needs_review"] },
+        "lastReviewedAt": { "type": "string", "format": "date" },
+        "dataMethod": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "dashboardMetrics": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "value", "delta", "trend", "sources", "confidence", "publishStatus", "lastReviewedAt", "dataMethod"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "value": { "type": "string" },
+          "delta": { "type": "string" },
+          "trend": { "enum": ["up", "down", "flat"] },
+          "sources": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["id", "sourceType", "sourceTitle", "sourceUrl", "quotedAt", "note"], "properties": { "id": { "type": "string" }, "sourceType": { "enum": ["official", "government-relay", "industry-association", "marketplace", "commodity-tracker", "research"] }, "sourceTitle": { "type": "string" }, "sourceUrl": { "type": "string", "format": "uri" }, "quotedAt": { "type": "string", "format": "date" }, "note": { "type": "string" } }, "additionalProperties": false } },
+          "confidence": { "enum": ["high", "medium", "low"] },
+          "publishStatus": { "enum": ["draft", "reviewed", "published", "needs_review"] },
+          "lastReviewedAt": { "type": "string", "format": "date" },
+          "dataMethod": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "dashboardSeriesByRange": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": ["label", "unit", "points", "sources", "confidence", "publishStatus", "lastReviewedAt", "dataMethod"],
+          "properties": {
+            "label": { "type": "string" },
+            "unit": { "type": "string" },
+            "points": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["period", "value"],
+                "properties": {
+                  "period": { "type": "string" },
+                  "value": { "type": "number" }
+                },
+                "additionalProperties": false
+              }
+            },
+            "sources": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["id", "sourceType", "sourceTitle", "sourceUrl", "quotedAt", "note"], "properties": { "id": { "type": "string" }, "sourceType": { "enum": ["official", "government-relay", "industry-association", "marketplace", "commodity-tracker", "research"] }, "sourceTitle": { "type": "string" }, "sourceUrl": { "type": "string", "format": "uri" }, "quotedAt": { "type": "string", "format": "date" }, "note": { "type": "string" } }, "additionalProperties": false } },
+            "confidence": { "enum": ["high", "medium", "low"] },
+            "publishStatus": { "enum": ["draft", "reviewed", "published", "needs_review"] },
+            "lastReviewedAt": { "type": "string", "format": "date" },
+            "dataMethod": { "type": "string" }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "tradeSeriesByRange": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": ["country", "marketSignal", "channelSignal", "complianceNote", "watchPoint", "sources", "confidence", "publishStatus", "lastReviewedAt", "dataMethod"],
+          "properties": {
+            "country": { "type": "string" },
+            "marketSignal": { "type": "string" },
+            "channelSignal": { "type": "string" },
+            "complianceNote": { "type": "string" },
+            "watchPoint": { "type": "string" },
+            "sources": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["id", "sourceType", "sourceTitle", "sourceUrl", "quotedAt", "note"], "properties": { "id": { "type": "string" }, "sourceType": { "enum": ["official", "government-relay", "industry-association", "marketplace", "commodity-tracker", "research"] }, "sourceTitle": { "type": "string" }, "sourceUrl": { "type": "string", "format": "uri" }, "quotedAt": { "type": "string", "format": "date" }, "note": { "type": "string" } }, "additionalProperties": false } },
+            "confidence": { "enum": ["high", "medium", "low"] },
+            "publishStatus": { "enum": ["draft", "reviewed", "published", "needs_review"] },
+            "lastReviewedAt": { "type": "string", "format": "date" },
+            "dataMethod": { "type": "string" }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "materialTrendsByRange": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": ["material", "priceDirection", "period", "costImpact", "note", "sources", "confidence", "publishStatus", "lastReviewedAt", "dataMethod"],
+          "properties": {
+            "material": { "type": "string" },
+            "priceDirection": { "enum": ["up", "down", "flat"] },
+            "period": { "type": "string" },
+            "costImpact": { "type": "string" },
+            "note": { "type": "string" },
+            "sources": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["id", "sourceType", "sourceTitle", "sourceUrl", "quotedAt", "note"], "properties": { "id": { "type": "string" }, "sourceType": { "enum": ["official", "government-relay", "industry-association", "marketplace", "commodity-tracker", "research"] }, "sourceTitle": { "type": "string" }, "sourceUrl": { "type": "string", "format": "uri" }, "quotedAt": { "type": "string", "format": "date" }, "note": { "type": "string" } }, "additionalProperties": false } },
+            "confidence": { "enum": ["high", "medium", "low"] },
+            "publishStatus": { "enum": ["draft", "reviewed", "published", "needs_review"] },
+            "lastReviewedAt": { "type": "string", "format": "date" },
+            "dataMethod": { "type": "string" }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "operatingSignalsByRange": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": ["label", "value", "status", "note", "sources", "confidence", "publishStatus", "lastReviewedAt", "dataMethod"],
+          "properties": {
+            "label": { "type": "string" },
+            "value": { "type": "string" },
+            "status": { "enum": ["positive", "neutral", "watch"] },
+            "note": { "type": "string" },
+            "sources": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["id", "sourceType", "sourceTitle", "sourceUrl", "quotedAt", "note"], "properties": { "id": { "type": "string" }, "sourceType": { "enum": ["official", "government-relay", "industry-association", "marketplace", "commodity-tracker", "research"] }, "sourceTitle": { "type": "string" }, "sourceUrl": { "type": "string", "format": "uri" }, "quotedAt": { "type": "string", "format": "date" }, "note": { "type": "string" } }, "additionalProperties": false } },
+            "confidence": { "enum": ["high", "medium", "low"] },
+            "publishStatus": { "enum": ["draft", "reviewed", "published", "needs_review"] },
+            "lastReviewedAt": { "type": "string", "format": "date" },
+            "dataMethod": { "type": "string" }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "moduleMeta": {
+      "type": "object",
+      "required": ["metrics", "series", "trade", "materials", "operations"],
+      "properties": {
+        "metrics": { "type": "object", "required": ["title", "scope", "conclusion", "evidence", "risk", "visualizationSuggestion", "updatedAt", "sources", "confidence", "publishStatus", "lastReviewedAt", "dataMethod"], "properties": { "title": { "type": "string" }, "scope": { "type": "string" }, "conclusion": { "type": "string" }, "evidence": { "type": "string" }, "risk": { "type": "string" }, "visualizationSuggestion": { "type": "string" }, "updatedAt": { "type": "string", "format": "date" }, "sources": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["id", "sourceType", "sourceTitle", "sourceUrl", "quotedAt", "note"], "properties": { "id": { "type": "string" }, "sourceType": { "enum": ["official", "government-relay", "industry-association", "marketplace", "commodity-tracker", "research"] }, "sourceTitle": { "type": "string" }, "sourceUrl": { "type": "string", "format": "uri" }, "quotedAt": { "type": "string", "format": "date" }, "note": { "type": "string" } }, "additionalProperties": false } }, "confidence": { "enum": ["high", "medium", "low"] }, "publishStatus": { "enum": ["draft", "reviewed", "published", "needs_review"] }, "lastReviewedAt": { "type": "string", "format": "date" }, "dataMethod": { "type": "string" } }, "additionalProperties": false },
+        "series": { "type": "object", "required": ["title", "scope", "conclusion", "evidence", "risk", "visualizationSuggestion", "updatedAt", "sources", "confidence", "publishStatus", "lastReviewedAt", "dataMethod"], "properties": { "title": { "type": "string" }, "scope": { "type": "string" }, "conclusion": { "type": "string" }, "evidence": { "type": "string" }, "risk": { "type": "string" }, "visualizationSuggestion": { "type": "string" }, "updatedAt": { "type": "string", "format": "date" }, "sources": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["id", "sourceType", "sourceTitle", "sourceUrl", "quotedAt", "note"], "properties": { "id": { "type": "string" }, "sourceType": { "enum": ["official", "government-relay", "industry-association", "marketplace", "commodity-tracker", "research"] }, "sourceTitle": { "type": "string" }, "sourceUrl": { "type": "string", "format": "uri" }, "quotedAt": { "type": "string", "format": "date" }, "note": { "type": "string" } }, "additionalProperties": false } }, "confidence": { "enum": ["high", "medium", "low"] }, "publishStatus": { "enum": ["draft", "reviewed", "published", "needs_review"] }, "lastReviewedAt": { "type": "string", "format": "date" }, "dataMethod": { "type": "string" } }, "additionalProperties": false },
+        "trade": { "type": "object", "required": ["title", "scope", "conclusion", "evidence", "risk", "visualizationSuggestion", "updatedAt", "sources", "confidence", "publishStatus", "lastReviewedAt", "dataMethod"], "properties": { "title": { "type": "string" }, "scope": { "type": "string" }, "conclusion": { "type": "string" }, "evidence": { "type": "string" }, "risk": { "type": "string" }, "visualizationSuggestion": { "type": "string" }, "updatedAt": { "type": "string", "format": "date" }, "sources": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["id", "sourceType", "sourceTitle", "sourceUrl", "quotedAt", "note"], "properties": { "id": { "type": "string" }, "sourceType": { "enum": ["official", "government-relay", "industry-association", "marketplace", "commodity-tracker", "research"] }, "sourceTitle": { "type": "string" }, "sourceUrl": { "type": "string", "format": "uri" }, "quotedAt": { "type": "string", "format": "date" }, "note": { "type": "string" } }, "additionalProperties": false } }, "confidence": { "enum": ["high", "medium", "low"] }, "publishStatus": { "enum": ["draft", "reviewed", "published", "needs_review"] }, "lastReviewedAt": { "type": "string", "format": "date" }, "dataMethod": { "type": "string" } }, "additionalProperties": false },
+        "materials": { "type": "object", "required": ["title", "scope", "conclusion", "evidence", "risk", "visualizationSuggestion", "updatedAt", "sources", "confidence", "publishStatus", "lastReviewedAt", "dataMethod"], "properties": { "title": { "type": "string" }, "scope": { "type": "string" }, "conclusion": { "type": "string" }, "evidence": { "type": "string" }, "risk": { "type": "string" }, "visualizationSuggestion": { "type": "string" }, "updatedAt": { "type": "string", "format": "date" }, "sources": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["id", "sourceType", "sourceTitle", "sourceUrl", "quotedAt", "note"], "properties": { "id": { "type": "string" }, "sourceType": { "enum": ["official", "government-relay", "industry-association", "marketplace", "commodity-tracker", "research"] }, "sourceTitle": { "type": "string" }, "sourceUrl": { "type": "string", "format": "uri" }, "quotedAt": { "type": "string", "format": "date" }, "note": { "type": "string" } }, "additionalProperties": false } }, "confidence": { "enum": ["high", "medium", "low"] }, "publishStatus": { "enum": ["draft", "reviewed", "published", "needs_review"] }, "lastReviewedAt": { "type": "string", "format": "date" }, "dataMethod": { "type": "string" } }, "additionalProperties": false },
+        "operations": { "type": "object", "required": ["title", "scope", "conclusion", "evidence", "risk", "visualizationSuggestion", "updatedAt", "sources", "confidence", "publishStatus", "lastReviewedAt", "dataMethod"], "properties": { "title": { "type": "string" }, "scope": { "type": "string" }, "conclusion": { "type": "string" }, "evidence": { "type": "string" }, "risk": { "type": "string" }, "visualizationSuggestion": { "type": "string" }, "updatedAt": { "type": "string", "format": "date" }, "sources": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["id", "sourceType", "sourceTitle", "sourceUrl", "quotedAt", "note"], "properties": { "id": { "type": "string" }, "sourceType": { "enum": ["official", "government-relay", "industry-association", "marketplace", "commodity-tracker", "research"] }, "sourceTitle": { "type": "string" }, "sourceUrl": { "type": "string", "format": "uri" }, "quotedAt": { "type": "string", "format": "date" }, "note": { "type": "string" } }, "additionalProperties": false } }, "confidence": { "enum": ["high", "medium", "low"] }, "publishStatus": { "enum": ["draft", "reviewed", "published", "needs_review"] }, "lastReviewedAt": { "type": "string", "format": "date" }, "dataMethod": { "type": "string" } }, "additionalProperties": false }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

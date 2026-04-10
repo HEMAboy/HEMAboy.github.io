@@ -1,0 +1,61 @@
+{
+  "canonicalId": "doi:10.64898/2026.04.03.716441",
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2026.04.03.716441",
+      "sourceUrl": "https://www.biorxiv.org/content/10.64898/2026.04.03.716441v1",
+      "excerpt": "Quaternion Spectral Fingerprinting of DNA: GPU-Accelerated Multi-Channel Fourier Analysis for Alignment-Free Genomics",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2026.04.03.716441",
+      "sourceUrl": "https://www.biorxiv.org/content/10.64898/2026.04.03.716441v1",
+      "excerpt": "Spectral methods for DNA sequence analysis---treating genomic data as a discrete signal and computing its Fourier transform---were proposed over three decades ago but remained impractical for whole-genome analysis due to computational cost. We present a quaternion Fourier transform framework that encodes DNA as a quaternion-valued signal q[n] ∈ {1, i, j, k} mapping to the four nucleotides {A, T, G, C}, and prove that the full quaternion spectrum is computable from exactly two standard complex FF",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:31",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2026.04.03.716441",
+      "sourceUrl": "https://www.biorxiv.org/content/10.64898/2026.04.03.716441v1",
+      "excerpt": "Spectral methods for DNA sequence analysis---treating genomic data as a discrete signal and computing its Fourier transform---were proposed over three decades ago but remained impractical for whole-genome analysis due to computational cost. We present a quaternion Fourier transform framework that encodes DNA as a quaternion-valued signal q[n] ∈ {1, i, j, k} mapping to the four nucleotides {A, T, G, C}, and prove that the full quaternion spectrum is computable from exactly two standard complex FF",
+      "method": "publisher-html",
+      "fetchedAt": "2026-04-10T09:07:23",
+      "confidence": 0.9
+    }
+  ],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "Spectral methods for DNA sequence analysis---treating genomic data as a discrete signal and computing its Fourier transform---were proposed over three decades ago but remained impractical for whole-genome analysis due to computational cost. We present a quaternion Fourier transform framework that encodes DNA as a quaternion-valued signal q[n] ∈ {1, i, j, k} mapping to the four nucleotides {A, T, G, C}, and prove that",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "https://www.biorxiv.org/content/10.64898/2026.04.03.716441v1",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "Spectral methods for DNA sequence analysis---treating genomic data as a discrete signal and computing its Fourier transform---were proposed over three decades ago but remained impractical for whole-genome analysis due to computational cost. We present a quaternion Fourier transform framework that encodes DNA as a quaternion-valued signal q[n] ∈ {1, i, j, k} mapping to the four nucleotides {A, T, G, C}, and prove that",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "https://www.biorxiv.org/content/10.64898/2026.04.03.716441v1",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "Spectral methods for DNA sequence analysis---treating genomic data as a discrete signal and computing its Fourier transform---were proposed over three decades ago but remained impractical for whole-genome analysis due to computational cost. We present a quaternion Fourier transform framework that encodes DNA as a quaternion-valued signal q[n] ∈ {1, i, j, k} mapping to the four nucleotides {A, T, G, C}, and prove that",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "https://www.biorxiv.org/content/10.64898/2026.04.03.716441v1",
+      "confidence": 0.88
+    }
+  ]
+}

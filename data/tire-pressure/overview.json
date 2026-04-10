@@ -1,0 +1,438 @@
+{
+  "briefing": {
+    "conclusion": "手持/数字胎压表仍有稳定需求，但增长逻辑更像“安全维护工具 + 私牌外贸工具”，不是单纯追求爆量的大众消费电子。",
+    "evidence": "中国汽车保有量和二手车流转继续扩大维修与保养底盘；美国和行业协会仍明确要求每月至少用 gauge 检查一次胎压，并强调 TPMS 不能替代手动检查；欧盟合规要求则把电子款出口门槛拉高到了 EMC、RoHS、REACH 甚至无线版本的 RED。",
+    "risk": "目前公开来源很难直接给出“胎压计”这一细分品类的独立市场规模，因此首页判断主要建立在车辆保有量、保养习惯、零售渠道和合规门槛的组合证据上。",
+    "visualizationSuggestion": "首页适合用“保有量底盘 + 维护习惯 + 合规门槛 + 产线协同”的四象限，而不是单一市场规模饼图。",
+    "updatedAt": "2026-04-10",
+    "sources": [
+      {
+        "id": "mofcom-vehicle-2026",
+        "sourceType": "government-relay",
+        "sourceTitle": "商务部价格监测中心转引公安部：截至2025年底全国机动车保有量4.53亿辆，其中汽车3.53亿辆；二手车年交易量2201万辆",
+        "sourceUrl": "https://price.mofcom.gov.cn/article/yjzx/hyzx/hy/202602/64237.html",
+        "quotedAt": "2026-01-26",
+        "note": "用于支撑中国存量车维护市场仍在扩大，而不是一次性新增需求。"
+      },
+      {
+        "id": "ustma-monthly-check",
+        "sourceType": "industry-association",
+        "sourceTitle": "USTMA Tire Care Essentials：至少每月用 gauge 检查一次胎压，TPMS 不能替代",
+        "sourceUrl": "https://www.ustires.org/tire-care-safety/tire-care-essentials",
+        "quotedAt": "2026-04-10",
+        "note": "用于支撑手持胎压表在北美维护场景仍然具有明确用途。"
+      },
+      {
+        "id": "eu-emc-ce",
+        "sourceType": "official",
+        "sourceTitle": "欧盟 EMC 指令与 CE 标志要求页面",
+        "sourceUrl": "https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/electromagnetic-compatibility-emc-directive_sl",
+        "quotedAt": "2026-04-10",
+        "note": "用于说明数字电子款出口欧洲时，门槛不止产品功能，还包括合规资料。"
+      }
+    ],
+    "confidence": "medium",
+    "publishStatus": "reviewed",
+    "lastReviewedAt": "2026-04-10",
+    "dataMethod": "用官方/协会/监管页面建立结构性判断，不直接虚构细分市场规模。"
+  },
+  "metrics": [
+    {
+      "id": "china-car-park",
+      "label": "中国汽车保有量",
+      "value": "3.53 亿辆",
+      "note": "截至 2025 年底，国内存量车规模继续提供低频但持续的检测与维护底盘。",
+      "sources": [
+        {
+          "id": "mofcom-vehicle-2026",
+          "sourceType": "government-relay",
+          "sourceTitle": "商务部价格监测中心转引公安部汽车保有量数据",
+          "sourceUrl": "https://price.mofcom.gov.cn/article/yjzx/hyzx/hy/202602/64237.html",
+          "quotedAt": "2026-01-26",
+          "note": "用于支撑国内后装维护市场的车龄与存量底盘。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "采用官方转引统计，不外推胎压计独立销量。"
+    },
+    {
+      "id": "ustma-check-habit",
+      "label": "北美使用习惯",
+      "value": "月检仍被明确推荐",
+      "note": "USTMA 与 NHTSA 均继续要求使用胎压计定期检查，TPMS 不能替代。",
+      "sources": [
+        {
+          "id": "ustma-monthly-check",
+          "sourceType": "industry-association",
+          "sourceTitle": "USTMA Tire Care Essentials",
+          "sourceUrl": "https://www.ustires.org/tire-care-safety/tire-care-essentials",
+          "quotedAt": "2026-04-10",
+          "note": "协会页面明确要求至少每月检查一次。"
+        },
+        {
+          "id": "nhtsa-tires",
+          "sourceType": "official",
+          "sourceTitle": "NHTSA Tires 安全页面",
+          "sourceUrl": "https://www.nhtsa.gov/vehicle-safety/tires",
+          "quotedAt": "2026-04-10",
+          "note": "美国官方安全页面持续建议驾驶者准备胎压计并做定期检查。"
+        }
+      ],
+      "confidence": "high",
+      "publishStatus": "published",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "使用官方与协会安全维护指南，不把 TPMS 普及误判为手持 gauge 失效。"
+    },
+    {
+      "id": "eu-stack",
+      "label": "欧洲出口门槛",
+      "value": "EMC + CE + RoHS/REACH",
+      "note": "数字款的实质门槛在合规文件链，而不是单纯功能定义。",
+      "sources": [
+        {
+          "id": "ce-marking",
+          "sourceType": "official",
+          "sourceTitle": "EU CE Marking 官方说明",
+          "sourceUrl": "https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm",
+          "quotedAt": "2026-04-10",
+          "note": "用于说明进入欧盟市场时 CE 标志和产品立法义务。"
+        },
+        {
+          "id": "rohs",
+          "sourceType": "official",
+          "sourceTitle": "European Commission RoHS Directive",
+          "sourceUrl": "https://environment.ec.europa.eu/topics/waste-and-recycling/rohs-directive_en",
+          "quotedAt": "2026-04-10",
+          "note": "用于说明材料限制与电子电气设备要求。"
+        },
+        {
+          "id": "reach",
+          "sourceType": "official",
+          "sourceTitle": "ECHA Understanding REACH",
+          "sourceUrl": "https://echa.europa.eu/regulations/reach/understanding-reach",
+          "quotedAt": "2026-04-10",
+          "note": "用于说明材料声明和供应链合规文档要求。"
+        }
+      ],
+      "confidence": "high",
+      "publishStatus": "published",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "使用欧盟官方法规入口，不对具体认证测试费用做无证估算。"
+    },
+    {
+      "id": "commodity-watch",
+      "label": "材料监测焦点",
+      "value": "铝 / 锌 / 中国 PPI",
+      "note": "金属接头与制造端生产资料价格在 2026 Q1 明显转强，树脂与电子件需单独跟踪。",
+      "sources": [
+        {
+          "id": "china-ppi",
+          "sourceType": "commodity-tracker",
+          "sourceTitle": "TradingEconomics：2026年3月中国PPI同比转正至0.5%",
+          "sourceUrl": "https://tradingeconomics.com/china/producer-prices-change/news/540783",
+          "quotedAt": "2026-04-10",
+          "note": "来源注明为中国国家统计局。"
+        },
+        {
+          "id": "aluminum-live",
+          "sourceType": "commodity-tracker",
+          "sourceTitle": "TradingEconomics Aluminum 商品页",
+          "sourceUrl": "https://tradingeconomics.com/commodity/aluminum",
+          "quotedAt": "2026-04-10",
+          "note": "用于跟踪铝价高位运行。"
+        },
+        {
+          "id": "zinc-live",
+          "sourceType": "commodity-tracker",
+          "sourceTitle": "TradingEconomics Zinc 商品页",
+          "sourceUrl": "https://tradingeconomics.com/commodity/zinc",
+          "quotedAt": "2026-04-10",
+          "note": "用于跟踪锌价与压铸件成本压力。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "采用公开行情站与官方统计源，不将其等同于企业实际采购价。"
+    }
+  ],
+  "capabilityModules": [
+    {
+      "id": "injection",
+      "title": "注塑成型",
+      "machineSet": ["注塑机"],
+      "fitProducts": ["数字胎压表外壳", "防滑手柄", "电池仓结构件"],
+      "advantage": "适合快速切换壳体外观与多 SKU 手感件，能把零售款和私牌款的差异化放在模具与外壳层解决。",
+      "marketLink": "当海外市场要求不同品牌色、挂卡结构或手感包胶时，注塑能力直接决定你能否低成本切换版本。",
+      "sources": [
+        {
+          "id": "accio-cluster-digital",
+          "sourceType": "research",
+          "sourceTitle": "Accio：数字胎压表制造主要集中在广东与浙江，强调电子与壳体供应链协同",
+          "sourceUrl": "https://www.accio.com/t-v2/supplier/digital-tyre-pressure-gauge-manufacturer",
+          "quotedAt": "2025-10-01",
+          "note": "用于说明外壳和电子供应链协同是数字款竞争要点；具体设备清单来自项目简报。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "用户提供设备能力，市场关联通过公开制造集群页面补证。"
+    },
+    {
+      "id": "die-casting",
+      "title": "金属压铸",
+      "machineSet": ["金属压铸机"],
+      "fitProducts": ["金属气嘴接头", "耐磨受力件", "高频维修场景接口"],
+      "advantage": "能把基础款与专业款的差异从“壳子不同”升级到“接口耐用性与气密稳定性不同”。",
+      "marketLink": "对维修店、车队工具和北美专业渠道，金属接头与耐用接口比单纯加背光更能支撑提价。",
+      "sources": [
+        {
+          "id": "homedepot-digital-accuracy",
+          "sourceType": "marketplace",
+          "sourceTitle": "Home Depot Husky 5-in-1 Digital Tire Pressure Gauge",
+          "sourceUrl": "https://www.homedepot.com/p/325004507",
+          "quotedAt": "2026-04-10",
+          "note": "北美零售页面强调精度、背光和工具属性，说明中高端工具款具有独立价格带。"
+        },
+        {
+          "id": "nhtsa-tires",
+          "sourceType": "official",
+          "sourceTitle": "NHTSA Tires",
+          "sourceUrl": "https://www.nhtsa.gov/vehicle-safety/tires",
+          "quotedAt": "2026-04-10",
+          "note": "高频使用的维护工具仍有持续安全场景。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "用北美零售端产品特征和安全维护场景推导专业接口件价值。"
+    },
+    {
+      "id": "blister",
+      "title": "吸塑包装",
+      "machineSet": ["吸塑机"],
+      "fitProducts": ["挂卡零售包装", "双支/三支套装", "出口防碰伤内托"],
+      "advantage": "把包装试错周期压缩到工厂内部，对小批量多版本私牌订单更友好。",
+      "marketLink": "Walmart 和 Home Depot 等渠道可见同一功能在单支、双支、三支装之间价格带明显分层，包装直接影响终端陈列与下单形式。",
+      "sources": [
+        {
+          "id": "walmart-astroai-3pack",
+          "sourceType": "marketplace",
+          "sourceTitle": "Walmart AstroAI 3 Pack Digital Tire Pressure Gauge",
+          "sourceUrl": "https://www.walmart.com/ip/607329881",
+          "quotedAt": "2026-04-10",
+          "note": "当前页面显示 3 支装数字款约 USD 17.98。"
+        },
+        {
+          "id": "walmart-aweltec-2pack",
+          "sourceType": "marketplace",
+          "sourceTitle": "Walmart AWELTEC 2 Pack Digital Tire Pressure Gauge",
+          "sourceUrl": "https://business.walmart.com/ip/AWELTEC-Mesure-Digital-Tire-Pressure-Gauge-150-PSI-Non-Slip-2-Piece/2884869616",
+          "quotedAt": "2026-04-10",
+          "note": "当前页面显示 2 支装数字款约 USD 13.97。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "以当前北美零售公开价格带做套装与包装版本观察。"
+    },
+    {
+      "id": "printing",
+      "title": "印刷与标识",
+      "machineSet": ["印刷机"],
+      "fitProducts": ["彩盒", "多语种说明书", "条码标签", "合规贴标"],
+      "advantage": "把说明书、条码、法规标识和品牌视觉都锁在同一交付链里，减少外贸发货前的资料错配。",
+      "marketLink": "电子款外贸的卡点经常不是功能，而是资料包不齐；印刷和标识能力越内化，私牌客户切换速度越快。",
+      "sources": [
+        {
+          "id": "ce-marking",
+          "sourceType": "official",
+          "sourceTitle": "EU CE Marking 官方页面",
+          "sourceUrl": "https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm",
+          "quotedAt": "2026-04-10",
+          "note": "进入欧盟市场需要完整的产品合规和标识链。"
+        },
+        {
+          "id": "reach",
+          "sourceType": "official",
+          "sourceTitle": "ECHA Understanding REACH",
+          "sourceUrl": "https://echa.europa.eu/regulations/reach/understanding-reach",
+          "quotedAt": "2026-04-10",
+          "note": "材料声明与供应链沟通要求会反映到说明与资料组织中。"
+        }
+      ],
+      "confidence": "high",
+      "publishStatus": "published",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "直接用法规页面定义资料与标签链的重要性。"
+    }
+  ],
+  "marketSnapshots": [
+    {
+      "id": "china-aftermarket",
+      "title": "国内需求更像维护补购，不像爆发性新品类",
+      "region": "中国",
+      "timeframe": "2025-2026",
+      "trend": "mixed",
+      "summary": "截至 2025 年底中国汽车保有量已达 3.53 亿辆，二手车交易量连续第六年超过 2000 万辆，这意味着工具化维护底盘仍在扩大；但公开来源暂未显示胎压计进入高速放量阶段。",
+      "implication": "国内更适合做价格带和渠道分层，例如家用基础款、维修店常规款、专业店高耐久款，而不是假设单一爆款会吃下全部需求。",
+      "sources": [
+        {
+          "id": "mofcom-vehicle-2026",
+          "sourceType": "government-relay",
+          "sourceTitle": "商务部价格监测中心转引公安部车辆与二手车数据",
+          "sourceUrl": "https://price.mofcom.gov.cn/article/yjzx/hyzx/hy/202602/64237.html",
+          "quotedAt": "2026-01-26",
+          "note": "显示存量车和二手车流转仍在扩大。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "用车辆保有量与流转规模推导维护工具需求底盘，不外推为高增长消费电子市场。"
+    },
+    {
+      "id": "north-america-maintenance",
+      "title": "北美维护习惯仍给手持 gauge 留出明确位置",
+      "region": "北美",
+      "timeframe": "2025-2026",
+      "trend": "up",
+      "summary": "USTMA 和 NHTSA 持续要求车主至少每月用 gauge 检查一次胎压，并明确 TPMS 不能替代；USTMA 2025 调查还显示，真正把“每月检查”说对的受访者只有 19.4%，说明教育缺口仍在。",
+      "implication": "海外市场不是只有高科技 TPMS，基础与中端数字胎压表依然有明确维护场景，尤其适合私牌和渠道套装。",
+      "sources": [
+        {
+          "id": "ustma-monthly-check",
+          "sourceType": "industry-association",
+          "sourceTitle": "USTMA Tire Care Essentials",
+          "sourceUrl": "https://www.ustires.org/tire-care-safety/tire-care-essentials",
+          "quotedAt": "2026-04-10",
+          "note": "明确写出每月检查和 TPMS 不能替代。"
+        },
+        {
+          "id": "ustma-2025-survey",
+          "sourceType": "industry-association",
+          "sourceTitle": "USTMA National Tire Safety Week 2025 调查摘要",
+          "sourceUrl": "https://www.ustires.org/newsroom/ustma-kicks-national-tire-safety-week-june-30th-july-4th",
+          "quotedAt": "2025-06-30",
+          "note": "调研显示仅 19.4% 的受访者回答“应每月检查一次”。"
+        }
+      ],
+      "confidence": "high",
+      "publishStatus": "published",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "以官方/协会维护指南与调查摘要建立使用习惯判断。"
+    },
+    {
+      "id": "cost-and-compliance",
+      "title": "2026 Q1 的真实压力来自材料上行与合规资料同步",
+      "region": "全球供应链",
+      "timeframe": "2026 Q1",
+      "trend": "watch",
+      "summary": "中国 2026 年 3 月 PPI 同比转正至 0.5%，生产资料同比 1.0%；同期铝、锌价格维持高位。对数字电子款而言，欧盟合规链也同步抬高了打样与出货复杂度。",
+      "implication": "管理层要同时看材料波动和合规资料完备度，不能只盯某一个 BOM 项。",
+      "sources": [
+        {
+          "id": "china-ppi",
+          "sourceType": "commodity-tracker",
+          "sourceTitle": "TradingEconomics：2026年3月中国PPI同比+0.5%",
+          "sourceUrl": "https://tradingeconomics.com/china/producer-prices-change/news/540783",
+          "quotedAt": "2026-04-10",
+          "note": "来源注明为国家统计局。"
+        },
+        {
+          "id": "aluminum-live",
+          "sourceType": "commodity-tracker",
+          "sourceTitle": "TradingEconomics Aluminum",
+          "sourceUrl": "https://tradingeconomics.com/commodity/aluminum",
+          "quotedAt": "2026-04-10",
+          "note": "铝价维持高位。"
+        },
+        {
+          "id": "rohs",
+          "sourceType": "official",
+          "sourceTitle": "European Commission RoHS Directive",
+          "sourceUrl": "https://environment.ec.europa.eu/topics/waste-and-recycling/rohs-directive_en",
+          "quotedAt": "2026-04-10",
+          "note": "电子电气设备材料限制要求。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "用宏观生产资料与法规资料难度构建风险快照。"
+    }
+  ],
+  "routeGateways": [
+    {
+      "id": "reports",
+      "title": "研究专题",
+      "href": "/reports",
+      "description": "把国内市场、国际市场、外贸认证、原材料成本和竞争格局拆成五张固定专题卡，每张卡都带来源与不确定性。",
+      "highlights": ["每条结论带来源", "推荐动作与风险分开", "便于持续增量补证"]
+    },
+    {
+      "id": "dashboard",
+      "title": "数据监测",
+      "href": "/dashboard",
+      "description": "固定跟踪中国 PPI、铝/锌行情、北美零售价格带和法规门槛，后续可换成正式时序数据。",
+      "highlights": ["先看真实信号", "可逐步接海关或采购数据", "每个模块都带口径说明"]
+    },
+    {
+      "id": "technology",
+      "title": "技术页",
+      "href": "/technology",
+      "description": "把精度、校准、环境测试、材料工艺和合规路径放到同一页，不再把技术和出货要求割裂开看。",
+      "highlights": ["技术与制造同页", "标准约束前置", "支持后续接入文献证据"]
+    }
+  ],
+  "agentRoles": [
+    {
+      "id": "orchestrator",
+      "name": "Orchestrator-Agent",
+      "responsibility": "定义研究口径、字段模板、时间范围、证据等级和候选图表。",
+      "needsWeb": false,
+      "sequence": 1
+    },
+    {
+      "id": "market",
+      "name": "Market-Agent",
+      "responsibility": "负责国内外市场结构、维护习惯、渠道与竞争层级。",
+      "needsWeb": true,
+      "sequence": 2
+    },
+    {
+      "id": "trade",
+      "name": "Trade-Agent",
+      "responsibility": "负责重点区域、认证门槛、资料链和市场准入差异。",
+      "needsWeb": true,
+      "sequence": 3
+    },
+    {
+      "id": "tech",
+      "name": "Tech-Agent",
+      "responsibility": "负责技术路线、精度、测试方法和工艺约束。",
+      "needsWeb": true,
+      "sequence": 4
+    },
+    {
+      "id": "cost",
+      "name": "Cost-Agent",
+      "responsibility": "负责金属、塑料、电子件、包装与生产资料成本信号。",
+      "needsWeb": true,
+      "sequence": 5
+    },
+    {
+      "id": "synthesis",
+      "name": "Synthesis-Agent",
+      "responsibility": "合并证据、处理冲突并生成网页可消费的结论与发布状态。",
+      "needsWeb": false,
+      "sequence": 6
+    }
+  ],
+  "agentOutputBlocks": ["结论", "证据", "不确定性/风险", "可视化建议", "更新时间"]
+}

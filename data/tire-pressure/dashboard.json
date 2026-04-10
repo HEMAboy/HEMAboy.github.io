@@ -1,0 +1,1199 @@
+{
+  "pageMeta": {
+    "conclusion": "数据监测页当前先承接“公开且可复核”的真实信号，包括车辆保有量、PPI、基础金属、北美零售价格带与法规门槛；等后续接入海关和采购数据后，再替换为正式序列。",
+    "evidence": "本页优先使用官方法规、国家统计局来源页面、公开商品行情站和零售渠道产品页面。",
+    "risk": "行情站价格不等于企业采购价，零售页面价格也不等于出厂价，因此页面当前更适合作为外部信号板，而不是内部财务看板。",
+    "visualizationSuggestion": "用三个轻量序列盯材料环境，用市场卡片盯准入与价格带，用状态卡提示计量与无线门槛。",
+    "updatedAt": "2026-04-10",
+    "sources": [
+      {
+        "id": "china-ppi",
+        "sourceType": "commodity-tracker",
+        "sourceTitle": "TradingEconomics：中国PPI变化页面及新闻摘要",
+        "sourceUrl": "https://tradingeconomics.com/china/producer-prices-change/news/540783",
+        "quotedAt": "2026-04-10",
+        "note": "来源注明为国家统计局。"
+      },
+      {
+        "id": "aluminum-live",
+        "sourceType": "commodity-tracker",
+        "sourceTitle": "TradingEconomics Aluminum",
+        "sourceUrl": "https://tradingeconomics.com/commodity/aluminum",
+        "quotedAt": "2026-04-10",
+        "note": "提供基础金属外部行情信号。"
+      }
+    ],
+    "confidence": "medium",
+    "publishStatus": "reviewed",
+    "lastReviewedAt": "2026-04-10",
+    "dataMethod": "只放有公开来源的可复核外部信号，不虚构海关或采购序列。"
+  },
+  "dashboardMetrics": [
+    {
+      "id": "china-car-park",
+      "label": "中国汽车保有量",
+      "value": "3.53 亿辆",
+      "delta": "2025 年底",
+      "trend": "up",
+      "sources": [
+        {
+          "id": "mofcom-vehicle-2026",
+          "sourceType": "government-relay",
+          "sourceTitle": "商务部价格监测中心转引公安部车辆数据",
+          "sourceUrl": "https://price.mofcom.gov.cn/article/yjzx/hyzx/hy/202602/64237.html",
+          "quotedAt": "2026-01-26",
+          "note": "用于判断国内维护底盘。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "采用官方转引统计。"
+    },
+    {
+      "id": "china-ppi-index",
+      "label": "中国 PPI 同比",
+      "value": "+0.5%",
+      "delta": "2026-03 转正",
+      "trend": "up",
+      "sources": [
+        {
+          "id": "china-ppi",
+          "sourceType": "commodity-tracker",
+          "sourceTitle": "TradingEconomics：2026年3月中国PPI同比+0.5%",
+          "sourceUrl": "https://tradingeconomics.com/china/producer-prices-change/news/540783",
+          "quotedAt": "2026-04-10",
+          "note": "来源注明为国家统计局。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "用宏观生产资料信号判断制造端成本环境。"
+    },
+    {
+      "id": "aluminum-live",
+      "label": "铝价",
+      "value": "USD 3460/t",
+      "delta": "2026-04-10",
+      "trend": "up",
+      "sources": [
+        {
+          "id": "aluminum-live",
+          "sourceType": "commodity-tracker",
+          "sourceTitle": "TradingEconomics Aluminum 商品页",
+          "sourceUrl": "https://tradingeconomics.com/commodity/aluminum",
+          "quotedAt": "2026-04-10",
+          "note": "用于观察金属接口件外部行情。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "公开行情站信号，不等同于企业采购价。"
+    },
+    {
+      "id": "retail-bundle",
+      "label": "北美数字套装价带",
+      "value": "USD 13.97-17.98",
+      "delta": "Walmart 当前页面",
+      "trend": "flat",
+      "sources": [
+        {
+          "id": "walmart-aweltec-2pack",
+          "sourceType": "marketplace",
+          "sourceTitle": "Walmart AWELTEC 2 Pack Digital Tire Pressure Gauge",
+          "sourceUrl": "https://business.walmart.com/ip/AWELTEC-Mesure-Digital-Tire-Pressure-Gauge-150-PSI-Non-Slip-2-Piece/2884869616",
+          "quotedAt": "2026-04-10",
+          "note": "当前页面显示约 USD 13.97。"
+        },
+        {
+          "id": "walmart-astroai-3pack",
+          "sourceType": "marketplace",
+          "sourceTitle": "Walmart AstroAI 3 Pack Digital Tire Pressure Gauge",
+          "sourceUrl": "https://www.walmart.com/ip/607329881",
+          "quotedAt": "2026-04-10",
+          "note": "当前页面显示约 USD 17.98。"
+        }
+      ],
+      "confidence": "low",
+      "publishStatus": "needs_review",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "当前公开零售页面价格，不等同于全市场中位数。"
+    }
+  ],
+  "dashboardSeriesByRange": {
+    "30D": [
+      {
+        "label": "铝价",
+        "unit": "USD/t",
+        "points": [
+          { "period": "2026-03-06", "value": 3350 },
+          { "period": "2026-04-10", "value": 3460 }
+        ],
+        "sources": [
+          {
+            "id": "aluminum-mar",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Aluminum News: March 2026",
+            "sourceUrl": "https://tradingeconomics.com/commodity/aluminum/news/531332",
+            "quotedAt": "2026-03-06",
+            "note": "3 月初铝价约 3350 USD/t。"
+          },
+          {
+            "id": "aluminum-live",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Aluminum",
+            "sourceUrl": "https://tradingeconomics.com/commodity/aluminum",
+            "quotedAt": "2026-04-10",
+            "note": "4 月中旬页面约 3460 USD/t。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "取公开行情站的离散观测点。"
+      },
+      {
+        "label": "锌价",
+        "unit": "USD/t",
+        "points": [
+          { "period": "2026-03-31", "value": 3300 },
+          { "period": "2026-04-10", "value": 3327.7 }
+        ],
+        "sources": [
+          {
+            "id": "zinc-mar",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Zinc News: March 2026",
+            "sourceUrl": "https://es.tradingeconomics.com/commodity/zinc/news/537660",
+            "quotedAt": "2026-03-31",
+            "note": "3 月底锌价回到 3300 USD/t 上方。"
+          },
+          {
+            "id": "zinc-live",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Zinc",
+            "sourceUrl": "https://tradingeconomics.com/commodity/zinc",
+            "quotedAt": "2026-04-10",
+            "note": "4 月中旬页面约 3327.7 USD/t。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "取公开行情站离散点。"
+      },
+      {
+        "label": "中国 PPI 同比",
+        "unit": "%",
+        "points": [
+          { "period": "2026-02", "value": -0.9 },
+          { "period": "2026-03", "value": 0.5 }
+        ],
+        "sources": [
+          {
+            "id": "china-ppi-index",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics China Producer Prices",
+            "sourceUrl": "https://tradingeconomics.com/china/producer-prices",
+            "quotedAt": "2026-04-10",
+            "note": "页面列出 2026 年 2 月指数 104.30、3 月同比转正。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "使用国家统计局来源的公开宏观信号。"
+      }
+    ],
+    "90D": [
+      {
+        "label": "铝价",
+        "unit": "USD/t",
+        "points": [
+          { "period": "2026-01-19", "value": 3200 },
+          { "period": "2026-03-06", "value": 3350 },
+          { "period": "2026-04-10", "value": 3460 }
+        ],
+        "sources": [
+          {
+            "id": "aluminum-jan",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Aluminum News: January 2026",
+            "sourceUrl": "https://tradingeconomics.com/commodity/aluminum/news/518021",
+            "quotedAt": "2026-01-19",
+            "note": "1 月下旬铝价冲上 3200 USD/t。"
+          },
+          {
+            "id": "aluminum-live",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Aluminum",
+            "sourceUrl": "https://tradingeconomics.com/commodity/aluminum",
+            "quotedAt": "2026-04-10",
+            "note": "4 月中旬页面约 3460 USD/t。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "取 90 日关键价格节点。"
+      },
+      {
+        "label": "锌价",
+        "unit": "USD/t",
+        "points": [
+          { "period": "2026-01-26", "value": 3354 },
+          { "period": "2026-03-31", "value": 3300 },
+          { "period": "2026-04-10", "value": 3327.7 }
+        ],
+        "sources": [
+          {
+            "id": "zinc-jan",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Zinc News: January 2026",
+            "sourceUrl": "https://tradingeconomics.com/commodity/zinc/news/519995",
+            "quotedAt": "2026-01-26",
+            "note": "1 月下旬锌价约 3354 USD/t。"
+          },
+          {
+            "id": "zinc-live",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Zinc",
+            "sourceUrl": "https://tradingeconomics.com/commodity/zinc",
+            "quotedAt": "2026-04-10",
+            "note": "4 月中旬页面约 3327.7 USD/t。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "取 90 日关键价格节点。"
+      },
+      {
+        "label": "中国 PPI 同比",
+        "unit": "%",
+        "points": [
+          { "period": "2026-01", "value": -1.4 },
+          { "period": "2026-02", "value": -0.9 },
+          { "period": "2026-03", "value": 0.5 }
+        ],
+        "sources": [
+          {
+            "id": "china-ppi-news",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics PPI 新闻页面",
+            "sourceUrl": "https://tradingeconomics.com/china/producer-prices-change/news/540783",
+            "quotedAt": "2026-04-10",
+            "note": "显示 2026 年 3 月同比 +0.5%，前值为负。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "按月取国家统计局来源的公开同比数据。"
+      }
+    ],
+    "12M": [
+      {
+        "label": "铝价",
+        "unit": "USD/t",
+        "points": [
+          { "period": "2025-10-03", "value": 2900 },
+          { "period": "2026-01-19", "value": 3200 },
+          { "period": "2026-03-06", "value": 3350 },
+          { "period": "2026-04-10", "value": 3460 }
+        ],
+        "sources": [
+          {
+            "id": "aluminum-oct",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Aluminum 历史新闻摘要",
+            "sourceUrl": "https://tradingeconomics.com/commodity/aluminum/news",
+            "quotedAt": "2025-10-03",
+            "note": "公开摘要显示 2025 年 10 月初约 2900 USD/t。"
+          },
+          {
+            "id": "aluminum-live",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Aluminum",
+            "sourceUrl": "https://tradingeconomics.com/commodity/aluminum",
+            "quotedAt": "2026-04-10",
+            "note": "4 月中旬页面约 3460 USD/t。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "12M 使用公开新闻摘要和实时页拼接关键点。"
+      },
+      {
+        "label": "锌价",
+        "unit": "USD/t",
+        "points": [
+          { "period": "2025-10-02", "value": 2900 },
+          { "period": "2026-01-26", "value": 3354 },
+          { "period": "2026-03-31", "value": 3300 },
+          { "period": "2026-04-10", "value": 3327.7 }
+        ],
+        "sources": [
+          {
+            "id": "zinc-oct",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Zinc 历史新闻摘要",
+            "sourceUrl": "https://tradingeconomics.com/commodity/zinc/news",
+            "quotedAt": "2025-10-02",
+            "note": "公开摘要显示 2025 年 10 月初约 2900 USD/t。"
+          },
+          {
+            "id": "zinc-live",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Zinc",
+            "sourceUrl": "https://tradingeconomics.com/commodity/zinc",
+            "quotedAt": "2026-04-10",
+            "note": "4 月中旬页面约 3327.7 USD/t。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "12M 使用公开新闻摘要和实时页拼接关键点。"
+      },
+      {
+        "label": "中国 PPI 同比",
+        "unit": "%",
+        "points": [
+          { "period": "2025-03", "value": -2.5 },
+          { "period": "2025-12", "value": -1.8 },
+          { "period": "2026-02", "value": -0.9 },
+          { "period": "2026-03", "value": 0.5 }
+        ],
+        "sources": [
+          {
+            "id": "china-ppi-page",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics China Producer Prices",
+            "sourceUrl": "https://tradingeconomics.com/china/producer-prices",
+            "quotedAt": "2026-04-10",
+            "note": "按国家统计局来源整理的公开历史序列。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "选取公开宏观序列的关键拐点。"
+      }
+    ]
+  },
+  "tradeSeriesByRange": {
+    "30D": [
+      {
+        "country": "美国",
+        "marketSignal": "维护习惯与工具场景最清晰",
+        "channelSignal": "当前公开零售可见机械款、5-in-1 数字款和多支套装并存",
+        "complianceNote": "非无线数字款先看一般电子合规；若加无线扩展，需单独评估无线法规路径",
+        "watchPoint": "私牌客户更容易把包装、说明和条码一致性作为首轮筛选条件",
+        "sources": [
+          {
+            "id": "nhtsa-tires",
+            "sourceType": "official",
+            "sourceTitle": "NHTSA Tires",
+            "sourceUrl": "https://www.nhtsa.gov/vehicle-safety/tires",
+            "quotedAt": "2026-04-10",
+            "note": "美国官方安全页面持续要求准备胎压计。"
+          },
+          {
+            "id": "homedepot-digital",
+            "sourceType": "marketplace",
+            "sourceTitle": "Home Depot Husky 5-in-1 Digital Tire Pressure Gauge",
+            "sourceUrl": "https://www.homedepot.com/p/325004507",
+            "quotedAt": "2026-04-10",
+            "note": "当前约 USD 15.97。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "用美国官方安全页面和公开零售页面综合判断。"
+      },
+      {
+        "country": "欧盟",
+        "marketSignal": "准入核心在法规链完整，不在单一低价",
+        "channelSignal": "同类产品若做数字电子款，说明书、标签、材料声明与测试资料要同步",
+        "complianceNote": "CE/EMC、RoHS、REACH 为基础；若带无线模块，需进入 RED",
+        "watchPoint": "很多出货失败发生在资料链和标签链，而不是硬件本体",
+        "sources": [
+          {
+            "id": "ce-marking",
+            "sourceType": "official",
+            "sourceTitle": "EU CE Marking 官方页面",
+            "sourceUrl": "https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm",
+            "quotedAt": "2026-04-10",
+            "note": "欧盟产品立法入口。"
+          },
+          {
+            "id": "red",
+            "sourceType": "official",
+            "sourceTitle": "European Commission RED",
+            "sourceUrl": "https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/radio-equipment-directive-red_en",
+            "quotedAt": "2026-04-10",
+            "note": "无线版本的附加门槛。"
+          }
+        ],
+        "confidence": "high",
+        "publishStatus": "published",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "直接使用欧盟官方法规入口。"
+      },
+      {
+        "country": "中东 / GCC",
+        "marketSignal": "更偏批发和私牌，说明与包装本地化重要",
+        "channelSignal": "多语种包装和稳定交期通常比极限低价更影响成交",
+        "complianceNote": "需按具体进口商要求准备标签与说明，优先评估资料适配能力",
+        "watchPoint": "当前缺少官方细分需求统计，结论更多来自外贸执行逻辑而非份额数据",
+        "sources": [
+          {
+            "id": "accio-manufacturers",
+            "sourceType": "research",
+            "sourceTitle": "Accio Tire Pressure Gauge Manufacturers",
+            "sourceUrl": "https://www.accio.com/supplier/tire-pressure-gauge-manufacturers",
+            "quotedAt": "2026-03-20",
+            "note": "公开目录显示大量中国工厂以外贸和私牌为主。"
+          }
+        ],
+        "confidence": "low",
+        "publishStatus": "needs_review",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "先保留为低置信度区域观察，待海关和询盘数据补证。"
+      }
+    ],
+    "90D": [
+      {
+        "country": "美国",
+        "marketSignal": "维护工具场景稳定",
+        "channelSignal": "机械款约 USD 6.97，5-in-1 数字款约 USD 15.97，多支套装约 USD 17.98",
+        "complianceNote": "若型号仅为非无线数字款，先聚焦电子与标签资料；无线型另行分流",
+        "watchPoint": "包装与套装形态决定私牌客户差异化空间",
+        "sources": [
+          {
+            "id": "homedepot-pencil",
+            "sourceType": "marketplace",
+            "sourceTitle": "Home Depot Husky Pencil Tire Gauge",
+            "sourceUrl": "https://www.homedepot.com/p/300881555",
+            "quotedAt": "2026-04-10",
+            "note": "当前约 USD 6.97。"
+          },
+          {
+            "id": "homedepot-digital",
+            "sourceType": "marketplace",
+            "sourceTitle": "Home Depot Husky 5-in-1 Digital Tire Pressure Gauge",
+            "sourceUrl": "https://www.homedepot.com/p/325004507",
+            "quotedAt": "2026-04-10",
+            "note": "当前约 USD 15.97。"
+          },
+          {
+            "id": "walmart-astroai-3pack",
+            "sourceType": "marketplace",
+            "sourceTitle": "Walmart AstroAI 3 Pack Digital Tire Pressure Gauge",
+            "sourceUrl": "https://www.walmart.com/ip/607329881",
+            "quotedAt": "2026-04-10",
+            "note": "当前约 USD 17.98。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "用公开零售页面建立价格带分层。"
+      },
+      {
+        "country": "欧盟",
+        "marketSignal": "电子合规链更强",
+        "channelSignal": "资料包准备度通常先于价格成为准入条件",
+        "complianceNote": "EMC + CE + RoHS/REACH；无线款需 RED",
+        "watchPoint": "如果没有多语种说明与材料声明，渠道推进会显著变慢",
+        "sources": [
+          {
+            "id": "emc-directive",
+            "sourceType": "official",
+            "sourceTitle": "European Commission EMC Directive",
+            "sourceUrl": "https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/electromagnetic-compatibility-emc-directive_sl",
+            "quotedAt": "2026-04-10",
+            "note": "电子设备的基本合规要求。"
+          },
+          {
+            "id": "reach",
+            "sourceType": "official",
+            "sourceTitle": "ECHA Understanding REACH",
+            "sourceUrl": "https://echa.europa.eu/regulations/reach/understanding-reach",
+            "quotedAt": "2026-04-10",
+            "note": "材料声明和供应链义务。"
+          }
+        ],
+        "confidence": "high",
+        "publishStatus": "published",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "法规导向判断。"
+      },
+      {
+        "country": "中东 / GCC",
+        "marketSignal": "适合先试私牌和批发订单",
+        "channelSignal": "吸塑与彩盒切换速度比极低价更容易体现工厂差异",
+        "complianceNote": "先按具体客户资料清单执行，不轻易做统一法规假设",
+        "watchPoint": "当前缺少公开细分销量与认证准入数据库",
+        "sources": [
+          {
+            "id": "accio-manufacturers",
+            "sourceType": "research",
+            "sourceTitle": "Accio Tire Pressure Gauge Manufacturers",
+            "sourceUrl": "https://www.accio.com/supplier/tire-pressure-gauge-manufacturers",
+            "quotedAt": "2026-03-20",
+            "note": "公开目录中的中国供应多强调 OEM / ODM。"
+          }
+        ],
+        "confidence": "low",
+        "publishStatus": "needs_review",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "外贸执行逻辑观察。"
+      }
+    ],
+    "12M": [
+      {
+        "country": "美国",
+        "marketSignal": "仍然是最适合先验证私牌与套装能力的目标市场",
+        "channelSignal": "多层价格带证明基础机械款、工具款与套装款长期并存",
+        "complianceNote": "先做非无线型号的资料闭环，再考虑无线扩展",
+        "watchPoint": "若没有包装与说明迭代能力，工厂会被迫卷进低价段",
+        "sources": [
+          {
+            "id": "nhtsa-tires",
+            "sourceType": "official",
+            "sourceTitle": "NHTSA Tires",
+            "sourceUrl": "https://www.nhtsa.gov/vehicle-safety/tires",
+            "quotedAt": "2026-04-10",
+            "note": "维护场景持续存在。"
+          },
+          {
+            "id": "homedepot-digital",
+            "sourceType": "marketplace",
+            "sourceTitle": "Home Depot Husky 5-in-1 Digital Tire Pressure Gauge",
+            "sourceUrl": "https://www.homedepot.com/p/325004507",
+            "quotedAt": "2026-04-10",
+            "note": "工具款价格带参考。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "维护习惯 + 当前零售价格带。"
+      },
+      {
+        "country": "欧盟",
+        "marketSignal": "更适合资料链成熟后进入",
+        "channelSignal": "价格不是第一门槛，法规与文件完整性更关键",
+        "complianceNote": "CE/EMC、RoHS、REACH；无线款需 RED",
+        "watchPoint": "高精度宣传必须配套 traceability 说明",
+        "sources": [
+          {
+            "id": "ce-marking",
+            "sourceType": "official",
+            "sourceTitle": "EU CE Marking 官方页面",
+            "sourceUrl": "https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm",
+            "quotedAt": "2026-04-10",
+            "note": "进入欧盟市场的产品立法入口。"
+          },
+          {
+            "id": "nist-traceability",
+            "sourceType": "official",
+            "sourceTitle": "NIST Policy on Metrological Traceability",
+            "sourceUrl": "https://www.nist.gov/calibrations/traceability",
+            "quotedAt": "2026-04-10",
+            "note": "高精度/专业款必须可追溯。"
+          }
+        ],
+        "confidence": "high",
+        "publishStatus": "published",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "官方法规与计量要求。"
+      },
+      {
+        "country": "中东 / GCC",
+        "marketSignal": "适合包装灵活和交付速度快的工厂先切入",
+        "channelSignal": "多语种包装与私牌说明准备是关键差异点",
+        "complianceNote": "先按客户清单走，不做泛化法规承诺",
+        "watchPoint": "低价批发与私牌高包装完成度是两条不同打法",
+        "sources": [
+          {
+            "id": "accio-manufacturers",
+            "sourceType": "research",
+            "sourceTitle": "Accio Tire Pressure Gauge Manufacturers",
+            "sourceUrl": "https://www.accio.com/supplier/tire-pressure-gauge-manufacturers",
+            "quotedAt": "2026-03-20",
+            "note": "用于说明中国供应端普遍承接 OEM / ODM。"
+          }
+        ],
+        "confidence": "low",
+        "publishStatus": "needs_review",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "低置信区域观察。"
+      }
+    ]
+  },
+  "materialTrendsByRange": {
+    "30D": [
+      {
+        "material": "铝",
+        "priceDirection": "up",
+        "period": "30D",
+        "costImpact": "压铸接头与高强度接口件承压",
+        "note": "公开行情显示 3 月到 4 月继续抬升，专业款的金属件报价要前置。",
+        "sources": [
+          {
+            "id": "aluminum-mar",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Aluminum News: March 2026",
+            "sourceUrl": "https://tradingeconomics.com/commodity/aluminum/news/531332",
+            "quotedAt": "2026-03-06",
+            "note": "约 3350 USD/t。"
+          },
+          {
+            "id": "aluminum-live",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Aluminum",
+            "sourceUrl": "https://tradingeconomics.com/commodity/aluminum",
+            "quotedAt": "2026-04-10",
+            "note": "约 3460 USD/t。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "公开行情站。"
+      },
+      {
+        "material": "锌",
+        "priceDirection": "flat",
+        "period": "30D",
+        "costImpact": "锌合金压铸件高位震荡",
+        "note": "3 月底到 4 月中旬维持在 3300 USD/t 上方，高位盘整为主。",
+        "sources": [
+          {
+            "id": "zinc-mar",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Zinc News: March 2026",
+            "sourceUrl": "https://es.tradingeconomics.com/commodity/zinc/news/537660",
+            "quotedAt": "2026-03-31",
+            "note": "3 月底重返 3300 USD/t。"
+          },
+          {
+            "id": "zinc-live",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Zinc",
+            "sourceUrl": "https://tradingeconomics.com/commodity/zinc",
+            "quotedAt": "2026-04-10",
+            "note": "约 3327.7 USD/t。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "公开行情站。"
+      },
+      {
+        "material": "中国 PPI / 生产资料",
+        "priceDirection": "up",
+        "period": "30D",
+        "costImpact": "制造端整体成本环境转强",
+        "note": "2026 年 3 月 PPI 同比转正至 0.5%，生产资料同比 1.0%。",
+        "sources": [
+          {
+            "id": "china-ppi",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics：2026年3月中国PPI同比+0.5%",
+            "sourceUrl": "https://tradingeconomics.com/china/producer-prices-change/news/540783",
+            "quotedAt": "2026-04-10",
+            "note": "来源注明为国家统计局。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "国家统计局来源的公开宏观信号。"
+      }
+    ],
+    "90D": [
+      {
+        "material": "铝",
+        "priceDirection": "up",
+        "period": "90D",
+        "costImpact": "金属接头明显承压",
+        "note": "1 月至 4 月铝价由 3200 USD/t 一路升至 3460 USD/t 左右。",
+        "sources": [
+          {
+            "id": "aluminum-jan",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Aluminum News: January 2026",
+            "sourceUrl": "https://tradingeconomics.com/commodity/aluminum/news/518021",
+            "quotedAt": "2026-01-19",
+            "note": "约 3200 USD/t。"
+          },
+          {
+            "id": "aluminum-live",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Aluminum",
+            "sourceUrl": "https://tradingeconomics.com/commodity/aluminum",
+            "quotedAt": "2026-04-10",
+            "note": "约 3460 USD/t。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "90 日关键点观察。"
+      },
+      {
+        "material": "锌",
+        "priceDirection": "flat",
+        "period": "90D",
+        "costImpact": "压铸件成本维持高位",
+        "note": "1 月高位、3 月回落、4 月再度站稳 3300 USD/t 上方。",
+        "sources": [
+          {
+            "id": "zinc-jan",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Zinc News: January 2026",
+            "sourceUrl": "https://tradingeconomics.com/commodity/zinc/news/519995",
+            "quotedAt": "2026-01-26",
+            "note": "约 3354 USD/t。"
+          },
+          {
+            "id": "zinc-live",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Zinc",
+            "sourceUrl": "https://tradingeconomics.com/commodity/zinc",
+            "quotedAt": "2026-04-10",
+            "note": "约 3327.7 USD/t。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "90 日关键点观察。"
+      },
+      {
+        "material": "中国 PPI / 生产资料",
+        "priceDirection": "up",
+        "period": "90D",
+        "costImpact": "整体生产资料环境转强",
+        "note": "同比从 1 月的 -1.4% 持续修复至 3 月的 +0.5%。",
+        "sources": [
+          {
+            "id": "china-ppi-page",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics China Producer Prices",
+            "sourceUrl": "https://tradingeconomics.com/china/producer-prices",
+            "quotedAt": "2026-04-10",
+            "note": "按国家统计局来源整理。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "按月宏观信号。"
+      }
+    ],
+    "12M": [
+      {
+        "material": "铝",
+        "priceDirection": "up",
+        "period": "12M",
+        "costImpact": "对专业款和耐用接口件最敏感",
+        "note": "过去 12 个月外部公开价格从约 2900 USD/t 抬升到 3460 USD/t 左右。",
+        "sources": [
+          {
+            "id": "aluminum-oct",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Aluminum 历史新闻摘要",
+            "sourceUrl": "https://tradingeconomics.com/commodity/aluminum/news",
+            "quotedAt": "2025-10-03",
+            "note": "2025 年 10 月约 2900 USD/t。"
+          },
+          {
+            "id": "aluminum-live",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Aluminum",
+            "sourceUrl": "https://tradingeconomics.com/commodity/aluminum",
+            "quotedAt": "2026-04-10",
+            "note": "2026 年 4 月约 3460 USD/t。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "12M 关键点。"
+      },
+      {
+        "material": "锌",
+        "priceDirection": "up",
+        "period": "12M",
+        "costImpact": "锌合金接口件高位运行",
+        "note": "公开行情显示过去 12 个月锌价由约 2900 USD/t 升至 3300 USD/t 以上。",
+        "sources": [
+          {
+            "id": "zinc-oct",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Zinc 历史新闻摘要",
+            "sourceUrl": "https://tradingeconomics.com/commodity/zinc/news",
+            "quotedAt": "2025-10-02",
+            "note": "2025 年 10 月约 2900 USD/t。"
+          },
+          {
+            "id": "zinc-live",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics Zinc",
+            "sourceUrl": "https://tradingeconomics.com/commodity/zinc",
+            "quotedAt": "2026-04-10",
+            "note": "2026 年 4 月约 3327.7 USD/t。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "12M 关键点。"
+      },
+      {
+        "material": "中国 PPI / 生产资料",
+        "priceDirection": "up",
+        "period": "12M",
+        "costImpact": "制造端成本环境由弱转强",
+        "note": "同比从 2025 年 3 月的 -2.5% 修复到 2026 年 3 月的 +0.5%。",
+        "sources": [
+          {
+            "id": "china-ppi-page",
+            "sourceType": "commodity-tracker",
+            "sourceTitle": "TradingEconomics China Producer Prices",
+            "sourceUrl": "https://tradingeconomics.com/china/producer-prices",
+            "quotedAt": "2026-04-10",
+            "note": "国家统计局来源的公开历史序列。"
+          }
+        ],
+        "confidence": "medium",
+        "publishStatus": "reviewed",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "12M 宏观关键点。"
+      }
+    ]
+  },
+  "operatingSignalsByRange": {
+    "30D": [
+      {
+        "label": "TPMS 替代风险",
+        "value": "低",
+        "status": "positive",
+        "note": "USTMA 明确指出 TPMS 不能替代手动 gauge，这意味着手持胎压表仍有明确维护角色。",
+        "sources": [
+          {
+            "id": "ustma-monthly-check",
+            "sourceType": "industry-association",
+            "sourceTitle": "USTMA Tire Care Essentials",
+            "sourceUrl": "https://www.ustires.org/tire-care-safety/tire-care-essentials",
+            "quotedAt": "2026-04-10",
+            "note": "TPMS 不能替代 gauge。"
+          }
+        ],
+        "confidence": "high",
+        "publishStatus": "published",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "协会维护指南。"
+      },
+      {
+        "label": "高精度可追溯",
+        "value": "必须前置",
+        "status": "watch",
+        "note": "若要打专业级精度卖点，必须准备校准链与不确定度说明，而不是只写参数。",
+        "sources": [
+          {
+            "id": "nist-traceability",
+            "sourceType": "official",
+            "sourceTitle": "NIST Policy on Metrological Traceability",
+            "sourceUrl": "https://www.nist.gov/calibrations/traceability",
+            "quotedAt": "2026-04-10",
+            "note": "traceability 需要不间断比较链与不确定度。"
+          }
+        ],
+        "confidence": "high",
+        "publishStatus": "published",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "官方计量政策。"
+      },
+      {
+        "label": "无线扩展门槛",
+        "value": "上升",
+        "status": "watch",
+        "note": "一旦产品加蓝牙或无线记录功能，就不能按普通非无线数字款处理，需要单独评估 RED 等无线法规路径。",
+        "sources": [
+          {
+            "id": "red",
+            "sourceType": "official",
+            "sourceTitle": "European Commission Radio Equipment Directive",
+            "sourceUrl": "https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/radio-equipment-directive-red_en",
+            "quotedAt": "2026-04-10",
+            "note": "无线版本的法规分叉。"
+          }
+        ],
+        "confidence": "high",
+        "publishStatus": "published",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "官方法规入口。"
+      }
+    ],
+    "90D": [
+      {
+        "label": "维护习惯支撑",
+        "value": "稳定",
+        "status": "positive",
+        "note": "官方与协会仍明确要求车主每月用胎压计检查。",
+        "sources": [
+          {
+            "id": "nhtsa-tires",
+            "sourceType": "official",
+            "sourceTitle": "NHTSA Tires",
+            "sourceUrl": "https://www.nhtsa.gov/vehicle-safety/tires",
+            "quotedAt": "2026-04-10",
+            "note": "美国官方安全页面。"
+          }
+        ],
+        "confidence": "high",
+        "publishStatus": "published",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "官方维护指南。"
+      },
+      {
+        "label": "计量体系要求",
+        "value": "提高",
+        "status": "watch",
+        "note": "专业级产品不能只做出厂抽检，更要准备校准与可追溯叙事。",
+        "sources": [
+          {
+            "id": "nist-calibrations",
+            "sourceType": "official",
+            "sourceTitle": "NIST Calibrations",
+            "sourceUrl": "https://www.nist.gov/calibrations",
+            "quotedAt": "2026-04-10",
+            "note": "强调 measurement quality and productivity。"
+          }
+        ],
+        "confidence": "high",
+        "publishStatus": "published",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "官方计量服务入口。"
+      },
+      {
+        "label": "欧盟资料链",
+        "value": "严格",
+        "status": "watch",
+        "note": "EMC、RoHS、REACH 与无线/非无线分流要求，决定外贸前置资料工作量。",
+        "sources": [
+          {
+            "id": "rohs",
+            "sourceType": "official",
+            "sourceTitle": "European Commission RoHS Directive",
+            "sourceUrl": "https://environment.ec.europa.eu/topics/waste-and-recycling/rohs-directive_en",
+            "quotedAt": "2026-04-10",
+            "note": "材料限制要求。"
+          },
+          {
+            "id": "reach",
+            "sourceType": "official",
+            "sourceTitle": "ECHA Understanding REACH",
+            "sourceUrl": "https://echa.europa.eu/regulations/reach/understanding-reach",
+            "quotedAt": "2026-04-10",
+            "note": "材料与供应链义务。"
+          }
+        ],
+        "confidence": "high",
+        "publishStatus": "published",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "欧盟法规入口。"
+      }
+    ],
+    "12M": [
+      {
+        "label": "手持 gauge 场景",
+        "value": "持续",
+        "status": "positive",
+        "note": "TPMS 普及并未消灭手持测量场景，反而让“定期检查”成为更明确的教育口径。",
+        "sources": [
+          {
+            "id": "ustma-2025-survey",
+            "sourceType": "industry-association",
+            "sourceTitle": "USTMA National Tire Safety Week 2025 调查摘要",
+            "sourceUrl": "https://www.ustires.org/newsroom/ustma-kicks-national-tire-safety-week-june-30th-july-4th",
+            "quotedAt": "2025-06-30",
+            "note": "仍有明显教育缺口。"
+          }
+        ],
+        "confidence": "high",
+        "publishStatus": "published",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "协会调研与维护指南。"
+      },
+      {
+        "label": "高精度宣传门槛",
+        "value": "抬高",
+        "status": "watch",
+        "note": "未来若往维修店和专业工具款走，校准能力会比单纯背光/单位切换更决定溢价。",
+        "sources": [
+          {
+            "id": "nist-traceability",
+            "sourceType": "official",
+            "sourceTitle": "NIST Policy on Metrological Traceability",
+            "sourceUrl": "https://www.nist.gov/calibrations/traceability",
+            "quotedAt": "2026-04-10",
+            "note": "高精度必须可追溯。"
+          }
+        ],
+        "confidence": "high",
+        "publishStatus": "published",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "官方计量政策。"
+      },
+      {
+        "label": "无线功能复杂度",
+        "value": "高",
+        "status": "watch",
+        "note": "如果把胎压计做成带记录或蓝牙扩展的差异化型号，法规和稳定性成本会显著增加。",
+        "sources": [
+          {
+            "id": "red",
+            "sourceType": "official",
+            "sourceTitle": "European Commission Radio Equipment Directive",
+            "sourceUrl": "https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/radio-equipment-directive-red_en",
+            "quotedAt": "2026-04-10",
+            "note": "无线法规路径。"
+          }
+        ],
+        "confidence": "high",
+        "publishStatus": "published",
+        "lastReviewedAt": "2026-04-10",
+        "dataMethod": "官方法规入口。"
+      }
+    ]
+  },
+  "moduleMeta": {
+    "metrics": {
+      "title": "外部快照指标",
+      "scope": "车辆底盘、宏观生产资料、基础金属和渠道价格带",
+      "conclusion": "这些指标足够回答“值不值得继续跟”和“先盯哪几个变量”。",
+      "evidence": "优先采用官方转引统计、国家统计局来源、公开行情站和零售页面。",
+      "risk": "指标是外部信号，不是企业内部结算价。",
+      "visualizationSuggestion": "用四张卡先给管理层定锚。",
+      "updatedAt": "2026-04-10",
+      "sources": [
+        {
+          "id": "mofcom-vehicle-2026",
+          "sourceType": "government-relay",
+          "sourceTitle": "商务部价格监测中心转引公安部车辆数据",
+          "sourceUrl": "https://price.mofcom.gov.cn/article/yjzx/hyzx/hy/202602/64237.html",
+          "quotedAt": "2026-01-26",
+          "note": "车辆维护底盘。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "真实公开信号的管理层速览。"
+    },
+    "series": {
+      "title": "材料环境序列",
+      "scope": "铝、锌和中国 PPI 的公开关键点",
+      "conclusion": "2026 Q1 的外部环境不是缓和，而是金属高位 + 生产资料转强。",
+      "evidence": "铝、锌公开价格和中国 PPI 都在一季度显著上修。",
+      "risk": "缺少企业真实采购价与树脂/电子件序列。",
+      "visualizationSuggestion": "把它们视为外部环境序列，不要伪装成精确 BOM。",
+      "updatedAt": "2026-04-10",
+      "sources": [
+        {
+          "id": "aluminum-live",
+          "sourceType": "commodity-tracker",
+          "sourceTitle": "TradingEconomics Aluminum",
+          "sourceUrl": "https://tradingeconomics.com/commodity/aluminum",
+          "quotedAt": "2026-04-10",
+          "note": "金属外部行情。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "关键点法。"
+    },
+    "trade": {
+      "title": "重点市场与准入",
+      "scope": "美国、欧盟、中东的场景、渠道、法规与风险点",
+      "conclusion": "美国适合先做维护工具与私牌套装，欧盟适合资料链成熟后进入，中东适合作为低置信度外贸观察位。",
+      "evidence": "美国有明确维护指南和可见渠道分层，欧盟法规最明确，中东当前更多依赖外贸执行逻辑。",
+      "risk": "没有海关与询盘数据时，不应写成正式份额判断。",
+      "visualizationSuggestion": "用市场卡片替代虚构出口额表。",
+      "updatedAt": "2026-04-10",
+      "sources": [
+        {
+          "id": "nhtsa-tires",
+          "sourceType": "official",
+          "sourceTitle": "NHTSA Tires",
+          "sourceUrl": "https://www.nhtsa.gov/vehicle-safety/tires",
+          "quotedAt": "2026-04-10",
+          "note": "美国维护场景。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "场景 + 法规 + 当前零售观察。"
+    },
+    "materials": {
+      "title": "原材料与生产资料",
+      "scope": "铝、锌和中国生产资料环境",
+      "conclusion": "材料层的压力已经从单一树脂转为金属件与宏观生产资料同步抬升。",
+      "evidence": "铝、锌高位和 PPI 转正同时出现。",
+      "risk": "树脂、电子件和包材仍需企业级采购序列补证。",
+      "visualizationSuggestion": "适合并列观察，不要糅成一个黑盒指数。",
+      "updatedAt": "2026-04-10",
+      "sources": [
+        {
+          "id": "china-ppi",
+          "sourceType": "commodity-tracker",
+          "sourceTitle": "TradingEconomics：中国PPI变化",
+          "sourceUrl": "https://tradingeconomics.com/china/producer-prices-change/news/540783",
+          "quotedAt": "2026-04-10",
+          "note": "生产资料环境。"
+        }
+      ],
+      "confidence": "medium",
+      "publishStatus": "reviewed",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "宏观 + 商品信号。"
+    },
+    "operations": {
+      "title": "关键管理信号",
+      "scope": "手持 gauge 替代风险、计量可追溯、无线法规复杂度",
+      "conclusion": "真正需要管理层前置判断的不是“要不要做”，而是“做哪一层”以及“是否准备好校准和法规链”。",
+      "evidence": "USTMA、NIST、欧盟 RED 给出的约束都很明确。",
+      "risk": "如果未来产品只做基础机械款，这一组信号的重要性会下降。",
+      "visualizationSuggestion": "用三张状态卡提醒决策边界。",
+      "updatedAt": "2026-04-10",
+      "sources": [
+        {
+          "id": "nist-traceability",
+          "sourceType": "official",
+          "sourceTitle": "NIST Policy on Metrological Traceability",
+          "sourceUrl": "https://www.nist.gov/calibrations/traceability",
+          "quotedAt": "2026-04-10",
+          "note": "计量门槛。"
+        }
+      ],
+      "confidence": "high",
+      "publishStatus": "published",
+      "lastReviewedAt": "2026-04-10",
+      "dataMethod": "官方规则页。"
+    }
+  }
+}

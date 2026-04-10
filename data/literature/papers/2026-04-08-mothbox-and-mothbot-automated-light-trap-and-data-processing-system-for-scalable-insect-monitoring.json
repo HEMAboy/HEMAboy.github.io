@@ -1,0 +1,165 @@
+{
+  "slug": "2026-04-08-mothbox-and-mothbot-automated-light-trap-and-data-processing-system-for-scalable-insect-monitoring",
+  "canonicalId": "doi:10.64898/2025.12.03.692171",
+  "title": "Mothbox and Mothbot: automated light trap and data processing system for scalable insect monitoring",
+  "authors": [
+    "Szczygiel, H.",
+    "Johns, B.",
+    "Fortet, B.",
+    "Dent, D.",
+    "Quitmeyer, K.",
+    "Quitmeyer, A."
+  ],
+  "source": "bioRxiv",
+  "journal": "bioRxiv",
+  "publishedAt": "2026-04-08",
+  "doi": "10.64898/2025.12.03.692171",
+  "pmid": "unknown",
+  "pmcid": "unknown",
+  "isPreprint": true,
+  "isHighImpact": false,
+  "sourceStatus": "verified",
+  "tags": [
+    "生物信息学",
+    "组学",
+    "算法"
+  ],
+  "abstract": "Insects represent the most diverse group of organisms on Earth, and comprise the majority of known species, yet they are seldom accounted for in large-scale biodiversity monitoring systems and conservation planning. We have developed the Mothbox - an open source automated light trap that makes insect monitoring accessible to non-specialists and scalable for scientific and conservation purposes - and the Mothbot - a machine learning tool and user interface for processing data from automated light traps. The Mothbox is portable, durable, and low-cost, while Mothbot prioritizes human-in-the-loop data validation of computer vision outputs to ensure data quality and aid in developing custom image reference libraries. Mothbox has been extensively tested in field conditions, with > 185 deployments, spanning > 450 nights and > 100 sampling locations. We present proof-of-concept studies that examine shifts in insect activity and richness across i. time intervals throughout the night at a single location, and ii. different habitat types, to assess whether these patterns can be captured through automated sampling with Mothbox hardware and Mothbot processing. As the field of automated insect monitoring continues to develop, Mothbox provides an affordable entry point for a range of stakeholders. It enables entomologists to explore new research questions by tracking high temporal resolution changes in insect activity, as well as systematically monitoring insects across landscapes. Mothbox will help build global insect-monitoring capacity via autonomous sampling, improving our ability to detect biodiversity loss and guide effective conservation action.",
+  "articleType": "preprint",
+  "studyDesign": "preprint research article",
+  "studyType": "preprint research article",
+  "diseaseOrTopic": "生物信息学",
+  "speciesOrSystem": "human cohort / human-derived samples",
+  "biologicalSystem": "human cohort / human-derived samples",
+  "sampleSize": "unknown",
+  "cohortInfo": "摘要或全文节选中未明确给出 cohort 描述",
+  "methods": "machine learning model development",
+  "methodsDetailed": "machine learning model development。当前只检出摘要级方法信号，尚缺完整实验步骤。",
+  "datasets": [],
+  "mainQuestion": "Insects represent the most diverse group of organisms on Earth, and comprise the majority of known species, yet they are seldom accounted for in large-scale biodiversity monitoring systems and conservation planning.",
+  "keyFindings": [
+    "Insects represent the most diverse group of organisms on Earth, and comprise the majority of known species, yet they are seldom accounted for in large-scale biodiversity monitoring systems and conservation planning.",
+    "We have developed the Mothbox - an open source automated light trap that makes insect monitoring accessible to non-specialists and scalable for scientific and conservation purposes - and the Mothbot - a machine learning tool and user interface for processing data from automated light traps.",
+    "The Mothbox is portable, durable, and low-cost, while Mothbot prioritizes human-in-the-loop data validation of computer vision outputs to ensure data quality and aid in developing custom image reference libraries."
+  ],
+  "mainFindings": [
+    "Insects represent the most diverse group of organisms on Earth, and comprise the majority of known species, yet they are seldom accounted for in large-scale biodiversity monitoring systems and conservation planning.",
+    "We have developed the Mothbox - an open source automated light trap that makes insect monitoring accessible to non-specialists and scalable for scientific and conservation purposes - and the Mothbot - a machine learning tool and user interface for processing data from automated light traps.",
+    "The Mothbox is portable, durable, and low-cost, while Mothbot prioritizes human-in-the-loop data validation of computer vision outputs to ensure data quality and aid in developing custom image reference libraries."
+  ],
+  "effectDirection": "context-dependent / unclear",
+  "novelty": "创新点需要结合全文进一步核实",
+  "noveltyClaim": "Insects represent the most diverse group of organisms on Earth, and comprise the majority of known species, yet they are seldom accounted for in large-scale biodiversity monitoring systems and conservation planning.",
+  "limitations": [
+    "当前证据等级为 fulltext，仍需人工核查原文统计设定和实验边界。",
+    "未在可获取证据中稳定识别样本量。",
+    "该研究为预印本，尚未经过正式同行评审。"
+  ],
+  "limitationsStructured": [
+    "当前证据等级为 fulltext，仍需人工核查原文统计设定和实验边界。",
+    "未在可获取证据中稳定识别样本量。",
+    "该研究为预印本，尚未经过正式同行评审。"
+  ],
+  "relevanceReason": "命中检索主题 生物信息学, 组学, 算法，与研究方向高度相关。",
+  "whyItMatters": "该文与当前主题 生物信息学, 组学, 算法 直接相关，且关注点是 Insects represent the most diverse group of organisms on Earth, and comprise the majority of known species, yet they are seldom accounted for in large-scale biodiversity monitoring systems and conservation planning.。",
+  "whyReadNow": "已获取全文级证据，适合快速完成方法学和结论初筛；当前归类为 preprint research article。",
+  "relatedWorks": [
+    "2026-04-09-quaternion-spectral-fingerprinting-of-dna-gpu-accelerated-multi-channel-fourier-analysis-for-alignment-free-genomics",
+    "2026-04-08-a-developmental-single-cell-atlas-of-the-drosophila-visual-system-glia-reveals-cell-type-diversification-and-subcellular-mrna-compartmentalization",
+    "2026-04-08-a-shape-analysis-algorithm-quantifies-spatial-morphology-and-context-of-2d-to-3d-cell-culture-for-correlating-novel-phenotypes-with-treatment-resistance",
+    "2026-04-08-a-network-approach-with-motion-sequencing-reveals-hidden-patterns-of-repetitive-behavior-in-a-pre-clinical-model-of-epilepsy",
+    "2026-04-08-context-dependent-reconfiguration-and-spatial-reorganisation-of-the-mir-199a-5p-xiap-axis-in-high-grade-serous-ovarian-cancer"
+  ],
+  "codeUrl": "",
+  "dataUrl": "",
+  "confidence": "high",
+  "evidenceScope": "fulltext",
+  "evidenceLevel": "fulltext",
+  "fulltextAvailable": true,
+  "qualityScore": 0.887,
+  "publishedLinkage": {
+    "memberSlugs": [
+      "2026-04-08-mothbox-and-mothbot-automated-light-trap-and-data-processing-system-for-scalable-insect-monitoring"
+    ],
+    "memberSources": [
+      "bioRxiv"
+    ]
+  },
+  "noveltyScore": 0.55,
+  "rigorScore": 0.74,
+  "relevanceScore": 0.66,
+  "actionabilityScore": 0.5,
+  "overallScore": 0.63,
+  "explanation": "系统将这篇文献归为 preprint research article。当前证据表明，它围绕“Insects represent the most diverse group of organisms on Earth, and comprise the majority of known species, yet they are seldom accounted for in large-scale biodiversity monitoring systems and conservation planning.”展开，主要观察包括 Insects represent the most diverse group of organisms on Earth, and comprise the majority of known species, yet they are seldom accounted for in large-scale biodiversity monitoring systems and conservation planning.。由于证据等级为 fulltext，仍应结合原文复核方法细节。",
+  "sourceLinks": [],
+  "sourceProvenance": [
+    {
+      "fieldName": "title",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2025.12.03.692171",
+      "sourceUrl": "",
+      "excerpt": "Mothbox and Mothbot: automated light trap and data processing system for scalable insect monitoring",
+      "method": "metadata-extraction",
+      "fetchedAt": "2026-04-10T09:07:30",
+      "confidence": 0.98
+    },
+    {
+      "fieldName": "abstract",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2025.12.03.692171",
+      "sourceUrl": "",
+      "excerpt": "Insects represent the most diverse group of organisms on Earth, and comprise the majority of known species, yet they are seldom accounted for in large-scale biodiversity monitoring systems and conservation planning. We have developed the Mothbox - an open source automated light trap that makes insect monitoring accessible to non-specialists and scalable for scientific and conservation purposes - and the Mothbot - a machine learning tool and user interface for processing data from automated light",
+      "method": "source-abstract",
+      "fetchedAt": "2026-04-10T09:07:30",
+      "confidence": 0.92
+    },
+    {
+      "fieldName": "fulltext",
+      "source": "bioRxiv",
+      "sourceId": "10.64898/2025.12.03.692171",
+      "sourceUrl": "",
+      "excerpt": "Insects represent the most diverse group of organisms on Earth, and comprise the majority of known species, yet they are seldom accounted for in large-scale biodiversity monitoring systems and conservation planning. We have developed the Mothbox - an open source automated light trap that makes insect monitoring accessible to non-specialists and scalable for scientific and conservation purposes - and the Mothbot - a machine learning tool and user interface for processing data from automated light",
+      "method": "abstract-fallback",
+      "fetchedAt": "2026-04-10T08:54:21",
+      "confidence": 0.9
+    }
+  ],
+  "changeAlerts": [
+    {
+      "alertType": "preprint-version-update",
+      "severity": "medium",
+      "summary": "预印本已不是首版，当前记录版本为 2。",
+      "details": "若该论文已多次修订，建议对照版本差异确认结果与表述是否发生变化。",
+      "detectedAt": "2026-04-10T09:07:30",
+      "sourceLabels": [
+        "bioRxiv"
+      ]
+    }
+  ],
+  "evidenceSnippets": [
+    {
+      "fieldName": "methods",
+      "section": "Abstract",
+      "text": "Insects represent the most diverse group of organisms on Earth, and comprise the majority of known species, yet they are seldom accounted for in large-scale biodiversity monitoring systems and conservation planning. We have developed the Mothbox - an open source automated light trap that makes insect monitoring accessible to non-specialists and scalable for scientific and conservation purposes - and the Mothbot - a m",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "main_findings",
+      "section": "Abstract",
+      "text": "Insects represent the most diverse group of organisms on Earth, and comprise the majority of known species, yet they are seldom accounted for in large-scale biodiversity monitoring systems and conservation planning. We have developed the Mothbox - an open source automated light trap that makes insect monitoring accessible to non-specialists and scalable for scientific and conservation purposes - and the Mothbot - a m",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    },
+    {
+      "fieldName": "limitations",
+      "section": "Abstract",
+      "text": "Insects represent the most diverse group of organisms on Earth, and comprise the majority of known species, yet they are seldom accounted for in large-scale biodiversity monitoring systems and conservation planning. We have developed the Mothbox - an open source automated light trap that makes insect monitoring accessible to non-specialists and scalable for scientific and conservation purposes - and the Mothbot - a m",
+      "sourceLabel": "bioRxiv",
+      "sourceUrl": "",
+      "confidence": 0.88
+    }
+  ]
+}
